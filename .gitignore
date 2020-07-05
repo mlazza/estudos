@@ -1,0 +1,18 @@
+# compiled source
+
+*.com
+*.dll
+*.exe
+
+#packages
+*.zip
+*.rar
+*.7z
+*.dmg
+*.iso
+*.jar
+*.tar
+
+#databases
+*.csv
+*.tsv
