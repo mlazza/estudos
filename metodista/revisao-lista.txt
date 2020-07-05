@@ -1,0 +1,419 @@
+REVISÃO
+
+1) MACHINE LEARNING - MARIO FILHO, FAZER TODOS OS COMANDOS NO JUPYTER - #OK
+
+2) ALURA - PANDAS - #OK
+
+#2 IMPORTANDO DADOS
+
+#importação de dados
+dados = pd.read_csv('local/arquivo.csv', sep=';')
+
+#verificando o tipo de dados
+type(dados)
+
+#mais informações
+dados.info()
+
+dados.head()
+
+#exibe apenas os tipos das variáveis
+dados.dtypes
+
+#criando um dataframe p/ melhor visualizar
+pd.DataFrame(dados.dtypes)
+
+>pd.DataFrame(dados.dtypes, columns = ['Tipos de Dados'])
+>tipos_de_dados = pd.DataFrame(dados.dtypes, columns = ['Tipos de Dados'])
+
+tipos_de_dados.columns.name = 'Variáveis'
+tipos_de_dados #veremos assim a tabela mais organizada
+
+#qtde de obs e variaveis no BD
+>dados.shape #n. de linhas e colunas
+>print('A base de dados apresenta {} registros (imóveis) e {} variáveis'.format(dados.shape[0], dados.shape[1]))
+
+# outros formatos de dados 
+
+json = open('dados/aluguel.json')
+print(json.read())
+
+txt = open('dados/aluguel.txt')
+print(txt.read())
+
+df_xlsx = pd.read_excel('dados/aluguel.xlsx')
+df_xlsx
+
+df_html = pd.read_html('dados/dados_html_1.html')
+df_html[0]
+
+df_html = pd.read_html('https://unafiscosaude.org.br/site/tabelas-de-precos-dos-planos-ativos-para-comercializacao/')
+df_html[0]
+
+#3 SERIES E INDEX
+
+#pegando uma coluna especifica e retirando dados duplicados
+dados['Tipo']
+tipo_de_imovel = dados['Tipo']
+type(tipo_de_imovel)
+tipo_de_imovel.drop_duplicates()
+tipo_de_imovel.drop_duplicates(inplace = True)
+
+#Transformando num DF
+tipo_de_imovel = pd.DataFrame(tipo_de_imovel)
+
+#ajustando o index
+tipo_de_imovel.index = range(tipo_de_imovel.shape[0])
+
+#nomeando uma coluna
+tipo_de_imovel.columns.name = 'id'
+tipo_de_imovel
+
+#concatenando DF's
+df = pd.concat([df1, df2, df3])
+
+#4 FILTRANDO DADOS
+
+#criando uma lista com tipos de dados
+>list(dados['Tipo'].drop_duplicates())
+>residencial = ['Quitinete',
+'Casa',
+'Conjunto Comercial/Sala',
+'Apartamento',
+'Casa de Condomínio',
+'Prédio Inteiro',
+'Flat',
+'Loja/Salão',
+'Galpão/Depósito/Armazém',
+'Casa Comercial',
+'Casa de Vila',
+'Terreno Padrão',
+'Box/Garagem',
+'Loft'
+'Loja Shopping/ Ct Comercial',
+'Chácara',
+'Loteamento/Condomínio',
+'Sítio',
+'Pousada/Chalé',
+'Studio',
+'Hotel',
+'Indústria']
+
+#separando apenas aqueles que entram na categoria de residenciais e atribuindo a selecao
+
+>dados['Tipo'].isin(residencial).head(10)
+>selecao = dados['Tipo'].isin(residencial)
+>dados_residencial = dados[selecao]
+#ajeitando o index
+dados_residencial.index = range(dados_residencial.shape[0])
+#exportando num file csv
+dados_residencial.to_csv('dados/aluguel_residencial.csv', sep = ';')
+
+#Organizando Dataframes
+df = pd.DataFrame(data, list('321'), list('ZYX'))
+df.sort_index(inplace = True)
+df.sort_index(inplace = True, axis = 1)
+df.sort_values(by = 'X', inplace = True)
+df.sort_values(by = ['X','Y'], inplace = True)
+df.sort_values(by = '3', axis = 1, inplace = True)
+
+#5 FREQUÊNCIA DE IMÓVEIS
+
+#Selecione somente os imóveis classificados com tipo 'Apartamento'.
+selecao = dados ['Tipo'] == 'Apartamento'
+selecao
+
+#Selecione somente os imóveis classificados com tipo 'Apartamento'.
+selecao = dados['Tipo'] == 'Apartamento'
+n1 = dados[selecao].shape[0]
+n1
+
+#Selecione os imóveis classificados com tipos 'Casa', 'Casa de Condomínio' e 'Casa de Vila'.
+selecao = dados['Tipo'] == 'Casa' | dados['Tipo'] == 'Casa de Condomínio' | dados['Tipo'] == 'Casa de Vila'
+
+#Selecione os imóveis classificados com tipos 'Casa', 'Casa de Condomínio' e 'Casa de Vila'.
+selecao = (dados['Tipo'] == 'Casa') | (dados['Tipo'] == 'Casa de Condomínio') | (dados['Tipo'] == 'Casa de Vila')
+n2 = dados[selecao].shape[0]
+n2 
+
+#Selecione os imóveis com área entre 60 e 100 metros quadrados, incluindo os limites.
+#60 <= Area <=100
+selecao = (dados['Area'] >= 60) & (dados['Area'] <= 100)
+n3 = dados[selecao].shape[0]
+n3
+
+#Selecione os imóveis que tenham pelo menos 4 quartos e aluguel menor que R$ 2.000,00.
+selecao = (dados['Quartos'] >= 4) & (dados['Valor'] < 2000)
+n4 = dados[selecao].shape[0]
+n4
+
+data = [(1, 2, 3, 4),
+        (5, 6, 7, 8),
+        (8, 10, 11, 12),
+        (13, 14, 15, 16)]
+df = pd.DataFrame(data, 'l1 l2 l3 l4'.split(), 'c1 c2 c3 c4'.split())
+
+#6 TRATANDO DE DADOS FALTANTES
+
+dados.isnull()
+
+dados.info()
+
+dados['Valor'].isnull()
+
+dados[dados['Valor'].isnull()]
+
+
+#A principal informação em nosso banco de dados são os valores dos aluguéis, portanto não faz sentido que tenhamos dados nulos neste campo. 
+Precisamos elimina-los, e para tanto, usaremos o método dropna().
+Criaremos uma variável A, que abrigara dados, isto é, nosso DataFrame original. Em seguida, escreveremos dados.dropna(), 
+o método receberá como argumento susbset, que se trata de uma lista de variáveis. Em seguida, criaremos uma nova viriável B, 
+que abrigará o resultado do novo conjunto de dados que não contém valores nulos. Então, escreveremos A - B.
+
+>A = dados.shape[0]
+>dados.dropna(subset = ['Valor'], inplace = True)
+>B = dados.shape[0]
+>A - B
+
+dados[dados['Condominio'].isnull()].shape[0]
+selecao = (dados['Tipo'] == 'Apartamento') & (dados['Condominio'].isnull())
+
+#utilizando a negacao '~' para inverter e pegar apenas os dados não nulos, ja que selecao ficou com os dados nulos.
+A = dados.shape[0]
+dados = dados[~selecao]
+B = dados.shape[0]
+A - B
+
+#Foram eliminadas 745 elementos da nossa base de dados. Vamos verificar quantas assinaturas nulas temos em Condominio agora:
+>dados[dados['Condominio'].isnull()].shape[0]
+>selecao = (dados['Tipo'] == 'Apartamento') & (dados['Condominio'].isnull())
+>dados.fillna(0, inplace = True)
+
+#outra maneira de preencher com zeros é utilizando o dicionario
+dados = dados.fillna({'Condominio': 0, 'IPTU': 0})
+
+#Métodos de Interpolação
+
+data = [0.5, None, None, 0.52, 0.54, None, None, 0.59, 0.6, None, 0.7]
+s = pd.Series(data)
+s.fillna(0)
+
+#ffill - registros sao preenchidos conforme o valor anterior
+s.fillna(method = 'ffill') 
+
+#bfill - registros lidos de baixo pra cima e vai preenchendo conforme o valor anterior lido
+s.fillna(method = 'bfill')
+
+#Podemos, inclusive, não utilizar método algum para realizar uma interpolação. Por meio de fillna(), coletaremos a média de todos os 
+valores não-nulos e a usaremos como preenchimento. Para tanto, basta escrever s.mean().
+
+s.fillna(s.mean())
+
+#interpolando as repetições dos registros, limitado a 1 por vez
+s.fillna(method = 'ffill', limit = 1)
+s1.fillna(method = 'bfill', limit = 1)
+
+#7 NOVAS VARIÁVEIS
+
+dados['Valor Bruto'] = dados['Valor'] + dados['Condominio'] + dados['IPTU']
+dados['Valor m2'] = dados['Valor']/dados['Area']
+dados['Valor m2'] = dados['Valor m2'].round(2)
+dados['Valor Bruto m2'] = (dados['Valor Bruto']/dados['Area']).round(2)
+
+casa = ['Casa', 'Casa de Condomínio', 'Casa de Vila']
+dados['Tipo Agregado'] = dados['Tipo'].apply(lambda x: 'Casa' if x in casa else 'Apartamento')
+
+#criando um df parcial com algumas variáveis
+dados_aux = pd.DataFrame(dados[['Tipo Agregado', 'Valor m2', 'Valor Bruto', 'Valor Bruto m2']])
+
+#formas de excluir variáveis:
+
+del dados_aux['Valor Bruto']
+
+dados_aux.pop('Valor Bruto m2')
+
+dados.drop(['Valor Bruto', 'Valor Bruto m2'], axis = 1, inplace = True)
+
+dados.to_csv('dados/aluguel_residencial.csv', sep = ';', index = False)
+
+s = pd.Series(list('asdadeadesdasesda'))
+s
+#vendo os caracteres únicos
+s.unique()
+
+s.value_counts()
+
+>dados.Tipo.unique()
+array(['Apartamento', 'Casa', 'Casa de Condomínio', 'Casa de Vila', 'Quitinete'], dtype=object)
+
+dados.Tipo.value_counts()
+
+#8 ESTATÍSTICAS DESCRITIVAS
+
+#Vendo a média desta variável
+dados['Valor'].mean()
+
+#Nosso próximo passo agora é não apenas coletar a média geral, mas sim a média segundo alguns tipos de variáveis. 
+#Para facilitar a visualização, selecionaremos apenas alguns bairros.
+>bairros = ['Barra da Tijuca', 'Copacabana', 'Ipanema', 'Leblon', 'Botafogo', 'Flamengo', 'Tijuca']
+>selecao = dados['Bairro'].isin(bairros)
+>dados = dados[selecao]
+dados['Bairro'].drop_duplicates()
+grupo_bairro = dados.groupby('Bairro')
+
+for bairro, dados in grupo_bairro: 
+    print(bairro)
+
+Barra da Tijuca
+
+Botafogo
+
+Copacabana
+
+Flamengo
+
+Ipanema
+
+Leblon
+
+Tijuca
+
+for bairro, dados in grupo_bairro: 
+    print('{} -> {}'.format(bairro, dados.Valor.mean()))
+
+grupo_bairro['Valor'].mean()
+grupo_bairro[['Valor', 'Condominio']].mean().round(2)
+
+#Mostrando algumas estatisticas básicas para esta variavel:
+>grupo_bairro['Valor'].describe().round(2)
+
+grupo_bairro['Valor'].aggregate(['min', 'max', 'sum'])
+grupo_bairro['Valor'].aggregate(['min', 'max', 'sum']).rename(columns = {'min': 'Mínimo', 'max': 'Máximo'})
+
+GRAFICO
+%matplotlib inline
+import matplotlib.pyplot as plt
+plt.rc('figure', figsize = (20,10))
+fig = grupo_bairro['Valor'].std().plot.bar(color = 'blue')
+#Teremos um gráfico em barra, em que podemos identificar a variação atípica no bairro "Botafogo". 
+fig = grupo_bairro['Valor'].mean().plot.bar(color = 'blue')
+fig.set_ylabel('Valor do Aluguel')
+fig.set_title('Valor Médio do Aluguel por Bairro', {'fontsize': 22})
+
+#Criando faixas de valor
+
+# 1 e 2
+# 3 e 4
+# 5 e 6
+# 7 e 8
+classes = [0, 2, 4, 6, 100]
+quartos = pd.cut(dados.Quartos, classes)
+
+pd.value_counts(quartos)
+labels = ['1 e 2 quartos', '3 e 4 quartos', '5 e 6 quartos', '7 quartos ou mais' ]
+quartos = pd.cut(dados.Quartos, classes, labels = labels)
+pd.value_counts(quartos)
+
+quartos = pd.cut(dados.Quartos, classes, labels = labels, include_lowest = True)
+
+#9 IDENTIFICANDO E REMOVENDO OUTLIERS
+
+%matplotlib inline
+import pandas as pd
+import matplotlib.pyplot as plt
+plt.rc('figure', figsize = (14,6))
+
+dados.boxplot(['Valor'])
+
+dados[dados['Valor'] >= 500000]
+
+valor = dados['Valor']
+
+Q1 = valor.quantile(.25)
+
+Q1 = valor.quantile(.25)
+Q3 = valor.quantile(.75)
+IIQ = Q3 - Q1
+limite_inferior = Q1 - 1.5 * IIQ
+limite_superior = Q3 + 1.5 * IIQ
+
+selecao = (valor >=limite_inferior) & (valor <= limite_superior)
+dados_new = dados[selecao]
+
+dados.hist(['Valor'])
+dados_new.hist(['Valor'])
+
+dados.boxplot(['Valor'], by = ['Tipo'])
+
+grupo_tipo = dados.groupby('Tipo')
+grupo_tipo = dados.groupby('Tipo')['Valor']
+
+Q1 =  grupo_tipo.quantile(.25)
+Q3 =  grupo_tipo.quantile(.75)
+IIQ = Q3 - Q1
+limite_inferior = Q1 - 1.5 * IIQ
+limite_superior = Q3 + 1.5 * IIQ
+
+limite_superior['Apartamento']
+
+for tipo in grupo_tipo.groups.keys():
+    print(tipo)
+
+for tipo in grupo_tipo.groups.keys():
+    eh_tipo = dados['Tipo'] == tipo
+    eh_dentro_limite = (dados['Valor'] >= limite_inferior[tipo]) & (dados['Valor'] <= limite_superior[tipo])
+    selecao = eh_tipo & eh_dentro_limite
+    dados[selecao]
+
+dados_new = pd.DataFrame()
+for tipo in grupo_tipo.groups.keys():
+    eh_tipo = dados['Tipo'] == tipo
+    eh_dentro_limite = (dados['Valor'] >= limite_inferior[tipo]) & (dados['Valor'] <= limite_superior[tipo])
+    selecao = eh_tipo & eh_dentro_limite
+    dados_selecao = dados[selecao]
+    dados_new = pd.concat([dados_new, dados_selecao])
+
+dados_new.boxplot(['Valor'], by = ['Tipo'])
+
+dados_new.to_csv('dados/aluguel_residencial_sem_outliers.csv', sep = ';', index = False)
+
+#Mais sobre gráficos
+
+%matplotlib inline
+import pandas as pd
+import matplotlib.pyplot as plt
+plt.rc('figure', figsize = (15,8))
+
+area = plt.figure() 
+g1 = area.add_subplot(2, 2, 1)
+
+g1 = area.add_subplot(2, 2, 1)
+g2 = area.add_subplot(2, 2, 2)
+g3 = area.add_subplot(2, 2, 3)
+g4 = area.add_subplot(2, 2, 4)
+
+g1.scatter(dados.Valor, dados.Area)
+g1.set_title('Valor X Área')
+
+g1.scatter(dados.Valor, dados.Area)
+g1.set_title('Valor X Área')
+
+g2.hist(dados.Valor)
+g2.set_title('Histograma')
+
+dados_g3 = dados.Valor.sample(100) 
+dados_g3.index = range(dados_g3.shape[0])
+g3.plot(dados_g3)
+g3.set_title('Amostra (Valor)')
+
+grupo = dados.groupby('Tipo')['Valor']
+label = grupo.mean().index
+valores = grupo.mean().values
+g4.bar(label, valores)
+g4.set_title('Valor Médio por Tipo')
+
+#Ao executarmos nosso código teremos quatro tipos diferentes de gráficos na mesma área, 
+sendo o primeiro um gráfico de dispersão, o segundo um histograma, o terceiro uma amostra da variável Valor, 
+e por fim o tradicional gráfico em barras que representa o valor médio por tipos de imóvel.
+
+area.savefig('grafico.png', dpi = 300, bbox_inches = 'tight')

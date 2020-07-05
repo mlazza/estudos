@@ -1,0 +1,745 @@
+CURSO DE ESTATISTICA - ALURA
+import pandas as pd
+dados = pd.read_csv('dados.csv')
+sorted(dados['Anos de Estudo'].unique())
+print("A idade varia de %s até %s." % (dados.Idade.min(), dados.Idade.max()))
+dados['Sexo'].value_counts()
+dados['Sexo'].value_counts(normalize = True) * 100
+frequencia = dados['Sexo'].value_counts()
+percentual = dados['Sexo'].value_counts(normalize = True) * 100
+dist_freq_qualitativa = pd.DataFrame({'Frequência' : frequencia, 'Porcentagem (%)' : percentual})
+dist_freq_qualitativa.rename(index = {0: 'Masculino', 1: 'Feminino'}, inplace = True)
+dist_freq_qualitativa.rename_axis('Sexo', axis='columns', inplace = True)
+
+frequencia = pd.crosstab(dados.Sexo, dados.Cor)
+frequencia.rename(index = sexo, inplace = True)
+frequencia.rename(columns = cor, inplace = True)
+frequencia
+percentual = pd.crosstab(dados.Sexo, dados.Cor, normalize = True) * 100
+percentual.rename(index = sexo, inplace = True)
+percentual.rename(columns = cor, inplace = True)
+percentual
+
+classes = [0, 1576, 3152, 7880, 15760, 200000]
+labels = ['E', 'D', 'C', 'B', 'A']
+
+frequencia = pd.value_counts(
+    pd.cut(x = dados.Renda, 
+       bins = classes,
+       labels = labels,
+       include_lowest = True)
+)
+frequencia
+percentual = pd.value_counts(
+    pd.cut(x = dados.Renda, 
+       bins = classes,
+       labels = labels,
+       include_lowest = True), normalize  = True
+)
+percentual
+
+dist_freq_quantitativas_personalizadas = pd.DataFrame({'Frequência' : frequencia, 'Porcentagem (%)' : percentual})
+dist_freq_quantitativas_personalizadas.sort_index(ascending=False)
+
+classes = [dados.Altura.min(), 1.65, 1.75, dados.Altura.max()]
+labels = ['1 - Baixa', '2 - Média', '3 - Alta']
+
+frequencia = pd.value_counts(
+    pd.cut(
+        x = dados.Altura,
+        bins = classes,
+        labels = labels,
+        include_lowest = True
+    )
+)
+
+percentual = pd.value_counts(
+    pd.cut(
+        x = dados.Altura,
+        bins = classes,
+        labels = labels,
+        include_lowest = True
+    ), normalize = True
+) * 100
+
+dist_freq_altura = pd.DataFrame(
+    {'Frequência': frequencia, 'Porcentagem (%)': percentual}
+)
+
+dist_freq_altura.rename_axis('Estaturas', axis= 'columns', inplace = True)
+
+dist_freq_altura.sort_index(ascending = True, inplace = True)
+
+dist_freq_altura
+
+import numpy as np
+
+n = dados.shape[0]
+k = 1 + (10/3) * np.log10(n)
+k
+
+k = int(k.round(0))
+k
+
+frequencia = pd.value_counts(
+    pd.cut(
+        x = dados.Renda,
+        bins = 17,
+        include_lowest = True
+    ),
+    sort = False
+)
+percentual = pd.value_counts(
+    pd.cut(
+        x = dados.Renda,
+        bins = 17,
+        include_lowest = True
+    ),
+    sort = False,
+    normalize = True
+)
+
+dist_freq_quantitativas_amplitude_fixa = pd.DataFrame({'Frequência' : frequencia, 'Porcentagem (%)' : percentual})
+dist_freq_quantitativas_amplitude_fixa.rename_axis('Faixa de Renda', axis='columns', inplace = True)
+dist_freq_quantitativas_amplitude_fixa
+
+import seaborn as sns
+
+ax = sns.distplot(dados.Altura, kde=False)
+
+ax.figure.set_size_inches(12, 6)
+ax.set_title("Dist. de Freq. de ALTURA", fontsize=18)
+ax.set_xlabel("Metros", fontsize=14)
+ax
+
+ax = sns.distplot(dados.Altura)
+
+ax.figure.set_size_inches(12, 6)
+ax.set_title("Dist. de Freq. de ALTURA com KDE (density)", fontsize=18)
+ax.set_xlabel("Metros", fontsize=14)
+ax
+
+dados.Altura.hist(bins=50, figsize=(12, 6))
+dist_freq_quantitativas_personalizadas['Frequência'].plot.bar(width=1, color='blue', alpha=0.2, figsize=(12,6))
+
+df['Fulano'].mean()
+dados.Renda.mean()
+dados.groupby(['Sexo'])['Renda'].mean()
+
+CURSO ALURA - PANDAS
+
+# importando
+pd.read_csv('dados/aluguel.csv', sep = ';')
+
+type(dados)
+dados.info()
+
+dados.dtypes
+tipos_de_dados = pd.DataFrame(dados.dtypes, columns = ['Tipos de Dados'])
+tipos_de_dados.columns.name = 'Variáveis'
+tipos_de_dados
+
+dados.shape
+dados.shape[0]
+print('A base de dados apresenta {} registros (imóveis) e {} variáveis'.format(dados.shape[0], dados.shape[1]))
+
+dados['Tipo']
+tipo_de_imovel = dados['Tipo']
+type(tipo_de_imovel)
+
+tipo_de_imovel.drop_duplicates()
+tipo_de_imovel.drop_duplicates(inplace = True)
+tipo_de_imovel = pd.DataFrame(tipo_de_imovel)
+tipo_de_imovel
+
+tipo_de_imovel.index
+tipo_de_imovel.shape[0]
+range(tipo_de_imovel.shape[0])
+for i in range(tipo_de_imovel.shape[0]):
+    print(i)
+tipo_de_imovel.index = range(tipo_de_imovel.shape[0])
+tipo_de_imovel.columns.name = 'Id'
+tipo_de_imovel
+
+#tratamento de dados faltantes
+
+dados.isnull()
+dados.notnull()
+dados.info()
+dados[dados['Valor'].isnull()]
+A = dados.shape[0]
+dados.dropna(subset = ['Valor'], inplace = True)
+B = dados.shape[0]
+A - B
+dados[dados['Valor'].isnull()]
+
+dados[dados['Condominio'].isnull()].shape[0]
+selecao = (dados['Tipo'] == 'Apartamento') & (dados['Condominio'].isnull())
+A = dados.shape[0]
+dados = dados[~selecao]
+B = dados.shape[0]
+A - B
+dados[dados['Condominio'].isnull()].shape[0]
+dados = dados.fillna({'Condominio': 0, 'IPTU': 0})
+dados[dados['Condominio'].isnull()].shape[0]
+dados[dados['IPTU'].isnull()].shape[0]
+
+dados.info()
+
+#salvando o arquivo dos dados
+dados.to_csv('dados/aluguel_residencial.csv', sep = ';', index = False)
+
+list(dados['Tipo'].drop_duplicates())
+
+residencial = ['Quitinete',
+ 'Casa',
+ 'Apartamento',
+ 'Casa de Condomínio',
+ 'Casa de Vila']
+
+selecao = dados['Tipo'].isin(residencial)
+selecao
+
+dados_residencial = dados[selecao]
+dados_residencial
+
+list(dados_residencial['Tipo'].drop_duplicates())
+dados_residencial.shape[0]
+dados.shape[0]
+
+dados_residencial.index = range(dados_residencial.shape[0])
+dados_residencial
+
+dados_residencial.to_csv('dados/aluguel_residencial.csv', sep = ';')
+dados_residencial_2 = pd.read_csv('dados/aluguel_residencial.csv', sep = ';')
+dados_residencial_2
+dados_residencial.to_csv('dados/aluguel_residencial.csv', sep = ';', index = False)
+dados_residencial_2 = pd.read_csv('dados/aluguel_residencial.csv', sep = ';')
+dados_residencial_2
+
+# selecoes e frequencias
+
+# Selecione somente os imóveis classificados com tipo 'Apartamento'
+selecao = dados['Tipo'] == 'Apartamento'
+n1 = dados[selecao].shape[0]
+n1
+
+# Selecione os imóveis classificados com tipos 'Casa', 'Casa de Condomínio' e 'Casa de Vila'
+selecao = (dados['Tipo'] == 'Casa') | (dados['Tipo'] == 'Casa de Condomínio') | (dados['Tipo'] == 'Casa de Vila')
+n2 = dados[selecao].shape[0]
+n2
+
+# Selecione os imóveis com área entre 60 e 100 metros quadrados, incluindo os limites
+# 60 <= Area <= 100
+selecao = (dados['Area'] >= 60) & (dados['Area'] <= 100)
+n3 = dados[selecao].shape[0]
+n3
+
+# Selecione os imóveis que tenham pelo menos 4 quartos e aluguel menor que R$ 2.000,00
+selecao = (dados['Quartos'] >= 4) & (dados['Valor'] < 2000)
+n4 = dados[selecao].shape[0]
+n4
+
+print("Nº de imóveis classificados com tipo 'Apartamento' -> {}".format(n1))
+print("Nº de imóveis classificados com tipos 'Casa', 'Casa de Condomínio' e 'Casa de Vila' -> {}".format(n2))
+print("Nº de imóveis com área entre 60 e 100 metros quadrados, incluindo os limites -> {}".format(n3))
+print("Nº de imóveis que tenham pelo menos 4 quartos e aluguel menor que R$ 2.000,00 -> {}".format(n4))
+
+# EXTRAS
+
+#importando dados
+
+json = open('dados/aluguel.json')
+print(json.read())
+
+df_json = pd.read_json('dados/aluguel.json')
+df_json
+
+txt = open('dados/aluguel.txt')
+print(txt.read())
+
+df_xlsx = pd.read_excel('dados/aluguel.xlsx')
+df_xlsx
+
+df_html = pd.read_html('dados/dados_html_1.html')
+df_html[0]
+
+df_html = pd.read_html('https://unafiscosaude.org.br/site/tabelas-de-precos-dos-planos-ativos-para-comercializacao/')
+df_html[0]
+
+df_html = pd.read_html('https://www.federalreserve.gov/releases/h3/current/default.htm')
+len(df_html)
+df_html[0]
+df_html[1]
+df_html[2]
+
+# Criando estrutura de dados
+
+data = [1, 2, 3, 4, 5]
+s = pd.Series(data)
+s
+
+index = ['Linha' + str(i) for i in range(5)]
+index
+
+s = pd.Series(data = data, index = index)
+s
+
+data = {'Linha' + str(i) : i + 1 for i in range(5)}
+data
+
+s = pd.Series(data)
+s
+
+s1 = s + 2
+s1
+
+s2 = s + s1
+s2
+
+data = [[1, 2, 3], 
+        [4, 5, 6], 
+        [7, 8, 9]]
+
+data
+
+df1 = pd.DataFrame(data = data)
+df1
+
+index = ['Linha' + str(i) for i in range(3)]
+
+df1 = pd.DataFrame(data = data, index = index)
+df1
+
+columns = ['Coluna' + str(i) for i in range(3)]
+columns
+
+df1 = pd.DataFrame(data = data, index = index, columns = columns)
+df1
+
+data = {'Coluna0': {'Linha0': 1, 'Linha1': 4, 'Linha2': 7},
+ 'Coluna1': {'Linha0': 2, 'Linha1': 5, 'Linha2': 8},
+ 'Coluna2': {'Linha0': 3, 'Linha1': 6, 'Linha2': 9}}
+
+data
+
+df2 = pd.DataFrame(data)
+df2
+
+data = [(1, 2, 3), 
+        (4, 5, 6), 
+        (7, 8, 9)]
+
+df3 = pd.DataFrame(data = data, index = index, columns = columns)
+df3
+
+df1[df1 > 0] = 'A'
+df1
+
+df2[df2 > 0] = 'B'
+df2
+
+df3[df3 > 0] = 'C'
+df3
+
+df4 = pd.concat([df1, df2, df3])
+df4
+
+df4 = pd.concat([df1, df2, df3], axis = 1)
+df4
+
+# Forma de Selecao
+
+'l1 l2 l3 l4'.split()
+
+data = [(1, 2, 3, 4), 
+        (5, 6, 7, 8), 
+        (8, 10, 11, 12), 
+        (13, 14, 15, 16)]
+df = pd.DataFrame(data, 'l1 l2 l3 l4'.split(), 'c1 c2 c3 c4'.split())
+df
+
+df['c1']
+type(df['c1'])
+
+df[['c3', 'c1']]
+type(df[['c3', 'c1']])
+
+df[1:2]
+df[1:][['c3', 'c1']]
+df.loc['l3']
+df.loc[['l3', 'l2']]
+
+df.loc['l1', 'c2']
+df.iloc[0, 1]
+
+df.loc[['l3', 'l1'], ['c4', 'c1']]
+df.iloc[[2, 0], [3, 0]]
+
+# Organizando DataFrames - Sort
+
+data = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+data
+
+list('321')
+
+df = pd.DataFrame(data, list('321'), list('ZYX'))
+df
+
+df.sort_index(inplace = True)
+df
+
+df.sort_index(inplace = True, axis = 1)
+df
+
+df.sort_values(by = ['X', 'Y'], inplace = True)
+df
+
+df.sort_values(by = '3', axis = 1, inplace = True)
+df
+
+# Metodos de Interpolacao
+
+data = [0.5, None, None, 0.52, 0.54, None, None, 0.59, 0.6, None, 0.7]
+s = pd.Series(data)
+s
+
+s.fillna(0)
+
+s.fillna(method = 'ffill')
+
+s.fillna(method = 'bfill')
+
+s.fillna(s.mean())
+
+s1 = s.fillna(method = 'ffill', limit = 1)
+
+s1.fillna(method = 'bfill', limit = 1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*************
+
+MARIO FILHO - VIDEOS - MACHINE LEARNING
+
+#1 - Quais são os primeiros passos e como usar o kaggle
+
+Problema do Titanic
+
+Métrica Acurácia = Acertos / Total_dados
+
+#2 - Como criar um modelo em Python usando Pandas e Scikit-learn
+
+import pandas as pd
+import numpy as np
+
+1. TREINO
+2. VALIDACAO
+3. TESTE
+
+train = pd.read_csv("train.csv")
+teste = pd.read_csv("test.csv")
+
+train.head()
+
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
+
+#criando um sistema de VALIDACAO
+X_falso = np.arange(10)
+X_falso
+np.random.seed(0)
+train_test_split(X_falso, test_size=0.5)
+
+np.random.seed(0)
+X_treino, X_valid, y_treino, y_valid = train_test_split(X, y, test_size=0.5)
+X_treino.head(), X_valid.shape(), y_treino.shape, y_valid.shape
+
+modelo = RandomForestClassifier(n_estimators=100, n_jobs=-1, random_state=0)
+#criando a instancia do classificador
+modelo.fit(X_treino, y_treino)
+
+p = modelo.predict(X_valid)
+
+#vendo a acuracia do modelo e do gender
+np.mean(y_valid == p)
+
+p = [X_valid['Sex_binario'] == 1].lastype(np.int64)
+np.mean(y_valid == p)
+
+
+
+
+#este modelo só trabalha com variaveis numericas, precisamos transformar tudo em numero
+
+train.['Sex'].value_counts()
+
+def transf_sexo(valor):
+    if valor == 'female':
+        return 1
+    else:
+        return 0
+train['Sex_binario'] = train['Sex'].map(transf_sexo)
+
+train.head()
+
+variaveis = ['Sex_binario', 'Age']
+
+X = train[variaveis]
+y = train['Survived']
+
+X.head()
+y.head()
+
+modelo.fit(X, y)
+
+X = X.fillna(-1)
+
+modelo.fit(X, y)
+
+X_prev = test[variaveis]
+
+test['Sex_binario'] = test['Sex'].map(transf_sexo)
+
+X_prev = test[variaveis]
+X_prev = X_prev.fillna(-1)
+X_prev.head()
+
+p = modelo.predict(X_prev)
+p
+
+test.head()
+
+# Criando Submission
+sub = pd.Series(p, index=test['PassengerId'], name='Survived')
+sub.shape
+
+sub.to_csv("primeiro_modelo.csv", header=True)
+
+!head -n10 primeiro_modelo.csv
+#enviando arquivo pro kaggle
+
+#3 Como criar uma validacao consistente para seu modelo
+
+#4 - Como fazer validação cruzada com Scikit Learn
+
+import pandas as pd
+import numpy as np
+
+1. TREINO
+2. VALIDACAO
+3. TESTE
+
+train = pd.read_csv("train.csv")
+teste = pd.read_csv("test.csv")
+
+train.head()
+
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
+
+#criando um sistema de VALIDACAO
+X_falso = np.arange(10)
+X_falso
+np.random.seed(0)
+train_test_split(X_falso, test_size=0.5)
+
+np.random.seed(1)
+X_treino, X_valid, y_treino, y_valid = train_test_split(X, y, test_size=0.5)
+X_treino.head(), X_valid.shape(), y_treino.shape, y_valid.shape
+
+modelo = RandomForestClassifier(n_estimators=100, n_jobs=-1, random_state=0)
+#criando a instancia do classificador
+modelo.fit(X_treino, y_treino)
+
+p = modelo.predict(X_valid)
+
+#vendo a acuracia do modelo e do gender
+np.mean(y_valid == p)
+
+p = (X_valid['Sex_binario') == 1].lastype(np.int64)
+np.mean(y_valid == p)
+
+#VALIDACAO CRUZADA
+X_falso
+from sklearn.model_selection import Kfold
+kf = Kfold(3, shuffle=True, random_state=0)
+for linhas_treino, linhas_test in kf.split(X_falso):
+    print("Treino:", linhas_treino)
+    print("Valid:", linhas_valid)
+    print()
+
+for rep in range(10):
+    print("Rep. ", rep)
+    kf = Kfold(3, shuffle=True, random_state=rep)
+    for linhas_treino, linhas_test in kf.split(X):
+        print("Treino:", linhas_treino.shape[0])
+        print("Valid:", linhas_valid.shape[0])
+        print()
+
+        X_treino, X_valid = X.iloc[linhas_treino], X.iloc[linhas_valid]
+        y_treino, y_valid = y.iloc[linhas_treino], y.iloc[linhas_valid]
+        
+        modelo = RandomForestClassifier(n_estimators=100, n_jobs=-1, random_state=0)
+        modelo.fit(X_treino, y_treino)  
+
+        p = modelo.predict(X_valid)
+
+        acc = np.mean(y_valid == p)
+        resultados.append(acc)
+        print("Acc:", acc)
+        print()
+
+resultados
+
+np.mean(resultados)  
+
+
+
+#print(X_treino.head())
+#print()
+
+
+#este modelo só trabalha com variaveis numericas, precisamos transformar tudo em numero
+
+train.['Sex'].value_counts()
+
+def transf_sexo(valor):
+    if valor == 'female':
+        return 1
+    else:
+        return 0
+train['Sex_binario'] = train['Sex'].map(transf_sexo)
+
+train.head()
+
+variaveis = ['Sex_binario', 'Age']
+
+X = train[variaveis]
+y = train['Survived']
+
+X.head()
+y.head()
+
+modelo.fit(X, y)
+
+X = X.fillna(-1)
+
+modelo.fit(X, y)
+
+X_prev = test[variaveis]
+
+test['Sex_binario'] = test['Sex'].map(transf_sexo)
+
+X_prev = test[variaveis]
+X_prev = X_prev.fillna(-1)
+X_prev.head()
+
+p = modelo.predict(X_prev)
+p
+
+test.head()
+
+# Criando Submission
+sub = pd.Series(p, index=test['PassengerId'], name='Survived')
+sub.shape
+
+sub.to_csv("primeiro_modelo.csv", header=True)
+
+!head -n10 primeiro_modelo.csv
+#enviando arquivo pro kaggle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MARIO FILHO - Como usar variaveis categoricas
+
+pip install category_encoders
+
+dataset = NYS Chemical Dependence Treatment Prog Admissions (Kaggle)
+
+import pandas as pd
+import numpy as np
+
+data = pd.read_csv("nomedoarquivo.csv")
+data.head()
+data['Year'].value_counts().sort_index()
+2013- pra train
+2014+ pra teste
+
+df_train = data[data['Year'] <= 2013]
+df_val = data[data['Year'] > 2013]
+
+from sklearn.ensemble import RandomForestRegressor 
+#como é um modelo de regressao linear, usaremos Random Forest, existem outros modelos mas para esse problema é melhor este
+
+# One Hot Encoder
+
+from category_encoders.one_hot import OneHotEncoder
+enc = OneHotEncoder(cols=['Country of Program Location'], use_cat_names=True)
+enc = OneHotEncoder(cols=['Country of Program Location', 'Program Category', 'Service Type', 'Age Group', 'Primary Substance Group'], use_cat_names=True) #use the rest of categories that we want
+enc.fit(df_train)
+
+df_train['Country of Program Location'].nunique() #61
+
+df_train_ohe = enc.transform(df_train)
+df_train.head()
+df_train_ohe.head()
+
+df_val_ohe = enc.transform(df_val)
+df_val_ohe.head()
+
+X_train = df_train_ohe.drop["Admissions", axis=1]
+X_val = df_val_ohe.drop["Admissions", axis=1]
+
+y_train = df_train_ohe["Admissions"]
+y_val = df_val_ohe["Admissions"]
+
+X_train.head()
+
+mdl = RandomForestRegressor(n_jobs=6, n_estimators=100, random_state=22)
+mdl.fit(X_train, y_train)
+
+p_ohe = mdl.predict(X_val)
+
+p_ohe[:5]
+
+from sklearn.metrics import mean_absolute_error
+mean_absolute_error(y_val, p_ohe)
+
+#Método Ordinal
+Em vez de atribuir uma coluna para cada nivel, vamos atribuir um numero para cada uma dessas strings
+
+20:50......

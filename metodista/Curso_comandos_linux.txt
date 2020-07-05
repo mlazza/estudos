@@ -1,0 +1,48 @@
+alguns comandos terminal do linux:
+
+mkdir
+cp
+cat - ver arquivo texto
+more - idem
+gedit
+mv - mover e renomear arquivos
+rm - deletar arq / para pastas usar -rf
+
+
+ls -lh - ver a lista de arquivos e as permissoes
+chmod - permissoes de arquivo
+>chmod -R 777 * [para tdoas as pastas e arq dentro da pasta]
+3 campos: _ _ _    _ _ _    _ _ _  [rwx]
+		  dono     grupo    todos   
+r = 4
+w = 2
+x = 1
+
+chown - altera o dono do arquivo
+>chown root:root arquivo
+
+rodando app/programa em background
+
+firefox &
+
+top - ver as execucoes
+
+kill -9 [n.execucao]
+
+htop - versao melhorada do top, instalar via terminal
+
+app Vi - linux
+
+Reiniciando o computador
+
+sudo shutdown -r now
+
+Desligando o computador
+
+sudo shutdown -h now
+
+Apenas sair do terminal
+
+exit
+
+

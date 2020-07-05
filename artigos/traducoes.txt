@@ -1,0 +1,112 @@
+#TRADUÇÕES
+
+#Jupyter é agora um IDE (ambiente de desenvolvimento) completo
+
+tradução de "Jupyter is now a full-fledged IDE", de autoria de Dimitri Poulpoulo. 26.03.2020
+fonte: https://towardsdatascience.com/jupyter-is-now-a-full-fledged-ide-c99218d33095
+
+##A programação em linguagem comum/literal (literate programming - conceito de Donald Knuth) é agora uma realidade através do 'nbdev' e o novo visual do depurador do Jupyter.
+*nbdev é uma biblioteca que permite que você tenha um ambiente completo de desenvolvimento nos Notebooks do Jupyter
+
+Notebooks tem sido sempre uma ferramenta para desenvolvimento incremental de ideias de software. Os Cientistas de Dados usam Jupyter para registrar o seu trabalho, explorar e experimentar
+com novos algoritmos, fazer um rascunho rápido de algumas abordagens e imediatamente observar os resultados.
+Contudo, quando existe um tempo, os desenvolvedores de software voltam aos clássicos IDE's, como o Visual Studio e o Pycharm, para traduzir estas ideias em bibliotecas e frameworks.
+Mas, existe uma maneira para transformar o Jupyter em um IDE completo, onde os conceitos brutos são traduzidos em módulos robustos e reutilizáveis?
+Para isto, desenvolvedores de diversas instituições, incluindo QuantStack, Two Sigma, Bloomberg e fast.ai desenvolveram duas novas ferramentas: nbdev e um depurador visual para Jupyter.
+
+##Programação em linguagem literal e nbdev
+
+Em 1983, Donald Knuth trouxe um novo paradigma de programação chamado 'literate programming'. Em suas próprias palavras, a programação em linguagem literal é "uma metodologia que combina
+uma linguagem de programação com uma linguagem de documentação, assim tornando programas mais robustos, mais portáteis, de mais fácil manutenção, e indiscutivelmente mais divertido para escrever
+do que programas que são escritos apenas numa linguagem de alto nível. A ideia principal é tratar um programa como uma peça de literatura, voltado mais para seres humanos do que para máquinas".
+
+Jeremy Howard e Sylvain Gugger, fascinados por esta ideia apresentaram 'nbdev' no ano passado. Este framework permite que você construa o seu código num ambiente familiar como o 
+Jupyter Notebook, explorando e experimentando com diferentes abordagens antes de chegar numa solução definitiva para um dado problema. Então, utilizando certas palavras-chave, 'nbdev' permite
+que você extraia a funcionalidade de uma biblioteca de python bem construída.
+
+Mais especificamente, 'nbdev' complementa Jupyter, adicionando suporte para:
+- criação automática de módulos python dos notebooks, seguindo as melhores práticas;
+- edição e navegação do código numa IDE standard (padrão/regular);
+- sincronização de qualquer mudança volta para os notebooks;
+- criação automática de documentação hyperlinkada e pesquisável do código;
+- pip installers prontos para serem enviados para PyPI;
+- testes;
+- integração contínua;
+- controle de conflito de versão.
+
+'nbdev' permite que desenvolvedores de software e cientista de dados desenvolvam bibliotecas python bem documentadas, seguindo as melhores práticas sem deixar o ambiente do Jupyter.
+nbdev está no PyPI*, então para instalar basta rodar o código no prompt/prompt do python:
+
+>>pip install nbdev
+
+Para uma instalação editável (editable install**), use o seguinte:
+
+>>git clone https://github.com/fastai/nbdev
+>>pip install -e nbdev
+
+*The Python Package Index (PyPI) é um repositório de software para programação em linguagem Python.
+**Tipo de instalação em que linka a biblioteca instalada com o repositório original, assim qualquer modificação na origem remete ao seu próprio projeto
+
+Para começar, leia o excelente post dos seus desenvolvedores (https://www.fast.ai/2019/12/02/nbdev/), descrevendo a noção por trás do nbdev e siga o tutorial detalhado
+na documentação.
+
+##A peça perdida
+
+Apesar da 'nbdev' cobrir a maioria das ferramentas necessárias para um ambiente de desenvolvimento (IDE) dentro do Jupyter, ainda existe uma peça faltando: um
+depurador visual.
+
+Portanto, um time de desenvolvedores de várias instituições anunciaram ontem o primeiro lançamento de um depurador visual para o Jupyter. O depurador oferece a maioria
+do que você esperaria de um depurador dentro de um IDE:
+
+- uma variável exploratória, uma lista de 'breakpoints' e uma visualização da fonte;
+- a possibilidade de navegar 
+
+
+
+
+
+nbdev enables software developers and data scientists to develop well-documented python libraries, following best practices without leaving the Jupyter environment. nbdev is on PyPI so to install it you just run:
+pip install nbdev
+For an editable install, use the following:
+git clone https://github.com/fastai/nbdev
+pip install -e nbdev
+To get started, read the excellent blog post by its developers, describing the notion behind nbdev and follow the detailed tutorial in the documentation.
+The missing piece
+Though nbdev covers most of the tools needed for an IDE-like development inside Jupyter, there is still a piece missing; a visual debugger.
+Therefore, a team of developers from several institutions announced yesterday the first public release of the Jupyter visual debugger. The debugger offers most of what you would expect from an IDE debugger:
+a variable explorer, a list of breakpoints and a source preview
+the possibility to navigate the call stack (next line, step in, step out etc.)
+the ability to set breakpoints intuitively, next to the line of interest
+flags to indicate where the current execution has stopped
+To take advantage of this new tool we need a kernel implementing the Jupyter debug protocol in the back-end. Hence, the first step is to install such a kernel. The only one that implements it so far is xeus-python. To install it just run:
+conda install xeus-python -c conda-forge
+Then, run Jupyter Lab and on the sidebar search for the Extension Manager and enable it, if you haven’t so far.
+
+IMG
+
+
+A new button will appear on the sidebar. To install the debugger just go to the newly enabled Extension Manager button and search for the debugger extension.
+
+
+IMG
+
+After installing it Jupyter Lab will ask you to perform a build to include the latest changes. Accept it, and, after a few seconds, you are good to go.
+To test the debugger, we create a new xpython notebook and compose a simple function. We run the function as usual and observe the result. To enable the debugger, press the associated button on the top right of the window.
+
+IMG
+
+Now, we are ready to run the function again. Only this time the execution will stop at the breakpoint we set and we will be able to explore the state of the program.
+
+IMG
+
+We see that the program stopped at the breakpoint. Opening the debugger panel we see the variables, a list of breakpoints, the call stack navigation and the source code.
+The new visual debugger for Jupyter offers everything you would expect from an IDE debugger. It is still in development, thus, new functionality is expected. Some of the features that its developers plan to release in 2020 are:
+Support for rich mime type rendering in the variable explorer
+Support for conditional breakpoints in the UI
+Enable the debugging of Voilà dashboards, from the JupyterLab Voilà preview extension
+Enable debugging with as many kernels as possible
+Conclusion
+Jupyter notebooks have always been a great way to explore and experiment with your code. However, software developers usually turn to a full-fledged IDE, copying the parts that work, to produce a production-ready library.
+This is not only inefficient but also a loss on the Jupyter offering; literate programming. Moreover, notebooks provide an environment for better documentation, including graphs, images and videos, and sometimes better tools, such as auto-complete functionality.
+nbdev and the visual debugger are two projects that aim at closing the gap between notebooks and IDEs. In this story, we saw what nbdev is and how it makes literate programming a reality. Furthermore, we discovered how a new project, the visual debugger for Jupyter, provides the missing piece.
+My name is Dimitris Poulopoulos and I’m a machine learning researcher at BigDataStack and PhD(c) at the University of Piraeus, Greece. I have worked on designing and implementing AI and software solutions for major clients such as the European Commission, Eurostat, IMF, the European Central Bank, OECD, and IKEA. If you are interested in reading more posts about Machine Learning, Deep Learning and Data Science, follow me on Medium, LinkedIn or @james2pl on twitter.

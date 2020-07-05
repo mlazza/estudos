@@ -1,0 +1,64 @@
+#app que acompanha o dia da pessoa emitindo alarmes interessantes
+#Os alarmes sao divididos em frequencias
+#sera que é possivel adivinhar o que a pessoa ja fez e automaticamente
+# nao precisa lembrar
+#ha opcao de lembrete de tudo, ou de algumas partes, sendo que pode-se
+#optar por mostrar resumos a cada tantas horas do que foi e o que será
+
+Classes: Manha, Tarde, Noite, Madrugada, Pessoa
+
+Class Pessoa
+
+Nome
+Sexo
+Idade
+Filhos
+Conjuge
+
+Class Manha 6-12
+
+Despertador
+Cafe-da-manha
+Escovar Dente
+Banho
+Carro.Trabalho
+Carro.escola
+Carro....
+Medicacao
+Itens a mais pra incluir (plano premium)
+
+Class Tarde 12-18
+
+Almoco
+Banho
+Escovar Dente
+Filhos.escovar
+Filhos.
+
+Class Noite 18-24
+
+Janta
+Banho
+Filme
+Filhos
+Conjuge
+
+Class Madrugada
+
+Dormir
+Outras atividades
+pode ficar como outra class se trabalha noturno
+
+Class Eventos Especiais
+
+Aniversario
+Festas
+Eventos
+Formatura
+Casamento...
+
+
+
+O app pode indicar certas atividades e comportamentos
+Pode ter uma IA que analisa o comportamento e faz melhorias e sugestoes
+

@@ -1,0 +1,365 @@
+diario de anotacoes do curso DS - Metodista
+
+05/3/2020
+
+Video - SQL - trilhas de aprendizagem - BD Relacional
+
+Comandos Consulta
+
+SELECT * FROM FUNCIONARIO
+>>consulta todos os campos da tabela funcionario
+
+SELECT MATRICULA, NOME FROM FUNCIONARIO
+>>seleciona apenas os dois atributos da tabela
+
+######
+OPERADORES:
+
+Comparação: = , <> , > , < , >= , <=
+
+lógicos: AND, OR, NOT
+
+IN <testa lista>
+
+BETWEEN <EXPRESSAO> AND <EXPRESSAO> "SUBSTITUI >= E <=";
+
+IS NULL: testa Nulo ;
+
+LIKE: testa conteudo da string ;
+######
+
+>>selecionando funcionarios do estado de MG ou RJ que ganham comissao = ou maior do que 100
+A1 - SELECT * FROM FUNCIONARIO WHERE ESTADO = 'MG' OR ESTADO = 'RJ' AND COMISSAO > 100
+A2- SELECT * FROM FUNCIONARIO WHERE ESTADO IN ('MG', 'RJ') AND COMISSAO >= 100 (melhor tempo de execucao)
+
+>>funcionarios que ganham entre 2000 e 3500 no departamento 1
+B1 - SELECT * FROM FUNCIONARIO WHERE SALARIO >= 2000 AND SALARIO <= 3500 AND CODDEPTO = 1
+B2 - SELECT * FROM FUNCIONARIO WHERE SALARIO BETWEEN 2000 AND 3500 AND CODDEPTO = 1
+
+>>funcionarios cujo estado ou cidade é nula
+SELECT * FROM FUNCIONARIO WHERE ESTADO IS NULL OR CIDADE IS NULL
+
+>>funcionarios cujo nome tem a letra u caractere
+SELECT * FROM FUNCIONARIO WHERE NOME LIKE '%U%'
+
+
+#####
+FUNÇÕES DE LINGUAGEM (BUILT-IN)
+
+AVG: Media Aritmetica
+
+SUM: Soma de valores
+
+MAX: valor maximo
+
+MIN: valor minimo
+
+COUNT(*): A funcao COUNT permite que se efetue a contagem de registros de uma tabela
+
+COUNT (DISTINCT "nome do campo"): contador de linhas com ocorrências diferentes de um atributo. O DISTINCT elimina ocorrências repetidas de um mesmo campo.
+#####
+
+SELECT * FROM FUNCIONARIO
+
+>>calcule a media do salario dos funcionarios
+SELECT AVG(SALARIO) FROM FUNCIONARIO
+SELECT AVG(SALARIO) AS MEDIA FROM FUNCIONARIO
+
+>>calcule a soma dos salario do departamento 1
+SELECT SUM(SALARIO) FROM FUNCIONARIO WHERE CODDEPTO = 1
+
+>>o maior e depois o menor salario do depto 1
+SELECT MAX(SALARIO) FROM FUNCIONARIO WHERE CODDEPTO = 1
+SELECT MIN(SALARIO) FROM FUNCIONARIO WHERE CODDEPTO = 1
+
+>>quantidade de funcionarios, excluindo os gerentes
+SELECT COUNT(MATRICULA) FROM FUNCIONARIO WHERE CARGOS <> 'GERENTE'
+
+>>selecione os distintos cargos existentes
+SELECT DISTINCT(CARGO) FROM FUNCIONARIO
+
+>>selecione a quantidade de cargos distintos
+SELECT COUNT (DISTINCT CARGO) FROM FUNCIONARIO
+
+##########################
+EXPRESSÕES DE ORDENAÇÃO E AGRUPAMENTO
+
+ORDER BY: A expressão ORDER BY é utilizada quando se pretende exibir os registros em uma determinada ordem, seja esta crescente (ASC - default) ou decrescente (DESC). Os campos da expressão ORDER BY devem sempre fazer parte da expressão SELECT.
+
+GROUP BY: A expressão GROUP BY que permite que se faça uma consolidação dos registros, fazendo a sintese dos mesmos por um conjunto de campos. Os campos da expressão GROUP BY devem sempre fazer parte da expressão SELECT.
+
+HAVING: A expressão HAVING só pode aparecer depois da expressão GROUP BY, funcionando como um filtro para o agrupamento. Resumidamente, o HAVING é o WHERE do GROUP BY.
+##########################
+
+>>selecione o nome do funcionario, em ordem alfabetica
+SELECT NOME FROM FUNCIONARIO ORDER BY NOME
+SELECT NOME FROM FUNCIONARIO ORDER BY NOME DESC
+
+>>selecione a qtde de funcionarios por cargo
+SELECT COUNT(MATRICULA), CARGO FROM FUNCIONARIO GROUP BY CARGO 
+
+>>selecione a qtde de funcionarios por depto, mas apenas para dptos com + de 3 funcionarios
+SELECT CODDEPTO, COUNT(MATRICULA) FROM FUNCIONARIO GROUP BY CODDEPTO HAVING COUNT(MATRICULA) > 3
+
+
+09/03/2020
+
+SQL
+
+DML - Manipulacao - insert, select, update, delete;
+DDL - Definição - create, alter, drop, rename, truncate;
+Controle - commit, rollback, savepoint;
+DCL - Control/Access - grant, revoke.
+
+Comando CREATE
+
+CREATE TABLE nome_da_tabela
+(nome_da_coluna tipo [NULL|NOT NULL] [restricoes de integridade],
+restrições de integridade);
+
+CREATE TABLE funcionario
+(codigo_funcionario INT PRIMARY KEY,
+usuario VARCHAR(15),
+senha VARCHAR(10));
+
+A chave FOREIGN
+
+CREATE TABLE produto_pedido
+(codigo_produto INT,
+codigo_pedido INT,
+preco_venda DOUBLE(8,2),
+quantidade_venda INT,
+PRIMARY KEY (codigo_produto, codigo_pedido),
+FOREIGN KEY (codigo_produto) REFERENCES produto(codigo_produto),
+FOREIGN KEY (codigo_pedido) REFERENCES pedido(codigo_pedido));
+
+CREATE TABLE produto
+(codigo_produto INT,
+nome VARCHAR(15),
+preco DOUBLE(8,2),
+descricao VARCHAR(30),
+quantidade INT,
+codigo_fabricante INT,
+codigo_categoria INT,
+PRIMARY KEY (codigo_produto),
+FOREIGN KEY (codigo_fabricante) REFERENCES fabricante (codigo_fabricante),
+FOREIGN KEY (codigo_categoria) REFERENCES categoria (codigo_categoria));
+
+*para que um atributo seja definido como chave estrangeira deve ser chave primária na sua tabela de
+origem (tabela referenciada)
+
+**no MySQL utilizar o ENGINE=InnoDB
+
+Comando ALTER TABLE
+
+ALTER TABLE <nome da tabela>
+[ADD COLUMN definicao da coluna,]
+[ADD PRIMARY KEY definicao da restricao,]
+[ADD FOREIGN KEY definicao da restricao,]
+[CHANGE nome_coluna_anterior trocar_para definicao da coluna,]
+[MODIFY definicao da coluna,]
+[DROP COLUMN nome,] ...
+
+ALTER TABLE cliente ADD COLUMN rg VARCHAR(10);
+ALTER TABLE cliente MODIFY nome VARCHAR(40);
+ALTER TABLE produto_pedido ADD FOREIGN KEY (codigo_pedido)
+REFERENCES pedido (codigo_pedido);
+
+20/03/2020
+
+TRILHA DE APRENDIZAGEM
+
+Linguagem SQL - Comandos de Linguagem de Mainpulação
+
+INSERTO INTO <nome_tabela> ---- Inclusão
+SELECT <colunas>           ---- Consulta
+UPDATE <tabela>            ---- Alteração
+DELETE FROM <tabela>       ---- Exlusão
+
+LIVRO - Desenvolvimento de Software II - MILLETTO; BERTAGNOLLI - IFRS
+
+Exemplo de DROP
+
+DROP TABLE fotos;
+
+Para que seja possível eliminar uma tabela que possui chave estrangeira em outra tabela, devemos utilizar o comando DROP TABLE, primeiro para eliminar a tabela
+onde está a chave estrangeira e, depois, para eliminar a tabela de origem, de onde veio a referência de chave estrangeira.
+
+COMANDOS DA LINGUAGEM DE MANIPULAÇÃO DE DADOS - DML
+
+INSERT INTO produto(nome_cliente, codigo) VALUES ('Marcos Lima', 101)
+#inserindo um cliente com um codigo
+
+UPDATE produto
+SET preco = preco * 1.02
+WHERE codigo_categoria = 4;
+#fazendo um ajuste de preco em todos os produtos de categoria 4 com 2% de aumento
+
+DELETE FROM produto
+WHERE codigo_fabricante = 66;
+#deleta todos os produtos da tabela produto que sejam do fabricante 66
+
+SELECT *
+FROM produto
+WHERE quantidade > 25
+#seleciona todas os produtos da tabela produto que tenham mais de 25 unidades
+
+SELECT c.nome as "nome do cliente", fp.nome as "forma de pagto"
+FROM cliente c CROSS JOIN forma_pagto fp;
+#combina as linhas da primeira tabela com as linhas da segunda tabela
+
+REFERENCIAS:
+
+GROFF, J. R.; WEINBERG, P. N. SQL: the complete reference. Berkeley: McGraw-Hill, 2000.
+
+TAHAGHOGHI, S. M. M.; WILLIAMS, H. C. Aprendendo MySQL. Rio de Janeiro: Alta Books, 2007.
+
+MILETTO, E. M.; BERTAGNOLLI, S. C. Desenvolvimento de software II: introdução ao
+desenvolvimento web com HTML, CSS, JavaScript e PHP. Porto Alegre: Bookman, 2014.
+276 p. (Tekne). SAGAH, 2015.
+
+DESAFIO:
+
+Baseando-se que tenhamos um banco de dados de nome LOJA e uma tabela com o nome PRODUTOS, e os campos PRODUTO, VALOR, QUANTIDADE e STATUS, o seu desafio nesta Unidade será:
+1) Mostre o código SQL para inserir um novo produto: TV LED 48" 3D; Valor: 2.150,00; Quantidade: 5; Status: Ativo.
+2) Mostre o código SQL para atualizar o status de todos os produtos para ativo.
+3) Mostre o código SQL para listar todos os produtos cadastrados.
+4) Mostre o código SQL para listar os dados apenas do produto que custa 2.150,00.
+5) Mostre o código SQL para apagar apenas o produto que custa 2.150,00.
+
+1) INSERT INTO produtos(produto, valor, quantidade, status) VALUES ('TV LED 48"', 2150, 5, 'Ativo')
+2) UPDATE produto SET status = 'Ativo'
+3) SELECT * FROM produtos
+4) SELECT * FROM produtos WHERE valor = 2150
+5) DELETE FROM produtos WHERE valor = 2150
+
+PROJETO PRÁTICO 1
+
+Nesta Unidade de Aprendizagem, será analisado o contexto de um cenário real em relação à necessidade de um futuro sistema de informação, identificando o modelo conceitual para atender ao Estudo de Caso e construindo este modelo utilizando a ferramenta brModelo.
+
+Imagine que você faz parte de uma equipe de TI que terá que desenvolver um sistema de informação baseado em banco de dados para atender a um determinado cliente. Este cliente é uma empresa de rádio táxi que atende de forma on-line e tem, de maneira geral, as seguintes características:
+
+/- A empresa possui, aproximadamente, 100 veículos (táxis) cadastrados.
+
+/- O cadastro do veículo requer um conjunto pré-definido de informações.
+
+/- O veículo pode ser próprio ou de taxistas parceiros.
+
+/- Os motoristas devem ter um cadastro junto à empresa.
+
+- A empresa de rádio táxi possui uma central única de atendimento e atende determinadas cidades.
+
+- A empresa mantém cadastro de empresas (clientes) conveniadas e pessoas autorizadas a solicitar os serviços.
+
+- A realização dos chamados se dá via telefone.
+
+- O pagamento dos serviços se dá via boleto bancário.
+
+- Após receber a chamada, a central de atendimento verifica e determina qual táxi/motorista irá atender.
+
+- O valor final das faturas são o somatório das corridas/serviços utilizados durante o mês.
+
+- Após a automatização do sistema, a empresa de rádio táxi espera agilizar as tarefas de manutenção de dados e dispor de diversos relatórios para apoio na gestão.
+
+Agora, a partir das informações expostas e do modelo em anexo, você precisa criar o esquema conceitual na ferramenta brModelo.
+
+INTERACAO
+
+4 V's do BIG DATA:
+
+-Volume
+-Variety
+-Velocity
+-Veracity
+
+
+21/03/2020
+
+Tradução do artigo 'The Stages of Learning Data Science'
+fonte: https://towardsdatascience.com/the-stages-of-learning-data-science-3cc8be181f54, autor: Ken Jee, março 2020
+
+Os estágios do aprendizado de Data Science
+
+Muitas pessoas pensam que aprender data science é um processo linear. Na verdade, é mais uma progressão bagunçada que é mais próximo de uma série de 'plateaus'.
+
+IMAGEM
+
+Por sorte, temos um bom modelo de aprendizado que explica como esses 'plateaus' funcionam. Este modelo foi criado na década de 1970 por Noel Burch, e foi expandido por Robert Greene
+em seu livro 'Mastery'. De acordo com este modelo, nós atravessamos 5 estágios de aprendizado: 'Incompetência Inconsciente', 'Incompetência Consciente', 'Competência Consciente', 'Competência
+Inconsciente' e 'Maestria'. Aprender data science se encaixa neste modelo muito bem.
+
+Neste artigo, eu explico como cada um destes estágios se encaixa no quadro de Data Science. Eu falo sobre minha experiência em cada estágio e também incluo alguns dos atalhos que eu encontrei
+para conseguir avançar de um estágio para outro. 
+
+ESTÁGIO 1: Incompetência Inconsciente - O completo novato
+
+Neste level você está apenas se introduzindo no campo de Data Science. Você pode ter ou não alguma pouca experiência com programaçao ou estatística. O estágio 1 é geralmente caracterizado por
+excesso de confiança. Muitas pessoas pensam que este campo pode ser aprendido depois de fazer um ou dois cursos rápidos.
+
+Este é o sentimento que eu tinha quando saí do college (similiar ao superior/tecnólogo no Brasil). Armado com alguns cursos de economia, eu senti que estava pronto e preparado para enfrentar o mundo
+da análise dos esportes. Aprender data science parecia ser o meu próximo passo. Em um nível mais abstrato, o campo parecia simples, você só precisava encontrar tendências nos dados e fazer insights.
+Simples, não?
+
+Nem preciso dizer que eu estava completamente errado. Depois de começar a aprender programação, eu já estava irremediavelmente perdido. Eu comecei a colocar junto todos os diferentes conceitos
+que eu precisava aprender e a tarefa passou de fácil para extremamente assustadora.
+
+Para conseguir sair do estágio 1 e ir para o estágio 2, você precisa desenvolver um entendimento do que é Data Science e quais são os conhecimentos necessários de programação e matemática aplicado
+a área. Eu recomendo assistir videos no Youtube e se envolver e estudar a linguagem Python para alcançar este entendimento.
+
+ESTÁGIO 2 - Incompetência Consciente - Medo
+
+Uma vez que você comece a se sentir sobrecarregado pelo tamanho do universo da programação e da matemática, você estará entrando no estágio 2. Este é um estágio onde muitas pessoas ficam atordoadas e pode desistir. Aqui, você aprende a profundidade do campo de Data Science. Existe muita coisa para aprender, e não é muito claro por onde começar.
+
+A chave para conseguir atravessar este estágio é dividir data science em pequenos passos. Você ainda precisa de um lugar para começar. No level mais básico, em data science, você precisa saber alguma
+programação (Python ou R) e estatística simples. Encontre alguns sites para se introduzir nestes campos. Eu reomendo pegar conteúdo gratuito ou algum curso (há cursos gratuitos no Kaggle.com).
+
+O que reduziu meu sentimento de sobrecarregado durante este estágio foi pensar sobre o porque eu queria aprender este campo. Eu tinha um projeto específico em mente. Eu queria construir um modelo
+que pudesse melhorar a projeção dos resultados diários dos esportes de fantasia (exemplo no Brasil é o Cartola) que eu estava jogando. Se eu apenas focasse nas habiliaddes necessárias para construir
+isso, eu poderia tornar data science algo bem menor e mais fácil de estudar.
+
+Para ir para o próximo estágio, eu recomendo se dedicar a um problema específico para tornar seu critério de estudo menor. É fácil de entender o que é necessário para completar um simples projeto 
+comparado com tentar aprender todo o campo de Data Science. Fazendo ou participando de projetos pequenos é menos intimidador do que 'aprender python' ou 'aprender estatística', porque estes conceitos/área
+são tão amplos quanto vagos. Nos estágios iniciais, você realmente precisa conhecer apenas o básico destes dois campos para conseguir praticar data science. Se você conseguir completar alguns destes
+pequenos projetos, você estará indo bem.
+
+Eu também recomendo revisar o código dos outros programadores no Kaggle. Você provavelmente não entenderá tudo, mas não entre em pânico. Com o tempo, isso começará a fazer mais sentido, e apenas visualizar e entrar em contato com estes códigos é um bom ponto de partida para este processo de aprendizado. Faça uma lista dos termos, pacotes, bibliotecas, assuntos, algoritmos que você vê mas ainda
+não compreende. A cada dia, pesquise um pouco sobre estes conceitos e tente torná-los compreensíveis. Você irá se chocar o quão longe você pode chegar mesmo em poucas semanas fazendo isto.
+
+ESTÁGIO 3 - Competência Consciente - Ligeiramente Perigoso
+
+Neste ponto, você chegou a terminar alguns projetos ou contribuiu de alguma forma em projetos de outros, onde você aprendeu como implementar alguns algoritmos específicos. Agora você tem alguns códigos
+que você usa de referência.
+
+Quando eu estava neste estágio, eu coletei todas as partes de código que eu usava regularmente e coloquei elas todas num documento único. Ao invés de tentar lembrar como eu tinha feito, eu apenas
+consultava o meu documento 'Frankstein'. Isto tornou possível ir adiante de maneira mais rápida. Parecia que eu estava trapaceando, mas eu penso que serviu para eu focar mais na implementação do que
+na sintaxe naquele momento. Você deve fazer ou participar de tantos projetos quantos os diferentes algoritmos que você guardou de suas pesquisas.
+
+Depois de aplicar estes conceitos, você deve começar a entender como eles funcionam também. Durante este estágio, eu comecei minha pós-graduação (grad-school: mestrado ou doutorado). Nas minhas disciplinas, nós construíamos os algoritmos desde o rascunho. Eu penso que isto é uma boa prática para todos os cientistas de dados. Enquanto eu adquiri um trauma por programar uma rede neural no Matlab, 
+isto definitivamente valeu a pena. Fazendo a construção destes algoritmos, você começará a entender os inputs, constraints e as limitações das variadas técnicas.
+
+Não existe segredo para sair do estágio 3 ir para o estágio 4. O que faz você passar é a repetição de exercícios, projetos e constante prática.
+
+ESTÁGIO 4 - Competência Inconsciente - Arte e Ciência
+
+Quando você alcança o estágio 4, você sabe o que fazer quando confronta um problema. Você não precisa mais daquela referência monstruosa de códigos prontos, e você pode começar a focar em otimização de 
+soluções e diferentes abordagens de problema. Aqui, você estará misturando duas coisas, o expertise na área com a intuição de negócios, para criar as melhores soluções para os seus desafios.
+
+Eu acredito que isto é onde a verdadera arte do Data Science começa a tomar lugar. Ao invés de focar em como resolver um problema, você estará procurando criar soluções elegantes e sustentáveis. Você
+gasta mais tempo com engenharia de recursos (feature engineering), afinando os modelos, e colocando os projetos em produção. Você também trabalha mais próximo com os clientes interessados para ter certeza
+de o seu serviço está obtendo o máximo de impacto.
+
+Eu acredito que eu continuo flutuando entre o estágio 3 e 4 frequentemente. Espero que eu sinta este estado de flutuação mais frequentemente no futuro.
+
+ESTÁGIO 5 - Maestria - Contribuição
+
+Neste level, você chegou perto de atingir a maestria em alguma área do campo. Em Data Science, eu não acredito realmente que alguém possa se tornar um mestre de toda a disciplina. Você está apto a
+ir além das fronteiras, descobrindo novos algoritmos ou novas abordagens para resolver problemas.
+
+Este estágio é ilustrativo, e eu penso que poucas pessoas atingiram. Eu poderia argumentar que a maioria das pessoas que chegam nesta categoria estão mais dentro da academia e estão mais focadas em 
+pesquisas acadêmico-científicas do que preocupadas com implementações no mercado.
+
+PENSAMENTOS FINAIS
+
+Eu espero que este modelo de aprendizado irá ajudar você a avaliar/reavaliar a sua própria jornada em Data Science. Eu também espero que isto sirva como um mapa de direções para você progredir e avançar
+no seu aprendizado em DS. Da minha experiência, aprender data science foi um longo processo mas muito divertido.
+
