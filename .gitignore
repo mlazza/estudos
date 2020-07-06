@@ -16,3 +16,4 @@
 #databases
 *.csv
 *.tsv
+netflix_titles.csv
