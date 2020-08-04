@@ -1,0 +1,36 @@
+Um Modelo de Data Science: para alcançar 99% de acurácia
+
+tradução livre do artigo 'A Data Science Framework: to Achieve 99% Accuracy'
+
+...
+
+
+9. Capitulo 9 - Melhorando o Modelo com Hiper-Parâmetros (Hyper-Parameters)
+10. Capitulo 10 - Melhorando o Modelo com Seleção de Recursos (Feature Selection)
+11. Capitulo 11 - Passo 6: Validação e Implementação
+12. Capitulo 12 - Conclusão e Passo 7: Otimização e Estratégias
+13. Change Log (arquivo de modificações)
+14. Créditos
+
+Como usar este tutorial: Leia as explicações fornecidas neste Kernel e os links das documentações.
+O objetivo não é aprender apenas o que é, mas os porquês. Se você não entende alguma coisa do código, a função
+print() é sua melhor amiga. Na programação, é OK tentar, falhar, e tentar novamente. Se você encontrar mais problemas,
+Google é o seu pastor e nada faltará, sempre tem alguém que já teve o mesmo problema/questão e isso já foi respondido pela
+comunidade. Se você exauriu todos estes recursos e ainda continua com o problema, a Comunidade do Kaggle oferece fóruns e comentários
+que podem te ajudar.
+
+TITULO - Como um Cientista de Dados bate as Odds
+
+Este é um problema clássico, prever o resultado de um evento binário. Em termos mais simples isto significa que pode ocorrer ou não
+um dado evento. Por exemplo, você pode ou não ganhar, você pode ou não passar num teste, você pode ser aceito ou não. Uma aplicação comum
+nos negócios é na retenção dos clientes. Outro caso popular é na taxa de mortalidade ou sobrevivência na área da saúde.  Eventos binários
+criam uma interessante dinâmica, porque nós conhecemos estatisticamente que um chute aleatório tem uma taxa de 50% de acurácia, sem criar uma
+única linha de código ou pensar sobre o problema. Contudo, assim como a tecnologia dos corretores ortográficos, algumas vezes nós humanos
+podemos ser tão espertos quanto e ainda assim ficar abaixo da acurácia de um 'chute', ou seja, menor que 50%.
+Neste kernel, eu uso 'Kaggle's Getting Started Competition', 'Titanic: Machine Learning from disaster', para orientar o leitor de como usar
+o modelo de ciência de dados para bater as odds.
+
+TIT >> Um Modelo de Ciência de Dados
+
+1. Definir o Problema: Se data science, big data, machine learning, análise preditiva, business intelligence, ou qualquer outra palavra-chave é
+a solução, então qual é o problema? 
