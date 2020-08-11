@@ -1,0 +1,50 @@
+ANOTAÇÕES DAS AULAS - MESTRADO COMPUTAÇÃO APLICADA 2020/2
+DISCIPLINAS DE 'COMPUTAÇÃO NATURAL' E 'IoT'
+
+Computação Natural Aula 10.08.2020
+
+(X) meta heuristicas / machine learning
+
+Uma meta-heurística é um método heurístico para resolver de forma genérica problemas de otimização (normalmente da área de otimização combinatória).
+
+Meta-heurísticas são geralmente aplicadas a problemas para os quais não se conhece algoritmo eficiente (veja problemas NP-completos).
+
+Utilizam combinação de escolhas aleatórias e conhecimento histórico dos resultados anteriores adquiridos pelo método para se guiarem e realizar suas buscas pelo espaço de pesquisa em vizinhanças dentro do espaço de pesquisa, o que evita paradas prematuras em ótimos locais.
+
+Algumas meta-heurísticas bem conhecidas são:
+
+Algoritmo genético
+Simulated annealing (Recozimento Simulado em pt-Br)
+GRASP
+Busca tabu
+Colônia de formigas (otimização)
+Colônia de abelhas (otimização)
+Lichtenberg Algorithm[1]
+
+(X) e-mail: rafael.parpinelli@udesc.br
+
+(X) www.researchgate.net/profile/Rafael_Parpinelli
+(X) Material Moodle UDESC Joinville
+
+() Planos de Ensino
+Ainda sem
+
+viezes de contribuicao / procurando um tema complexo para resolver
+
+inteligencia artificial
+
+Computacao Natural > Inteligencia Computacional > I.A. #sao coisas diferentes do ponto de vista tecnico
+
+(X) IA = GOFAI (pesquisar termos)
+
+John Haugeland gave the name GOFAI ("Good Old-Fashioned Artificial Intelligence") to symbolic AI in his 1985 book Artificial Intelligence: The Very Idea, which explored the philosophical implications of artificial intelligence research. In robotics the analogous term is GOFR ("Good Old-Fashioned Robotics").
+
+(X) Autopoiese =  é um termo criado na década de 1970 pelos biólogos e filósofos chilenos Francisco Varela e Humberto Maturana para designar a capacidade dos seres vivos de produzirem a si próprios. Segundo esta teoria, um ser vivo é um sistema autopoiético, caracterizado como uma rede fechada de produções moleculares (processos) em que as moléculas produzidas geram com suas interações a mesma rede de moléculas que as produziu. A conservação da autopoiese e da adaptação de um ser vivo ao seu meio são condições sistêmicas para a vida. Portanto, um sistema vivo, como sistema autônomo, está constantemente se autoproduzindo, autorregulando, sempre mantendo interações com o meio, onde este apenas desencadeia mudanças determinadas em sua própria estrutura, e não através de um agente externo.
+De origem biológica, o termo passou a ser usado em outras áreas por Steven Rose na neurobiologia, por Niklas Luhmann na sociologia, por Gilles Deleuze e Antonio Negri na filosofia, por Patrick Schumacher na arquitetura e por Gunther Teubner no Direito.
+
+Livro: Computação Natural
+
+
+*********************************************************************************
+
+
