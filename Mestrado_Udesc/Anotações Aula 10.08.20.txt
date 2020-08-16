@@ -46,5 +46,183 @@ Livro: Computação Natural
 
 
 *********************************************************************************
+IoT Aula 12.08.2020
 
+Profa. Janine
+
+janine.kniess@udesc.br //email para duvidas, questoes
+//vai ter outro email para entrega de trabalhos
+
+Grupo de Pesquisa: Grupo de Redes e Aplicações Distribuídas (GRADIS)
+Linha de Pesquisa: Protocolos de Redes de Computadores
+....
+IoT;
+
++Prova Teorica 30%
++Projeto e Seminarios 35% cada
+
+Protocolo de Roteamento LTL
+
+Livro para entender a arquitetura da Internet: Kurose 6. ed.
+
+Projeto Final : usar simulador como Cooja ou Arduino/Raspberry (hardware)
+
+Exs: Planejamento Urbano, automacao residencial, gerenciamento de energia, irrigacao automatica de horta
+
+TEMA DO PROJETO NESTE SEMESTRE: Monitoramento remoto, comunicacao sem fio e atuadores. [tem que ter estes 3 requisitos]
+Exs: monitoramento de colmeia de abelhas, monitoramento de enchentes,
+monitoramento na agricultura...
+
+Livro 'Internet of Thigs - From Hype to Reality' - no moodle
+
+PROXIMA AULA: TRAZER UMA PROPOSTA DE APLICACAO PARA O PROJETO FINAL
+
+Protoclos COAP, MQTT, 6LowPan
+
+Coordenador do curso: Guilherme
+Secretária Adm: Tania
+
+ESTADO DA ARTE EM IoT
+
+Conceito originário de outro tema da computação: computação ubíqua (Mark Weiser, 1988, 'The computer for the 21st Century'[1991])
+
+Computação Ubíqua: que avanca alem da estrutura tradicional da computacao, ela vai avancando sem a gente perceber, ela é transparente
+Ela move-se para fora das estacoes de trabalho e computadores pessoais e torna-se pervasiva em nossa vida cotidiana.
+Beneficia-se dos avancos da computacao movel e da computacao pervasiva
+
+COMPUT PERVASIVA <> COMPUT. PERVASIVA <> COMPUT. MOVEL
+
+GRAFICO - SL1
+
+COMPUTACAO UBIQUA = Alta Integração + Alta Mobilidade
+
+IoT, termo utilizado inicialmente pelo Kevin Ashton numa apresentação feita em 1999 à Procter & Gamble ligando RFID usado na logistica
+da cadeia de produção (Ashton, 2010)
+A ideia basica é a presenca generalizada de coisas ou objetos em torno de pessoas que, atraves de um esquema de enderecamento unico, sao capazes de interagir uns com os outros e cooperar com seus vizinhos para alcancar objetivos comuns.
+
+*Utiliza uma versao especifica/adaptada do IPv6 (versao comprimida)(a 1.a que surgiu foi a 6LowPan)
+
+Esse crescimento de objetos conectados a internet deve-se principalmente as diferentes areas de aplicacoes possiveis da IoT: transporte, medicina, segurança...
+
+As principais tecnologias q dao suporte a IoT:
++RFID  - Identificacao por radio-frequencia
++Redes de Sensores SemFio - RSSF
++Atuadores
+
+Internet das Pessoas
+
+Pessoas+dispositivos+conexao de internet
+Cada vez mais dispositivos por pessoa
+
+Internet das Coisas
+
+Coisas + dispositivos + conexao da internet
+Cada vez mais dispositivos conectados
+
+Segundo a Beecham Research, a IoT deverá se tornar transversal a todas as áreas da sociedade:
+- Construcao e Edificios Inteligente
+- Energia
+- Consumo Domestico
+- Saude
+- Industria
+- Transportes
+- Comercio
+- Seguranca
+- TICs
+
+Segundo a Cisco teremos cerca de 25 milhoes em 2015 e 50 milhoes e 2020 de equipamentos ligados a internet.
+
+-Mercado Emergente;
+-Novas oportunidades / novos desafios;
+-Aumenta ainda mais a cultura do faça você mesmo;
+REFERENCIA DE GRUPO >> https://www.fablabjoinville.com.br/
+-É ainda mais divertido que a internet das pessoas
+-Você vai precisar de conhecimentos de eletrônica e embarcados!!!
+
+Redes de Sensores sem fio RSSF = N*(Sensores + Computador + Comunicação)
+
+>Pequena dimensão;
+>Restritos em poder de computação e energia;
+>Específicos, em função do sensoriamento e comunicação necessários;
+
+Redes sem Fio
+
+Tecnologia mais usada - Wifi - 802.11
+Permite formar redes do tipo WLAN - Rede sem fio local
+802.11 - IETF - grupo que desenvolve padrões de tecnologia de rede (802, p.e.)
+
+SLIDE2
+
+INFRAESTRUTURA DE REDE - Estacao Base - Hospedeiros (handoff) - Enlace
+
+SLIDE3 - Enlace sem fio
+
+Conexões IEEE 802.15.4 >> LLN (Low Power and Lossy Networks)
+
+Modo ad hoc >> Não ha estacoes-base. Os nós podem transmitir somente para outros nós dentro do alcance do enlace
+Eles se organizam numa rede: roteiam entre eles próprios
+
+Rede em malha >> rede mesh
+
+SLIDE 4 - Taxonomia das redes sem fio
+
+802.15.1 >> Bluetooth
+
+MANETS >> Nós executam tarefas distintas
+VANETS...
+
+Protocolo COAP
+
+*********************************************************************************
+Computação Natural Aula 12.08.2020
+
+2 artigos da Introdução LER!!!
+ARTIGO PRA LEITURA TBM >> The Many facets of Natural Computing (Lila Kari) >> deixar uma apresentacao pronta.
+Leitura complementar >> Clever Algorithms: nature-inspired Programming Recipes (Github)
+
+Livros de Referência >> SLIDE 1
+
+Biomímica - inspiração biológica para criação de algoritmos inteligentes
+
+SLIDE 2
+
+Toda vez que eu preciso inventar algo, eu me pergunto, 'Como a natureza resolveria isto?'
+
+Projetos inspirados na natureza
+
+SLIDE 3
+
+Revista >> zqjournal.org
+
+Biomimica > CN
+
+Computação Natural:
+- Simulacao Biologica
+- Bio-computacao
++ Computacao inspirada na biologia >> Inteligência Computacional
+
+Membrane Computing
+
+Soft computing >> hibridos
+
+Inteligência Computacional >> área MULTIDISCIPLINAR
+
+Compreender e ter propriedade nas ferramentas que se utilizam, saber o que está fazendo 
+e como é o comportamento e as propriedades destas ferramentas. (redes neurais, p.e.)
+
+Limitações da Computação Natural:
+
+- Sistemas Biologicos estabelecem compromissos entre diferentes objetivos
+- Alguns mecanismos nao sao completamnte compreendidos
+- A gente nao entende a completude dos sistemas
+- Problemas bem definidos podem ser resolvidos por metodos mais eficientes
+- Biologia as vezes falha. Video das formigas.
+
+As ferramentas/algoritmos biologicamente inspirados são simplificações absurdas.
+
+Plausibilidade biológica.
+
+GPU x TPU - ver diferenca de hardware
+
+Inteligência Universal/Coletiva em substituição ao GOFAI?
 
