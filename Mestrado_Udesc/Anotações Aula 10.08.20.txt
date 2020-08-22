@@ -226,3 +226,133 @@ GPU x TPU - ver diferenca de hardware
 
 Inteligência Universal/Coletiva em substituição ao GOFAI?
 
+*********************************************************************************
+IoT Aula 19.08.2020
+
+Slides
+
++ Saltos Redes Sem fio
+
++ Tecnologias de Suporte para IoT
+
++ Redes de Sensores sem Fio - RSSF
+são básicos para o monitoramento
+conjunto de sensores para conseguir monitorar alguma coisa
+
+MANETS = nós executam tarefas distinas
+
+RSSF = executam funcoes colaborativas...
+
++ RSSF - Principais caracteristicas
++ RSSF - Principais desafios
+
+Extra-Chat >> LLN Rede de sensor sem fio (Low power amd lossy networks)
+802.15.4
+
++ Sensores
++ Atuadores
+Projeto Vitor - Sensor para monitorar o fluxo de oxigenio de bombas respiratorias
+Video e Artigo
+
+
+ARTIGO PARA PREPARAR UMA APRESENTAÇÃO >> Internet of Things Communication Protocols: Review
+
+26/8 - apresentacao com slides
+tempo - 8min.
+
+MAIS SLIDES:
+
++ Principais Tecnologias
+-RFID
+
+VER VIDEO DE CONFIGURACAO DAS TAGS/CARDS
+
+Indetify? Radio Frequency
+
+RESPONDER A LISTA DE EXERCICIOS 1
+
+5) CITE 4 CARACTERISTICAS DAS REDES DE SENSORES
+Multiplos Saltos, baixa taxa de transmissao de dados (velocidade), 
+
+6) Tag ativa tem bateria, ela mesmo emite o sinal
+Tag passiva espera ser acionada, não possui bateria
+
+SLIDES - Internet das Coisas: IPV6 e 6LowPan
+IPv4 - 32 bits = 2^32 = 4.294.967.296
+IPv6 - 128 bits = 2^128 = 340.282.366.920.938.463.463.374.607.431.768.211.456
+
+NAT - Network Address Translation - supre a limitaçao do IPv4
+Tabela NAT de endereços
+
+Representacao do endereco IPv6
+
+EXERCICIO DE TRANSFORMACAO DE IPS
+
+1- ABREVIAR
+
+FB3B:00A4:0000:0000:0000:0012:0332:DCFF
+
+R: FB3B:A4::12:332:DCFF
+
+2000:0000:0000:0000:0000:ABCD:0000:0025
+
+R: 2000::ABCD:0:25
+
+FE95:FC6C:C540:0000:0000:0000:0000:9800
+
+R: FE95:FC6C:C540::9800
+
+2 - ESCREVA O PIV4 EM IPV6
+
+187.23.20.12
+
+R: ::187.23.20.12
+
+Site www.nic.br
+
+SLIDES
+
+Comparativo entre Cabecalho IPv4 e IPv6
+Unicast e Multicast
+Broadcast e Anycast
+
+WPAN - IEEE 802.15 para IoT
+802.15.1 WPAN/BLUETOOTH
+802.15.4 LOW RATE WPAN
+802.15.5 MESH
+802.15.6 BODY AREA NETWORKS
+
+802.15.4 - caracteristicas
+
+VER O QUE É MTU - MAXIMUM TRANSMISSION UNIT
+
+*********************************************************************************
+Computação Natural Aula 19.08.2020
+
+
+Seminário - Apresentação do trabalho do Vitor Gauer Pereira
+
+Entreguei posterior ao fechamento do link no moodle...
+
+Links e artigos da computação quantica
+
+TAREFA >> MOODLE >> LEITURA COMPLEMENTAR
+-Qual vertente da CN? OpenWorm
+-Slime Mold Behavior
+-4H Sardine runJ 
+
+varios links salvos nos favoritos
+
+#Video - Redes Neurais e Machine Learning - Nerdologia
+
+-Neurocomputação
+
+-Teorema da Aproximacao Universal
+-Back Propagation - aprendendo com os erros
+
+-Redes Neurais Convolucionais: camadas especializadas para identificarem padrões mais importantes
+-Redes Profundas? com dezentas ou até centenas de camadas e convoluções
+
+LIVRO RECOMENDADO 'O Algoritmo Mestre (P. Domingos)' e 'How Smart Machines Think (Gerrish)'
+
+*********************************************************************************
