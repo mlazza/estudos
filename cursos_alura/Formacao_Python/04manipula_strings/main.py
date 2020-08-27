@@ -36,13 +36,18 @@ else:
 
 from ExtratorArgumentosUrl import ExtratorArgumentosUrl
 
-url = "moedaorigem=real&moedadestino=dolar"
 #url = None
 #url = ''
+url = "https://www.bytebank.com.br/cambio?moedaorigem=real&moedadestino=dolar"
 argumentosUrl = ExtratorArgumentosUrl(url)
+print(argumentosUrl) #instanciado o objeto
+
 #print(argumento)
 #print(ExtratorArgumentosUrl.urlEhValida(url))
 
-moedaOrigem, moedaDestino = argumentosUrl.extraiArgumentos()
-
+moedaOrigem, moedaDestino = argumentosUrl.extraiArgumentos() #extrai a partir do metodo apenas os indices dos nomes das moedas
 print(moedaDestino, moedaOrigem)
+
+#index = url.find('moedadestino') + len('moedadestino') + 1
+#substring = url[index:]
+#print(substring)
