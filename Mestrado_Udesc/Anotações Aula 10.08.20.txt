@@ -337,7 +337,8 @@ Entreguei posterior ao fechamento do link no moodle...
 Links e artigos da computação quantica
 
 TAREFA >> MOODLE >> LEITURA COMPLEMENTAR
--Qual vertente da CN? OpenWorm
+-Qual vertente da CN?
+-OpenWorm
 -Slime Mold Behavior
 -4H Sardine runJ 
 
@@ -356,3 +357,124 @@ varios links salvos nos favoritos
 LIVRO RECOMENDADO 'O Algoritmo Mestre (P. Domingos)' e 'How Smart Machines Think (Gerrish)'
 
 *********************************************************************************
+COMPUTAÇÃO NATURAL - TAREFA 23.08.2020 
+
+TAREFA >> MOODLE >> LEITURA COMPLEMENTAR
+-Qual vertente da CN? OpenWorm
+-Slime Mold Behavior
+-4H Sardine runJ 
+
+*********************************************************************************
+Computação Natural Aula 24.08.2020
+
+3 leituras complementares:
+
+- Slime (Biocomputacao - hardware não convencional)
+- Worm (simulacao biologica)
+- Corrida das Sardinhas >> comportamento coletivo com as outras espécies
+
+>> Pesquisa de doutorado do professor >> ECO >> criacao de um ecossistema computacional que utiliza diferentes algoritmos
+de computacao natural
+
+PESQUISAR
+o que é NoFreeLuch dentro do contexto de otimização, o que seria um problema? o que seria um algoritmo?
+
+*********************************************************************************
+IoT Aula 26.08.2020
+
+Apresentação do artigo 'Internet of Things (IoT) Communication Protocols: Review'
+
+802.15.4 e 802.15.1 - tecnologias para uma rede de 'dispositivos de baixa capacidade'
+
+Internet das Coisas - 802.15
+
+802.15.4 slide
+
+Existe uma adaptacao da arquitetura de redes da internet normal para
+a Internet das Coisas. P. e. >> 6LoWPAN
+
+LLN Low Power and Lossy Networks VER
+
+HC1 - comprime o tam do IP
+HC2 - comprime o UDP / reduz as portas p/ 16 valores (4 bits)
+Criados para funcionar dentro de rede local (LAN)
+
+Lista de Exercicios 1
+
+2) Verdadeiro  
+
+3) Verdadeiro
+
+4) Qual o propósito do protocolo 6Lowpan no contexto de IoT? Para qual tecnologia de comunicação em
+rede este protocolo foi implementado?
+Ser uma versao comprimida do IPv6 para permitir que a transmissao de dados seja maior
+Para a tecnologia 802.15.4
+
+
+5) Cite 4 características das redes de sensores.
+
+
+6) Diferencie Tag passiva de Tag Ativa.
+
+7) Cite riscos associados ao uso de RFID.
+Mecanismos desegurancao RC4
+
+8) Cite as limitações do uso do IPV6 nas aplicações de IoT.
+Muito pesado para dispositivos de baixa potencia, e fica com pouquissima taxa de transmissao
+
+COAP - Constrained Application Protocol
+
+Da camada de aplicação
+
+Existem protocolos mais direcionados para IoT dentro das camadas de comunicação
+HTTP ~= CoAP (ver slide)
+
+CoAP - baseado no REST
+
+Maior parte da aula e dos slides são deste protocolo CoAP
+
+OUTRO ARTIGO PARA DIA 09.09
+
+PROPOSTA DO PROJETO PARA DIA 02.09
+
+*********************************************************************************
+Computação Natural Aula 26.08.2020
+
+Texto 'A History of Metaheuristics' - Fazer apresentacao para a proxima aula de quarta-feira(dia 02.09)
+
+Para segunda será debatido sobre NFL.
+*********************************************************************************
+Computação Natural Aula 31.08.2020
+
+No free lunch
+
+Problemas Multimodais - maioria dos problemas complexos
+
+*********************************************************************************
+IoT Aula 02.09.2020
+
+AVALIACAO >>> 04/NOVEMBRO noo horario de aula, com consulta
+
+MQTT - Message Queue Telemetry Transport
+
+Publishers e Subscribers
+
+Eclipse tem um MQTT >> Mosquitto
+
+Formas de comunicação mais simples, com economia de recursos
+
+QoS 0, 1 e 2
+
+Diferencas entre COAP e MQTT *******
+(rever no video da aula, no slide References)
+
+RPL 
+*********************************************************************************
+Computação Natural Aula 02.09.2020
+
+Minha apresentacao - History of Metaheuristics
+
+Pesquisar Glover - autor do artigo - Research Gate
+
+Pensar em problemas >> usando algum dos métodos que a gente está vendo
+
