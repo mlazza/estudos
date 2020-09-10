@@ -477,4 +477,29 @@ Minha apresentacao - History of Metaheuristics
 Pesquisar Glover - autor do artigo - Research Gate
 
 Pensar em problemas >> usando algum dos métodos que a gente está vendo
+*********************************************************************************
+IoT Aula 09.09.2020
+
+Apresentacao do artigo 'A low-power CoAP for Contiki'
+
+2 artigos para aula do dia 23.09 VER:
+
+a)Bluetooth Low Energy in Dense IoT EnvironmentsArquivo
+b)Internet of Things (IoT): Research, Simulators, and TestbedsArquivo
+
+DESENVOLVER PROJETO E INICIAR ARTIGO
+
+Slides sobre controladores e Fog
+Cidades Inteligentes - Santander
+*********************************************************************************
+Computação Natural Aula 09.09.2020
+
+Slides - 
++Principios de Otimização-Conceitos 
++Exercícios para codificação de soluçõesArquivo
+
+TAREFA 1: (SEGUNDA) Escolher um problema E CRIAR O ALGORITMO PARA UMA POSSIVEL SOLUCAO
+
+TAREFA 2: (QUARTA) ARTIGO - APRESENTACAO - Metaheuristics - the metaphor exposed
+
 
