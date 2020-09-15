@@ -502,4 +502,27 @@ TAREFA 1: (SEGUNDA) Escolher um problema E CRIAR O ALGORITMO PARA UMA POSSIVEL S
 
 TAREFA 2: (QUARTA) ARTIGO - APRESENTACAO - Metaheuristics - the metaphor exposed
 
+*********************************************************************************
+Computação Natural Aula 14.09.2020
 
+PROBLEMA DA MOCHILA
+
+Variavel principal = item que vai ou nao na mochila
+O conjunto de itens que varia
+O peso, o limite de peso é constante
+
+O dominio da variavel (solucoes) é discreto e binario
+
+A representação da solução é um VETOR BINARIO
+
+
+PROBLEMA DO CAIXEIRO VIAJANTE
+
+Pode ser um vetor das rotas pelas cidades = [........]
+
+Permutacao de inteiros, onde cada inteiro representa uma cidade
+
+QUARTA - ASSINCRONA
+
+LER O SIMMULATED ANNEALING E APRESENTACAO PARA 
+SEGUNDA
