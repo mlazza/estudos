@@ -534,3 +534,14 @@ Apresentacao texto Metaheuristics - the metaphor exposed
 Felipe Welter
 
 Repositorio geral de artigos na area, com artigos duvidosos e artigos cientificos
+
+*********************************************************************************
+Computação Natural Aula 23.09.2020
+
+Aula Assincrona
+
+Verificar Solucao Knapsack Problem - Mochila com S.A.
+
+"Olá pessoal. Hj teremos momento assíncrono onde a tarefa e vcs verificarem a aplicação 
+do algoritmo Simulated Annealing ao problema da mochila. Atentem para a representação da solução 
+e a função objetivo. Procurem referências relacionadas a 0-1 knapsack problem."
