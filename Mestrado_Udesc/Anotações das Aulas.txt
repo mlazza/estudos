@@ -545,3 +545,22 @@ Verificar Solucao Knapsack Problem - Mochila com S.A.
 "Olá pessoal. Hj teremos momento assíncrono onde a tarefa e vcs verificarem a aplicação 
 do algoritmo Simulated Annealing ao problema da mochila. Atentem para a representação da solução 
 e a função objetivo. Procurem referências relacionadas a 0-1 knapsack problem."
+
+*********************************************************************************
+Computação Natural Aula 28.09.2020
+
+Simulated Annealing
+
+Exploration = busca global
+Exploitation = busca local
+
+*********************************************************************************
+Computação Natural Aula 30.09.2020
+
+Genética Elementar e Computação Evolucionária
+
+3 artigos/leituras no moodle
+
+Introduction to Evolutionary Computing
+and
+Genetic Algorithms (Goldberg)
