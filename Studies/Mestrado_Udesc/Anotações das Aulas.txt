@@ -564,3 +564,12 @@ Genética Elementar e Computação Evolucionária
 Introduction to Evolutionary Computing
 and
 Genetic Algorithms (Goldberg)
+
+*********************************************************************************
+Computação Natural Aula 19/10/2020
+
+Sobre os problemas do projeto
+
+Arquivo do moodle - com alguns problemas
+
+Aprendizado de Máquina
