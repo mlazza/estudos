@@ -1,0 +1,6 @@
+TEXTO
+
+Em Python temos um repertório completo para o programador criar sistemas, web applications, API's, fazer análise de dados e rodar algoritmos de IA.
+Para isso, ele conta com um série de bibliotecas de Python que satisfazem inúmeras rotinas já prontas para facilitar a vida do programador do Python.
+
+FIM.
