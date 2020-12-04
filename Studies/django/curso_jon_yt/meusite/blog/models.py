@@ -2,6 +2,12 @@ from django.db import models
 from django.utils import timezone
 from django.contrib.auth.models import User
 
+
+class PublishedManager(models.Manager):
+    def get_queryset(self):
+        return super(PublishedManager, self).get_queryset() \
+                                            .filter(status='published')
+
 class Post(models.Model):
     STATUS = (
         ('rascunho', 'Rascunho'),
@@ -10,7 +16,7 @@ class Post(models.Model):
     )
 
     title = models.CharField(max_length=250)
-    slug  = models.SlugField(max_length=250)
+    slug = models.SlugField(max_length=250)
     author = models.ForeignKey(User,
                                on_delete=models.CASCADE)
     content = models.TextField()
@@ -20,6 +26,9 @@ class Post(models.Model):
     status = models.CharField(max_length=10,
                               choices=STATUS,
                               default='rascunho')
+
+    objects = models.Manager()
+    published_m = PublishedManager()
 
     class Meta:
         ordering = ('-published',)
