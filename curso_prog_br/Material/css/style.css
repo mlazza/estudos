@@ -1,0 +1,26 @@
+#principal{
+    color:red;
+   /* background-color:darkgray;*/
+    background-image:url(../img/fundo1.jpeg)
+}
+
+#titulo{
+    color:rgb(0,100,200);
+}
+
+.texto_verde{
+    color:#FFFF00;
+}
+
+.container{
+    background-color:darkred;
+    width:100pt;
+    height:100pt;
+    font-size:20px
+}
+
+.internal{
+    background-color:blueviolet;
+    width:10px;
+    height:10px;
+}
