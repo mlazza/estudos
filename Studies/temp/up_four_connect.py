@@ -111,7 +111,7 @@ while not gameover and not full_board:
                 col = math.floor(posx / SLOT)
                 if valid(board, col):
                     drop(board, col, 1)
-                if win(board, 1):
+                elif win(board, 1):
                     print("player 1 won")
                     gameover = True
                 turn = False # pass the turn
@@ -121,7 +121,7 @@ while not gameover and not full_board:
                 col = math.floor(posx / SLOT)
                 if valid(board, col):
                     drop(board, col, 2)
-                if win(board, 2):
+                elif win(board, 2):
                     print("player 2 won")
                     gameover = True
                 turn = True # pass the turn
