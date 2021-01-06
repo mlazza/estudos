@@ -1,0 +1,12 @@
+/*.teste{
+    width: 400px;
+    height: 200px;
+}
+*/
+#cartao{
+
+    background-image: url(../assets/backgorund.png);
+
+    width: 400px;
+    height: 200px;      
+}
