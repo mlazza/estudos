@@ -1,0 +1,30 @@
+.links{
+    text-decoration: none;
+    color: #bc2035;
+    cursor: crosshair;
+    /*background: #bc2035;*/
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border: 2px solid #bc2035;
+}
+  
+ /* obs: o link ja vem com alguns estados, quando clicado e nao clicado:
+  */
+
+.links:visited{
+    color: red;
+}
+
+/*Quando com o mouse em cima do link:*/
+.links:hover{
+  background: #bc2035;
+  color: white;
+}
+
+/*Quando aperta o link:*/
+.links:active{
+  background: blue;
+  color: white;
+}
