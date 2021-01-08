@@ -286,7 +286,7 @@ p
 </p>
 
 p
-  Aqui eu tenho o inicio de um paragrafo <img src="./assets/imagem.jpg> e o fim de um paragrafo
+  Aqui eu tenho o inicio de um paragrafo <img src="./assets/imagem.jpg" style="width: 400px; display: none"> e o fim de um paragrafo
 -p
 </body>
 
@@ -297,3 +297,67 @@ p
 -none
 -inline (span)
 -inline-block (tem as carac do display inline mas permite alterar altura/largura)
+
+OVERFLOW
+
+index:
+style type="text/css">
+body{
+  font-size: 1.2rem;
+}
+
+#container{
+  color: yellow;
+  background-color: blue;
+  width: 300px;
+  height: 100px;
+  
+  overflow: visible;
+  *: hidden;
+  *: scroll;
+  *: auto;
+  *-y: scroll;
+  *-x: hidden;
+}
+img{
+  width: 400px;
+}
+
+<body>
+  <div id="container">
+    Lorem ipsum.......
+    <img src="#">
+  </div>
+
+</body>
+
+ALINHAMENTO HORIZONTAL
+
+index:
+
+<style type...
+
+#quadrado{
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  
+  #margin-left: 500px;
+  margin: auto; /* efeito centralizador do elemento*/
+  or
+  margin-left:auto; #mantendo elemento a direita
+}
+
+#com imagem é diferente
+
+img{
+  display: block;
+  margin: auto;
+
+}
+<body>
+  <div id="square">
+  </div>
+
+
+</body>
