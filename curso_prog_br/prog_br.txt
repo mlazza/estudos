@@ -202,3 +202,98 @@ Dicas:
 O tamanho utilizado foi 400px x 200px
 Utilize o conceito de listas para criar os links para as redes sociais
 A resolução do desafio está na aula seguinte, mas é importante que você tente ao máximo fazer sozinho antes de assistir a nossa solução.
+
+DESAFIO RESOLVIDO:
+
+assets/
+-imgs
+css/
+-style.css
+index
+
+index.html:
+title>Desafio CSS
+body>
+  <div class="card">
+    h1 - Igor Oliveira - h1
+    <ul>
+      ahref - li class - /progbr -li -a
+      ..
+      ..
+      
+    </ul>
+  </div>
+
+<body
+
+css:
+body{
+  background-color: black;
+}
+
+.card{
+  width: 400px;
+  height: 200px;
+  box-sizing: border-box;
+  padding: 1px 20px;
+  background: url('../assets/background.png') no repeat;
+  background-size: cover;
+  margin: auto;
+  margin-top: 10%;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.instagram{
+  list-style-image: url('../assets/insta.png')
+}
+.twitter{
+}
+.youtube{
+}
+
+MODULO 4 - CSS INTERMEDIARIO
+
+DISPLAY
+
+#responsavel por organizar como cada elemento
+deve ser mostrado na tela
+
+index:
+
+css-interno
+
+<body>
+div
+ div Esta é uma DIV normal -div
+ div E aqui a historia <div style="background-color:red; width:500px;height: 50px"> Div de dentro</div> continua -div
+-div
+
+div
+  <p style="margin:0"> Este é um paragro normal </p>
+  <p style="margin:0"> E aqui a historia continua </p>
+-div
+
+p
+  Aqui eu tenho o inicio de um paragrafo <span style="background-color:green; width: 500px; display:inline-block">  um SPAN no meio</span> E o fim do paragrafo
+-p
+
+<p style="background-color:blue">
+  Aqui eu tenho o inicio de um paragrafo <div style="background-color:red"> uma div no meio </div> E o fim de um paragrafo
+</p>
+
+p
+  Aqui eu tenho o inicio de um paragrafo <img src="./assets/imagem.jpg> e o fim de um paragrafo
+-p
+</body>
+
+
+
+#varios tipos de display:
+-block (p, div) *consigo alterar altura, largura
+-none
+-inline (span)
+-inline-block (tem as carac do display inline mas permite alterar altura/largura)

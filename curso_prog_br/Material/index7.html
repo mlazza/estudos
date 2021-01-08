@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Display</title>
+
+    <style type="text/css">
+        body{
+            font-size: 1.2rem;
+        }
+    
+    </style>
+
+</head>
+<body>
+
+<div>
+    <div> Esta é uma DIV normal </div>
+    <div> E aqui a historia <div style="background-color:red; width:500px;height: 50px"> Div de dentro</div> continua </div>
+</div>
+
+<div>
+  <p style="margin:0"> Este é um paragro normal </p>
+  <p style="margin:0"> E aqui a historia continua </p>
+</div>
+
+<p>
+  Aqui eu tenho o inicio de um paragrafo <span style="background-color:green; width: 500px; display:inline-block">  um SPAN no meio</span> E o fim do paragrafo
+</p>
+
+<p style="background-color:blue">
+  Aqui eu tenho o inicio de um paragrafo <div style="background-color:red"> uma div no meio </div> E o fim de um paragrafo
+</p>
+
+<p>
+  Aqui eu tenho o inicio de um paragrafo <img src="./img/pc.jpg" style="width: 400px;"> e o fim de um paragrafo
+</p>
+</body>
+</html>
+
+<!-- EXISTEM VARIOS TIPOS DE DISPLAY.
+none - esconde o elemento como se não existisse mais
+block - p, div, se consegue alterar a altura/largura
+inline - span, é o padrão, não se consegue alterar como o block
+inline-block - ganha as caracteristicas de block e inline
+-->
