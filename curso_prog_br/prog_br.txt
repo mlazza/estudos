@@ -361,3 +361,261 @@ img{
 
 
 </body>
+
+POSITION
+
+index:
+
+<div class="static quadrado bg-blue">
+
+</div>
+
+<div id="relative quadrado bg-red">
+
+</div>
+
+
+#para o ultimo position:
+
+<div class='bg-blue ret'>
+  <div class='quadrado bg-red'></div>
+  <div class='quadrado bg-green sticky'></div>
+  <div class='quadrado bg-red'></div>
+  <div class='quadrado bg-red'></div>
+  <div class='quadrado bg-red'></div>
+  <div class='quadrado bg-red'></div>
+  
+<style type="text/css">
+
+ .static{
+  position: static;
+ }
+ 
+ .relative{
+  position: relative; #permite usar top, left, right, bottom.
+  top: 15px;
+  left: -40px #desloca o quad red
+ 
+ }
+ 
+ .fixed{
+  position: fixed; #em relacao a janela
+  right: 20px;
+  bottom: 20px;
+ 
+ }
+ 
+ .absolute{
+  position: absolute; #parecido static, mas ele pode receber bot, left, right e top; ele nao fica em relacao ao elem. pai, como o relative, o elemento pai nao pode ser static, tem q ser relative
+ }
+ 
+ 
+ 
+
+ .quadrado{
+   width: 100px;
+   height: 100px;
+   display: inline-block;
+    
+   
+  }
+  
+  .retangulo{
+   width: 100px;
+   height: 500px;
+   margin-top: 10px;
+   overflow:auto;
+  
+  }
+  
+  
+  .bg-red{
+    background-color: red;
+  }
+  
+  .bg-blue{
+    background-color: blue;
+  }
+  
+ 
+ .sticky{
+  position: sticky;
+  top: 0; #nao sai da janela no correr do scroll
+ }
+</style>
+
+
+FLOAT
+
+index:
+
+<style>
+
+  ul{
+    
+    list-style: none; 
+  }
+  
+  li{
+    float: left; or right
+    padding: 10px;
+    background-color: #a3b5c7;
+    margin: 5px;
+  }
+
+
+  p{
+    #display: inline;
+    #deixando o texto ao lago da img
+    
+  } #1
+  
+  p{
+    clear:left; (right, or both, none(default)
+  } #2
+
+ #i1{
+   float: left;
+ }
+ 
+ #i2{
+   float: right;
+ }
+
+ img{
+   float: left; #or right;
+ } #substituida por i1 e i2
+
+div{
+  border: 1px solid black;
+  padding: 10px; #3
+  background-color: #b2c3a6; #4
+  overflow: auto; #2
+  
+}
+
+<style>
+
+
+
+<body>
+
+
+  #2<div>
+	  <img id="i1" src="img.jpg">
+	  <img id="i2" src="img2.jpg>#2
+	  <img id="i1" src="img.jpg">#3
+	  <img id="i2" src="img2.jpg>#3
+	  <p>
+	  	Texto qualquer
+	  	Texto qualquer
+	  	Texto qualquer
+	  	Texto qualquer
+	  	Texto qualquer
+	  	Texto qualquer
+	  	Texto qualquer
+	  	Texto qualquer
+	  	Texto qualquer
+	  	Texto qualquer
+	  	Texto qualquer
+	  	Texto qualquer
+	  	Texto qualquer...
+	  	v
+	  
+	  </p>
+	  
+	#2 <ul>
+	  <li>Home</li>
+	  <li>Cursos</li>
+	  <li>Contato</li>
+	
+	</ul>
+	</div>	  
+
+
+</body>
+
+ALINHAMENTO VERTICAL
+
+index:
+
+STYLE
+
+.card{
+  position: relative; #para o absolute dar certo
+  float: left;
+  width: 400px;
+  height: 200px;
+  border: 2px solid green;
+  text-align: center;
+  
+}
+
+.card2{
+  clear: left;
+  float: left; #nao da pra usar neste caso inline-block
+  border: 2px solid green;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+
+}
+
+
+
+.c1{
+  background-color: red;
+  line-height: 200px; #uma maneira
+ 
+}
+
+.c2{
+  color: white;
+  position: absolute;
+  top: 50%;
+  background-color: blue;
+  left: 50%;
+  
+  
+  transform: translate(-50%, -50%); #alinhando os textos dos dois cards, X e Y
+  
+  ### TIRA AS CORES PRA TESTAR
+
+}
+
+
+BODY
+
+<div class="card">
+
+  <div class="c1">
+  
+ 	 Igor Oliveira
+  </div>
+</div>
+
+<div class="card">
+
+  <div class="c2">
+  
+ 	 Igor Oliveira
+  </div>
+</div>
+
+<div class="card2"> #3
+
+  <div class="c3">
+  
+ 	 Igor Oliveira
+  </div>
+</div>
+
+
+
+
+
+
+
+
