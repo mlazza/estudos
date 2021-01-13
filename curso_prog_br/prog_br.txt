@@ -859,13 +859,122 @@ BODY
 
 /BODY
 
+SELECT
+
+index:
+
+BODY
+
+  <form method="GET" action="">
+    
+    <select name="estado" size="4" multiple (#para selecao multipla)>
+      <option value="RJ">Rio de Janeiro</option>
+      <option value="SP" selected>São Paulo</option>
+      <option value="RJ">Rio de Janeiro</option>
+      <option value="SP" selected>São Paulo</option>
+      <option value="RJ">Rio de Janeiro</option>
+      <option value="SP" selected>São Paulo</option>
+    
+    </select>
+    
+    <input type="submit">
+  
+  </form>
 
 
+/BODY
 
 
+TEXT AREA
+
+index
+
+BODY
+
+  <form method="GET" action="">
+    <input type="text" name="assunto"><br>
+    
+    <textarea name="mensagem"></textarea>
+  
+  </form>
 
 
+/BODY
 
+
+HTML 5
+
+# site caniuse para verificar quais tags e comandos
+sao suportados pelos diferentes browsers
+
+INPUT HTML 5
+
+BODY
+
+  <form method="GET action="">
+  
+    <input type="color" name="cor>
+    #Safari nao comportou este input color
+    <br>
+    <input type="date" name="data" max="2021-12-31">
+    <input type="datetime-local" name="data" max="2021-12-31">
+    
+    <br>
+    
+    <input type="file" name="arquivo">
+    # no tipo File tem que ser method=POST
+    
+    <input type="number" name="numerico" min="5"    	  max="10">
+   
+  
+    <br>
+    
+    <input type="range" min="5" max="10" name="intervalo" value="6">
+  
+    <input type="tel" name="telefone">
+    
+    <input type="email" name="email">
+    
+  
+  
+  
+   <input type="submit">
+  </form>
+
+/BODY
+
+
+TAGS SEMANTICAS
+
+BODY
+
+<header>
+
+<nav>
+  <ul class="menu"></ul>
+</nav>
+
+
+</header>
+
+<div>
+</div>
+ou
+<main>
+#so pode usar uma vez na pagina
+
+  <section> </section>
+  
+  <article> </article>
+  
+</main>
+
+<footer>
+
+</footer>
+
+
+/BODY
 
 
 
