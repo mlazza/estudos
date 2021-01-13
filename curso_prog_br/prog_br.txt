@@ -796,6 +796,74 @@ div class="header"
   -ul
 -div
 
+MODULO 5 - HTML INTERMEDIARIO
+
+INTRODUCAO
+
+FORMULARIO 1
+
+#contato entre front e backend
+
+FORMULARIO 2
+
+index:
+
+BODY
+
+  <form method="GET" action="/cadastro">
+  /*method=metodo action=endereco*/  
+  /* GET envia pelo endereco/link*/
+  /* POST nao envia estes dados (quando precisa sigilo*/
+  /* o youtube com aquele codigo recebe um GET*/
+  	<input type="text" name="email">
+  	<input type="text" name="nome">
+  	<input type="submit">
+  </form>
+
+/BODY
+
+TIPOS DE INPUT
+
+index
+
+index:
+
+BODY
+
+  <form method="POST" action="/cadastro">
+ 	/* para envio de senhas usar POST */
+   	<input type="text" name="email">
+  	<input type="password" name="senha"><br>
+  	<input type="submit"><br>
+  
+  	
+  
+  </form>
+
+	<form method="GET" action="/cadastro">
+ 	/* para envio de senhas usar POST */
+   	<input type="text" name="email">
+  	<input type="password" name="senha"><br>
+  	<input type="checkbox" name="curso" value="op1">Curso React Native<br>
+  	<input type="checkbox" name="curso" value="op2">Curso React Js<br>
+  	
+  	
+  
+  	<input type="radio" name="gender" value="m" checked>Masc<br>
+  	<input type="radio" name="gender" value="f">Fem<br>
+  	/* no radio é importante ter o mesmo nome, pq daí apenas um pode ser selecionado*/
+  	
+  	<input type="reset" value="Limpar">
+  	<input type="submit" value="Enviar">
+  </form>
+
+/BODY
+
+
+
+
+
+
 
 
 
