@@ -4,15 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Position</title>
+
+    <style type="text/css">
+      .static{
+          position:static;
+      }
+
+      .relative{
+          position: relative; /* permite utilizar top, left, right, bottom;*/
+          top: 15px;
+          left: -40px;
+      }
+
+      .fixed{
+          position: fixed; /*em relacao a janela*/
+          right: 20px;
+          bottom: 20px;
+
+      }
+
+      .absolute{
+          position: absolute; /* parecido com static, mas pode receber bottom, left...; ele nao fica vinculado ao elem pai, como relative. O elemento pai nao pode ser static, tem q ser relative;*/
+
+      }
+
+      .quadrado{
+          width: 100px;
+          height: 100px;
+          display: inline-block;
+      }
+
+      .retangulo{
+          width: 100px;
+          height: 500px;
+          margin-top: 10px;
+          overflow: auto;
+
+      }
+
+      .bg-red{
+          background-color: red;
+      }
+
+      .bg-blue{
+          background-color: blue;
+      }
+
+      .sticky{
+          position: sticky;
+          top: 0; /* nao sai da janela no correr do scroll */
+      }
+    
+    
+    
+    </style>
 </head>
 <body>
     <div class="static quadrado bg-blue">
     </div>
     
-    <div id="relative quadrado bg-red">
+    <div id="relative quadrado bg-red relative">
     </div>
 
-    <!--<div class='bg-blue ret'>
+    <!--<div class='bg-blue retangulo'>
         <div class='quadrado bg-red'></div>
         <div class='quadrado bg-green sticky'></div>
         <div class='quadrado bg-red'></div>
