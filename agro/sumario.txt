@@ -1,0 +1,951 @@
+disciplinas
+
+1 SEMESTRE
+
+0110113 - Introducao a EA
+
+Objetivos:
+Proporcionar ao ingressante uma visão geral, mundial e do Brasil de agricultura, agronegócio e Engenharia Agronômica. Oferecer ao aluno informações a respeito de sua formação, perfil profissional, atribuições e mercado de trabalho. Permitindo o estabelecimento de uma agenda preliminar e um planejamento curricular de acordo com sua metas.
+Docente(s) Responsável(eis):
+1362820 - Mateus Mondin
+Programa Resumido:
+A universidade desde um contexto universal até o regional. Agronomia, Agricultura, Agronegócio e Desenvolvimento sustentável. Definição do perfil do engenheiro agrônomo, suas responsabilidades e direitos e campos de atuação. Evolução do perfil profissional. Atividades profissionais: pesquisa, ensino, produção; extensão e administração.
+Programa:
+1. O que é Engenharia Agronômica. 1.1. Agricultura e Agronomia. 1.2. Evolução e caracterização do perfil do Engenheiro Agrônomo. 1.3. Legislação e ética agronômica. 2. Principais campos de atividade do Engenheiro Agrônomo. 2.1. Produção biológica e tecnológica 2.2. Orientação técnica e extensão rural. 2.3. Pesquisa científica e divulgação. 2.4. Administração, economia e sociologia. 2.5. Ensino agrícola e agronômico. 3.Principais organizações relacionadas à atividade do Engenheiro Agrônomo. 4. A Universidade e a ESALQ 4.1. História da Universidade e suas funções. 4.2. História da Universidade de São Paulo e suas funções. 4.3. História da ESALQ e suas funções. 4.3.1. Filosofia dentro do contexto histórico. 4.3.2. Estrutura: passado, presente e futuro. 4.3.3. Organização funcional: administração, cursos, serviços à comunidade. 5. Análise do currículo de Engenharia Agronômica 5.1. O currículo mínimo. 5.2. Disciplinas essenciais e disciplinas optativas. 5.3. Áreas de concentração. 5.4. Organização do currículo escolar individual. 6. Vocação, profissão, aptidão. 7. Licenciatura, estágios, bolsas e intercâmbio internacional.
+Avaliação:
+Método:
+Trabalhos práticos e relatório de aulas e visitas.
+Critério:
+Relatórios de aulas e visitas - Peso 6 Trabalhos práticos - Peso 4 A nota final será calculada com base na média ponderada das notas dos trabalhos práticos e relatórios.
+Norma de Recuperação:
+Não haverá recuperação.
+Bibliografia:
+AEASP. Manual dos direitos e deveres do Engenheiro Agrônomo. . São Paulo  SP: Associação de Engenheiros Agrônomos do Estado de São Paulo. 2012.18p. 
+ALTIERI, M. A. Biotecnologia agrícola: mitos, riscos ambientais e alternativas. Porto Alegre, RS: EMATER-RS, 2002. 60 p. (Biblioteca Central 630.20724 A468b). 
+BATALHA, M. O. Recursos humanos e agronegócio: a evolução do perfil profissional. Jaboticabal, SP: Editora Novos Talentos, 2005. 320 p. (Biblioteca Central 338.13 R311). 
+BELLINGINI, R. Pequenas histórias de plantar e de colher. São Paulo, SP. 2012. 61p. 
+BORDENAVE, J. D. Extensão Rural: modelos e métodos. Rio de Janeiro, RJ: UFRRJ. 1995. 
+BORÉM, A. Glossário agronômico. Viçosa, MG: Universidade Federal de Viçosa, 2005. 117 p. (Biblioteca Central r630.3 B731g3) . 
+CASTRO, P. C. B. Ecofisiologia da produção agrícola. Piracicaba, SP: Associação Brasileira Pesquisa Potassa e do Fosfato, 1987. 249p. (Biblioteca Central 630.2745 C355e). 
+CAVALLET, V. J. A formação do engenheiro agrônomo em questão: a expectativa de um profissional que atende as demandas do século XXI. São Paulo, SP: USP, 1999. 133 p. Tese (Doutorado). (Faculdade de Educação da USP 378 C377f). 
+CREA IPR. Manual do profissional da engenharia, arquitetura e agronomia. Curitiba, PR: CREA-PR, 2005. 321p. Disponível em: 
+DA SILVA, C. C. O movimento e a trajetória estudantil da agronomia. Florianópolis, SC: UFSC, 1996. FAHL, J. I. et al. Instruções agrícolas para as principais culturas econômicas. Boletim 200. Campinas, SP: Instituto Agronômico. 1998. 
+FROEHLICH, J. M. O perfil do profissional em ciências agrárias na agricultura sustentável. Revista Educação Agrícola Superior. Brasília, SP: ABEAS, v.14, n.2, 1996. 
+KITAMURA, P. C.; IRIAS, L. J. O profissional de pesquisa e desenvolvimento rural para os novos tempos. Cadernos de Ciência e Tecnologia. Brasília, SP: Embrapa, v.19, n.1, p. 119-134, jan/abr. 2002. Disponível em: < http://webnotes.sct.embrapa.br/pdf/cct/v19/cc19n105.pdf> 
+MAZOYER, M.; ROUDART, L. História das agriculturas no mundo: do neolítico à crise contemporânea. São Paulo, SP: Editora UNESP Brasília, DF, NEAD, 2010. 568 p. Disponível em: < http://pt.scribd.com/adaomarin/d/60887022-Historia-das-agriculturas-no-mundo-Do-neolitico-a-crise-contemporanea > (Biblioteca Central 630.9 M476h) 
+OLIVEIRA JÚNIOR, P. H. B. Notas sobre a história da agricultura através do tempo. Rio de Janeiro, RJ, AS-PTA, 1989. 
+PRIMAVESI, A. Agricultura sustentável: manual do produtor rural; maior produtividade, maiores lucros, respeito à terra. São Paulo, SP: Nobel, 1992. 142 p. (Biblioteca Central 630.2745 P952a) 
+PRIMAVESI, A. Agroecologia : ecosfera, tecnosfera e agricultura. São Paulo: Nobel, 1997. 199 p. (Biblioteca Central 630.2745 P952a) 
+REIJNTJES, C. et al. Agricultura para o futuro: uma introdução a agricultura sustentável e de baixo uso de insumos externos. Rio de Janeiro, RJ: AS-PTA, 1994. 324p. (Biblioteca Central 630.2745 R361a). RODRIGUES, Cordel do Agro. São Paulo, SP: FGV Projetos. 2012, 28p. 
+ROMEIRO, A. R. Ciência e Tecnologia na agricultura: algumas lições da história. Cadernos de Difusão de Tecnologia. Brasília: 4 (1): 59-95, jan/abr 1987. Disponível em: 
+🚩️SANTO, B. R. DO E. OS CAMINHOS DA AGRICULTURA BRASILEIRA. SÃO PAULO, SP: EVOLUIR, 2001. 329 P. DISPONÍVEL EM: < HTTP://BOOKS.GOOGLE.COM.BR/BOOKS?ID=VMYOAQAAIAAJ&PG=PA215&LPG=PA215&DQ=RESENHA+%22CAMINHOS+DA+AGRICULTURA+BRASILEIRA%22&SOURCE=BL&OTS=TKUFE8NNOU&SIG=AW4HTLYUAAGXWSSYVSE4ZC-DOCQ&HL=PT-BR&SA=X&EI=PA4RT_TKFOG3TWF_N-DWDW&VED=0CDSQ6AEWBA#V=ONEPAGE&Q&F=FALSE > (BIBLIOTECA DA ECONOMIA 630.9 E77C). 
+SILVA, G. Agrônomos, ser ou não ser. Globo Rural. Rio de Janeiro, RJ: Globo, jun. 2001. (Biblioteca Central - Acervo de Revistas) . 
+SZMRECSÁNYI, T. Pequena história da agricultura no Brasil. São Paulo: Contexto, 1990. 102 p. (Biblioteca da Economia 630.981 S998p). USP/ESALQ. Manual do Ingressante ESALQ 2013. Piracicaba, SP: USP/ESALQ. 2013. 86p. 
+VIVAN, J. L. Agricultura & florestas: princípios de uma interação vital. Rio de Janeiro, RJ: AS-PTA, 1998. 207 p. (Biblioteca Central 630.2745 V855a).
+
+
+0110130 - Vida universitaria e cidadania
+
+Objetivos:
+A disciplina tem como objetivo a recepção e introdução do ingressante à vida universitária (etapa de Prevenção/Precaução) como subsídio às outras disciplinas que iniciam com a "etapa de adaptação". O aluno fará uso dos conhecimentos adquiridos como um instrumento auxiliar no planejamento de sua vida acadêmica durante todo o curso
+Docente(s) Responsável(eis):
+44020 - Evaristo Marzabal Neves
+1968008 - Roberto Arruda de Souza Lima
+Programa Resumido:
+Administração do tempo. - Estrutura da ESALQ e da USP. - Projeto Político Pedagógico. - Planejamento Estratégico Individual. - Ética.
+Programa:
+1. Organização do tempo na Universidade. 2. Moradia e mobilidade. 3. Estrutura e Organização da ESALQ e da USP. 4 Plano Diretor de Adequação Ambiental do Campus e Responsabilidade sócio-ambiental. 5. Administração da Informação e Comunicação. 6. Licenciatura em Ciências Agrárias e Grupos de extensão. 7. Iniciação Científica. 8. Projeto Político Pedagógico. 9. Planejamento Estratégico Individual: Oportunidades e ameaças, pontos fortes e pontos fracos. 10. Ética.
+Avaliação:
+Método:
+Exercícios e reflexões.
+Critério:
+Média Aritmética dos exercícios e reflexões.
+Norma de Recuperação:
+Não há recuperação nessa disciplina.
+Bibliografia:
+ACKOFF. R.L. Planejamento empresarial. Rio de Janeiro: Livros Técnicos e Científicos, 1978. 114p. AQUINO, I.S. Como escrever artigos científicos. São Paulo: Saraiva, 2010 . 126p. 
+ASHLEY, Patrícia Almeida (Coord.). Ética e responsabilidade social nos negócios. 2.ed. São Paulo: Saraiva, 2005. 
+ESALQ - Escola Superior de Agricultura Luiz de Queiroz. LAN 0132 Informação Científica. 3ª ed. Piracicaba: ESALQ - Divisão de Biblioteca, 2013,58p. 
+ESALQ - Escola Superior de Agricultura Luiz de Queiroz. Projeto Político Pedagógico do Curso de Engenharia Agronômica. Disponível em: 
+INSTITUTO ETHOS. Responsabilidade Social das empresas: a contribuição das universidades. Vol. 2. São Paulo, Editora Peirópolis, 2003. 
+INSTITUTO ETHOS. Responsabilidade Social das empresas: a contribuição das universidades. Vol.1. São Paulo, Editora Peirópolis, 2002. 
+MATIAS-PEREIRA, J. Manual de metodologia da esquisa científica.. 2ª ed. São Paulo: Atlas, 2010. 154p. NEVES, E.M. Administração do tempo: Leituras Introdutórias. Piracicaba, LES/ESALQ, 2005 (mimeo). VÁZQUEZ, A.S. Ética. Rio de Janeiro: Civilização Brasileira, 2004. 304p. Sites: www.esalq.usp.br www.usp.br
+
+
+0110212 - Zoologia aplicada as engenharias agronomica e florestal
+
+Objetivos:
+Oferecer aos alunos conhecimentos atualizados sobre Zoologia Aplicada à Engenharia Agronômica e Florestal, portanto enfatizando os grupos animais e as espécies mais importantes ocorrentes no ambiente rural.
+Docente(s) Responsável(eis):
+494774 - Alexandre Reis Percequillo
+1033541 - Italo Delalibera Junior
+57380 - Mario Massayuki Inomoto
+Programa Resumido:
+Caracterização dos filos Platyhelminthes, Nematoda, Annelida, Mollusca e Arthropoda, e sua importância em atividades agrícolas e florestais. Caracterização do filo Chordata, e sua importância em atividades agrícolas e florestais. Efeito das atividades agrícola e florestal sobre a biodiversidade de Chordata.
+Programa:
+Caracterização dos filos Platyhelminthes e Nematoda. Parasitas humanas e zoonoses veiculadas pela água e pela água de irrigação (esquistossomose, ascaridíase e cisticercose). Parasitoses humanas veiculadas pelo solo e pelo ar (ancilostomíase, estrongiloidose e enterobíase). Caracterização dos filos Annelida e Mollusca, e sua importância em atividades agrícolas e florestais. Nematoides de vida livre e como agentes de controle biológico de pragas agrícolas e florestais, e vetores de doenças do homem. Caracterização do filo Arthropoda e sua importância em atividades agrícolas e florestais. Acidentes causados por aranhas e escorpiões no Brasil. Diversidade da subclasse Acari e ácaros de importância médico-veterinária. Caracterização do filo Chordata e suas principais classes (peixes, anfíbios, répteis, aves e mamíferos). Efeito das atividades agrícola e florestal sobre a biodiversidade de peixes, anfíbios e répteis. Efeito das atividades agrícola e florestal sobre a biodiversidade de aves e mamíferos. Ofidismo no Brasil. Importância biológica dos morcegos. Danos causados por morcegos e ratos.
+Avaliação:
+Método:
+3 provas escritas
+Critério:
+Mádia Aritmética das 3 provas
+Norma de Recuperação:
+1 prova escrita
+Bibliografia:
+BARNES, R.D. 1990. Zoologia dos invertebrados. 4ª ed., Roca, São Paulo, 1179 p. 
+BRUSCA, R.C. & G.J. BRUSCA. 2002. Invertebrates. Segunda edição. Sinauer Associates, Inc., Sunderland, 936 p. 
+HICKMAN, Jr. C.P., L.S. ROBERTS & A. LARSON. 2003. Princípios integrados de zoologia. 11a ed. Editora Guanabara Koogan S.ª, Rio de Janeiro, 846 p. 
+PASCHOAL, A.D.; MONTEIRO, A.R.; FERRAZ, L.C.C.B.; INOMOTO, M.M. Fundamentos de Zoologia agrícola e Parasitologia. Animais do meio rural e sua importância. Piraci- caba, Depto. Zoologia, ESALQ, 1996. 244 p.
+
+
+LCB0103 - Morfologia vegetal
+
+Objetivos:
+Propiciar aos alunos o estudo teórico-prático dos caracteres anatômicos e organográficos dos órgãos vegetativos e reprodutivos das plantas superiores.
+Docente(s) Responsável(eis):
+87939 - Beatriz Appezzato da Gloria
+81119 - Marcilio de Almeida
+Programa Resumido:
+: Organização interna do corpo vegetal: sumário dos tecidos e células; Embriologia: do embrião à planta adulta; Raiz (morfologia externa e interna); Caule (morfologia externa e interna); Folha (morfologia externa e interna); Flor (morfologia externa); Inflorescência (morfologia externa); Fruto (morfologia externa); Semente (morfologia externa).
+Programa:
+: I) ORGANOGRAFIA: 1) Introdução:- Organização geral das plantas superiores. 2) Organografia das plantas superiores: 2.1) Raiz:- definição, estudo das partes constituintes, sistemas radiculares e classificação das raízes. 2.2) Caule:- definição, estudo das partes constituintes e classificação dos caules. 2.3) Folha:- definição, estudo das partes constituintes e classificação das folhas. 2.4) Flor:- definição, estudo das partes constituintes, classificação floral, diagrama e fórmula floral. 2.5) Inflorescência:- definição, estudo das partes constituintes e classificação. 2.6) Fruto:- definição, estudo das partes constituintes e classificação dos frutos enfatizando a origem, consistência e deiscência. 2.7) Semente:- definição, estudo das partes constituintes e classificação. II) ANATOMIA: 1) Introdução: Considerações gerais e importância; Organização interna do corpo da planta; Sistemas de Tecidos; Crescimento primário e secundário; Estudo dos tecidos. 2) Embriologia: origem dos embriões, estrutura anatômica comparativa dos embriões de monocotiledôneas e não monocotiledôneas. 3) Raiz: Organização do meristema apical da raiz, estrutura primária enfatizando os processos de absorção radicular e os conceitos de apoplasto e simplasto, origem das raízes laterais e das adventícias, estrutura secundária da raiz; 4) Caule: Organização do meristema apical caulinar (teoria Túnica-Corpo), estrutura primária e secundária do caule. 5) Folha: Origem, desenvolvimento foliar, estrutura foliar enfatizando a adaptação.
+Avaliação:
+Método:
+Aplicação de 2 provas teórico-práticas e a avaliação de um trabalho prático.
+Critério:
+Notas de 0 a 10 para provas e trabalho, que abrangerão os assuntos discutidos em sala de aula.
+Norma de Recuperação:
+Não haverá recuperação, pois ao longo do semestre é dada a possibilidade do aluno realizar quatro avaliações do conteúdo ministrado e um trabalho prático. OBS. A revisão de provas pelos alunos será feita apenas em data agendada junto à Secretaria do Departamento.
+Bibliografia:
+Livros: 
+ANDRADE, V.M.M. & DAMIÃO FILHO, C.F. 1989. Morfologia Vegetal. Jaboticabal/SP, FUNEP, 259p. 
+APPEZZATO-DA-GLÓRIA, B. 2003. Morfologia de Sistemas Subterrâneos: Histórico e Evolução do Conhecimento no Brasil. Ed. A. S. Pinto. 80 p. 
+APPEZZATO-DA-GLÓRIA, B. & CARMELLO-GUERREIRO, S.M. 2006. Anatomia Vegetal. 2ª edição, Viçosa-MG, Ed. da Universidade Federal de Viçosa. 438 p. 
+CUTTER, E.G. 1986. Anatomia Vegetal. Parte I. Células e Tecidos. Trad. Gabriela V.M.C. Catena. 2a. edição, SP., Editora Roca, 304p. 
+CUTTER, E.G. 1987. Anatomia Vegetal. Parte II. Órgãos, Experimentos e Interpretação. Trad. Gabriela V.M.C. Catena. 1a. edição. São Paulo, Editora Roca, 336p. 
+ESAU, K. 1974. Anatomia das plantas com sementes. Trad. Berta L. Morretes. Ed. Edgard Blucher, SP, 293p. 
+FERRI, M.G.; MENEZES, N.L.; SCANAVACCA, W.R.M. 1978. Glossário Ilustrado de Botânica. EDUSP, SP. FONTQUER, P. 1970. Dicionário de Botânica. Ed. Labor S/A. Rio de Janeiro, 1244p. 
+RAVEN, P.H.; EVERT, R.F. & EICHHORN, S.E. 1996. Biologia Vegetal. 5a. edição, Rio de Janeiro, Ed. Guanabara, Koogan S.A. 728p. 
+SOUZA, L.A. de. 2006. anatomia do fruto e da semente. Editora UEPG, Ponta Grossa. 196p. 
+SOUZA, L.A. de. 2003. Morfologia e Anatomia Vegetal: célula, tecidos, órgãos e plântula. Editora UEPG, Ponta Grossa. 258p. 
+VIDAL, W.N.; VIDAL, M.R.R. 1986. Botânica - Organografia. 3a. Edição. Imprensa universitária da Universidade Federal de Viçosa (MG). Apostila: Morfologia Vegetal Prática
+
+
+LCE0111 - Quimica Analitica Inorganica - Teorica
+
+Objetivos:
+Fornecer conhecimentos básicos teóricos de Química Analítica para que os alunos possam cursar diversas disciplinas profissionalizantes dos cursos de Engenharia Agronômica e Engenharia Florestal.
+Docente(s) Responsável(eis):
+2151308 - Marcelo Eduardo Alves
+5280826 - Marcos Yassuo Kamogawa
+1882809 - Simone Possedente de Lira
+4860481 - Wanessa Melchert Mattos
+Programa Resumido:
+1. Conceito de soluções aquosas; 2. Equilíbrio químico; 3. Atividade iônica; 4. pH de soluções aquosas; 5.Equilíbrio ácido-base; 6. Solubilidade e produto de solubilidade; 7. Complexos e quelatos. 8. Óxido-redução.
+Programa:
+Concentração de soluções. Equilíbrio químico. Ácidos e bases. Precipitação e dissolução. Complexos e quelatos. Quelatometria. Óxido-redução.
+Avaliação:
+Método:
+O processo a ser utilizado para avaliar o desempenho do aluno levará em conta as provas teóricas. Serão feitas 2 avaliações correspondentes à matéria lecionada nas aulas teóricas. Não haverá provas extras em horário especial.
+Critério:
+Nota final será calculada pela média das notas obtidas nas duas avaliações teóricas.
+Norma de Recuperação:
+Será feita sob a forma de uma prova com duas horas de duração, aplicada após o término das aulas, em época determinada pela USP. A média final será a média aritmética entre a nota desta prova e a média obtida no semestre.
+Bibliografia:
+Literatura Básica: 
+J.C. Kotz, P.M. Treichel, G.C. Weaver. Química Geral e Reações Químicas, vol. 1 e 2. 6ª Ed, 2009. 
+
+Literatura Complementar: 
+S.S. Zumdahl, D.J. Decoste. Introdução à Química. Fundamentos, 8ª Ed., 2015. 
+R. Chang, Química Geral, 4ª Ed., 2010. 
+D.C. Harris – Química Analítica Quantitativa, Editora LTC, 2011. 
+D. A. Skoog, Fundamentos de Química Analítica, Editora CENGAGE, 2006.
+
+
+
+LCE0116 - Quimica Analitica Inorganica - Pratica
+
+Objetivos:
+Fornecer conhecimentos básicos práticos de Química Analítica para que os alunos possam cursar diversas disciplinas profissionalizantes dos cursos de Engenharia Agronômica e Engenharia Florestal.
+Docente(s) Responsável(eis):
+2151308 - Marcelo Eduardo Alves
+5280826 - Marcos Yassuo Kamogawa
+1882809 - Simone Possedente de Lira
+4860481 - Wanessa Melchert Mattos
+Programa Resumido:
+1. Unidades de concentração de soluções; 2. Gravimetria. Aplicações; 3. Métodos volumétricos de análise química; 4. Volumetria de neutralização; 5. Quelatometria. Aplicações; 6. Volumetria de oxi-redução. Aplicações; 7. Métodos instrumentais de análise química; 7.1. Colorimetria. Aplicações; 7.2. Fotometria de chama de emissão. Aplicações; 7.3. Espectrofotometria de absorção atômica. Aplicações.
+Programa:
+Concentração de soluções. Ácidos e bases. Acidimetria e alcalimetria. Precipitação e dissolução. Gravimetria. Complexos e quelatos. Quelatometria. Oxidação e redução. Volumetria de oxiredução. Métodos instrumentais de análise.
+Avaliação:
+Método:
+O processo a ser utilizado para avaliar o desempenho do aluno levará em conta as provas práticas e atividades extras. Serão feitas 2 avaliações correspondentes à matéria lecionada nas aulas práticas e atividades extras. Não haverá provas extras em horário especial.
+Critério:
+A média final será calculada pela expressão: (9MP + 1MR) / 10 MP = Média das provas práticas MR = Média das atividades extras
+Norma de Recuperação:
+Será feita sob a forma de uma prova com duas horas de duração, aplicada após o término das aulas, em época determinada pela USP. A média final será a média aritmética entre a nota desta prova e a média obtida no semestre.
+Bibliografia:
+Literatura Básica: 
+J.C. Kotz, P.M. Treichel, G.C. Weaver. Química Geral e Reações Químicas, vol. 1 e 2. 6ª Ed, 2009.
+D.C. Harris – Química Analítica Quantitativa, Editora LTC, 2011. 
+D.A. Skoog, Fundamentos de Química Analítica, Editora CENGAGE, 2006. 
+
+Literatura Complementar: 
+S.S. Zumdahl, D.J. Decoste. Introdução à Química. Fundamentos, 8ª Ed., 2015. 
+R. Chang, Química Geral, 4ª Ed., 2010.
+
+LCE0120 - Calculo 1
+
+Objetivos:
+Contribuir para a formação matemática do Engenheiro Agrônomo e do Engenheiro Florestal. Capacitar os alunos no desenvolvimento de métodos matemáticos relacionados a Derivação e Diferenciação no contexto de funções a uma variável. Aplicar os conceitos de Cálculo Diferencial na teoria da otimização e curvas de crescimento.
+Docente(s) Responsável(eis):
+2553644 - Edwin Moises Marcos Ortega
+93551 - Sonia Maria de Stefano Piedade
+Programa Resumido:
+3.1. Funções. 3.2. Limites. 3.3. Continuidade. 3.4. Derivação. 3.5. Estudo de funções. 3.6. Aplicações da derivada. 3.7. Diferenciais.
+Programa:
+1. Funções de uma variável real. 1.1.Funções: definição, gráfico, domínio, contra-domínio, imagem, monotonicidade, paridade, álgebra de funções, classificação, inversão, função constante, função linear, função afim, função quadrática, função modular, função exponencial, função logarítmica, funções trigonométricas, funções trigonométricas inversas. 2. Limites: Definição, propriedades, limites laterais, limites no infinito, limites infinitos, limites fundamentais, assíntotas. 3. Continuidade: Definição, propriedades, continuidade num intervalo fechado. 4. Derivadas: Definição, interpretação geométrica e mecânica, propriedades, derivada de funções básicas, regra da cadeia, derivadas de ordem superior. 5. Estudo de funções: Pontos críticos, extremos relativos, extremos absolutos, pontos de inflexão, construção de gráficos de funções. 6.Aplicações da derivada: Estudo dos ensaios de adubação pelo trinômio do 2º grau e pela Lei de Mitscherlich, modelos de crescimento populacional. 7. Diferenciais: definição, propriedades e aplicações de diferenciais de primeira ordem.
+Avaliação:
+Método:
+A avaliação do aprendizado será feita por meio de três avaliações.
+Critério:
+A média final será obtida da seguinte forma: Média: (2A1+3A2+3A3)/8 , em que: A1 = 1ª avaliação A2 = 2ª avaliação A3 = 3ª avaliação Observação: o aluno que não comparecer a uma das três provas poderá realizar uma prova repositiva que terá o mesmo peso da prova não realizada. Assunto: toda matéria lecionada.
+Norma de Recuperação:
+Será feita sob a forma de uma prova com duas horas de duração, aplicada após o término das aulas, em época determinada pela USP. A média final será a média aritmética entre a nota desta prova e a média obtida no semestre.
+Bibliografia:
+BÁSICA: 
+FLEMMING, D.M.; GONÇALVES, M.B. Cálculo A: funções, limites, derivação, integração. 6ª ed. São Paulo: Pearson Prentice Hall, 2007. 464p. 
+MORETTIN, P.A.; HAZZAN, S.; BUSSAB, W. O. Cálculo: funções de uma e várias variáveis. 2ª ed. São Paulo: Saraiva, 2012, 416p. 
+LEITHOLD, L. O cálculo com Geometria Analítica. 3ª ed. São Paulo: Harbra, 1994. Vol.1. 
+
+COMPLEMENTAR: 
+EDWARDS Jr., C.H.; PENNEY, D.E. Cálculo com Geometria Analítica. 4ª ed. Rio de Janeiro: Prentice-Hall do Brasil, 1997. 486p. 
+LARSON,R. Cálculo Aplicado: Curso Rápido. Cengage Learning, 2011. 
+SIMMONS, G.F. Cálculo com geometria analítica. São Paulo: Pearson, 2010. Vol. 1. 
+SWOKOWSKI, E. W. Cálculo com geometria analítica. 2ª ed. São Paulo: Makron Books, 1995. Vol. 1
+
+
+LGN0114 - Biologia celular
+
+Objetivos:
+Dar aos alunos conhecimentos básicos da estrutura e funcionamento da célula, de modo a capacitá-los para o entendimento da genética e do desenvolvimento de espécies vegetais e animais de interesse agronômico. Detalhar ao aluno estruturas celulares como a parede celular e seus componentes e sua importância para a produção de biomassa; mitocôndria com detalhamento da sua organização de membranas e a estrutura de seu DNA; e cloroplasto com detalhamento de suas subunidades internas e do seu DNA. Ainda, as estruturas e a organização da membrana celular com seus receptores e a importância da sinalização na interação Planta-Micro-Organismo Inseto e outras. Mostrar aos alunos a importância do conhecimento do ciclo celular incluindo o processo de divisão por mitose e meiose para o entendimento dos processos de crescimento, diferenciação e reprodução dos seres vivos. Apresentar ao aluno a visão de que o estudo da célula muito tem progredindo, sobretudo na análise molecular de seus componentes, aspecto esse fundamental, com aplicações para a Genética, Melhoramento e Biotecnologia.
+Docente(s) Responsável(eis):
+3294216 - Maria Carolina Quecine Verdi
+Programa Resumido:
+Organização da célula dos organismos procarióticos e eucarióticos. Métodos de estudo das células I (Microscopia). Métodos de estudo das células II (Cultura de células, fracionamento celular, isolamento dos compostos moleculares por cromatografia, eletroforese, etc). Macromoléculas da célula: carboidratos, lipídios, proteínas e ácidos nucléicos. Estrutura dos ácidos nucléicos e duplicação do DNA. Transcrição, processamento do RNA e síntese protéica. Natureza e estrutura do gene. Núcleo, organização da cromatina, cromossomos e nucléolo. Ciclo celular. Mitose. Estudo do cariótipo. Meiose. Gametogênese, apomixia. Poliploidia e qual sua importância. Membrana plasmática: estrutura, sinalização e transporte. Sistemas de endomembranas. Secreção e tráfego celular. Cloroplastos e mitocôndrias (Estrutura e funções. Sistema genético e genoma das organelas). Sinalização celular: sinais, receptores e vias de sinalização.
+Programa:
+1. Introdução à Biologia Celular: Importância da Biologia Celular para o entendimento de processos biológicos (desenvolvimento por ex.) e suas aplicações na Agropecuária. Importância da Biologia Celular para a Biotecnologia. 2. Morfologia da célula: A célula dos procariotos e dos eucariotos. Características e organização das células vegetais e animais. Macromoléculas. 3. Métodos de Estudo da Célula e composição química da célula. 4. Estrutura e função dos ácidos nucléicos. 5. Duplicação do DNA. 6. A natureza do gene e Transcrição. 7. Processamento do RNA e Síntese Protéica. 8. Núcleo, organização da cromatina, cromossomos. 9. Ciclo celular e Mitose. 10. Meiose e Gamentogênese. 11. Organização da membrana plasmática e parede celular. 12. Sistema de endomembranas, secreção e tráfego celular. 13. Mitocôndria e sua organização e detalhamento do seu genoma. 14. Cloroplastos e organização interna de suas membranas e detalhamento do seu genoma. 15. Sinalização celular. AULAS PRÁTICAS 1. Uso do microscópio; 2. Estudo do tamanho da célula vegetal; 3 e 4. Métodos de estudo da célula e morfologia celular; 5. Estrutura dos ácidos nucléicos; 6. Extração de ácidos nucléicos; 7. Extração e Eletroforese de proteínas; 8. Cromossomos de plantas e animais; 9. Estrutura do gene eucariótico, 10. Mitose; 11. Meiose, 12. Membrana plasmática, parede celular, 13  Cloroplastos e mitocôndrias.
+Avaliação:
+Método:
+2 provas teóricas escritas, 1 prova prática.e trabalhos extra-classe
+Critério:
+A avaliação será feita em duas provas escritas e uma prova prática. A média final será obtida pela média aritmética das duas provas teóricas, a prova prática e as notas obtidas nas tarefas exigidas como crédito trabalho, que serão questões semanais e trabalhos individuais, solicitados durante o curso.
+Norma de Recuperação:
+Não será aplicada prova de recuperação.
+Bibliografia:
+1. Alberts, B.; Bray, D.; Hopkin, K.; Johnson, A.; Lewis, J.; Raff, M.; Roberts, K.; Walter, P. 2011. Fundamentos da Biologia Celular. 3ª Edição brasileira. Artmed, Porto Alegre. 
+2. De Robertis, E.M.F.; Hib, J. 2014. Biologia Celular e Molecular. 16ª Edição. Editora Guanabara Koogan, Rio de Janeiro. 
+3. Junqueira L.C.U. & Carneiro J. 2005. Biologia Celular e Molecular. 8a Edição. Editora Guanabara Koogan, Rio de Janeiro, 352 p. 4. Lodish, H.; Berk, A.; Matsudaira, P.; Kaiser, C.A.; Krieger, M.; Bretscher, A.; Ploegh, H. Amon, A.; Scott, M.P. (2012). Biologia Celular e Molecular. 7ª Edição. Artmed, Porto Alegre
+
+
+LZT0100 - Zootecnia Geral
+
+Objetivos:
+Caracterizar a ciência da Zootecnia, as diferentes explorações, o mercado de trabalho, o linguajar básico e característico, os conceitos básicos de produção e comercialização.
+Docente(s) Responsável(eis):
+5735072 - Roberto Sartori Filho
+Programa Resumido:
+Introdução aos conceitos zootécnicos básicos de Tipos, Raças, Economia da Produção. Caracterização das espécies domésticas de maior relevância econômica , princípios básicos de produção.
+Programa:
+1. A Zootecnia: definição, origem, evolução. Áreas e oportunidades de trabalho para o Engenheiro Agrônomo especialista em Zootecnia. Exemplos de colocação profissional. 2. Os animais domésticos: espécies, origem, evolução. Produtos de origem animal: sua importância econômica e para a alimentação humana. 3. Animais ruminantes e não ruminantes: diferenças no uso de fontes de alimento. Noções elementares do aparelho digestório e rudimentos da nutrição animal. Os Animais Não-Ruminantes 4. Aves: as espécies (raças), a indústria, noções básicas sobre a atividade 5. Suínos: as espécies (raças), a indústria, noções básicas sobre a atividade 6. Peixes (e crustáceos?): as espécies (raças), a indústria, noções básicas sobre a atividade 7. Equinos: as espécies (raças), a indústria, noções básicas sobre a atividade Os Animais Ruminantes 8. Bovinos de Corte: as espécies (raças), a indústria, noções básicas sobre a atividade 9. Bovinos de Leite: as espécies (raças), a indústria, noções básicas sobre a atividade 10. Caprinos: as espécies (raças), a indústria, noções básicas sobre a atividade 11. Ovinos: as espécies (raças), a indústria, noções básicas sobre a atividade 12. A biotecnologia aplicada à Zootecnia: histórico, avanços e oportunidades 13. Noções básicas de gestão empresarial aplicada ao agronegócio da pecuária.
+Avaliação:
+Método:
+Duas provas ao longo do curso.
+Critério:
+Média aritmética das duas provas.
+Norma de Recuperação:
+A disciplina não oferecerá prova de recuperação.
+Bibliografia:
+CAVALCANTI. S.S. Produção de Suínos. Inst. Camp. Ensino Agrícola, 1984. 453p. 
+CARVALHO RTL e C.M.HADDAD. 1987. A Criação e a Nutrição do Cavalo. Ed. Globo, Rio de janeiro, 180p. PEREZ J.R. O (ed). Simpósio Mineiro de Ovinocultura  UFLA, MG, 2001-2002-2003. Pastagens  Fundamentos da Exploração Racional IN: PEIXOTO, A.M, J. C. Moura e J.C. FARIA (eds) FEALQ, 1986, Piracicaba, SP. 
+De ROBERTI JR.  Bases da Biologia Celular e Molecular, 2ª Ed.  Guanabara. Kogan, 1993. 
+CYRINO, J.E.POSSEBON, E.C. URBINATI e N. CASTAGNOLLI (eds) 2004  Tópicos Especiais em Piscicultura de Água Doce Tropical Intensiva - ABABA  CAUNESP, Jaboticabal, SP. 
+ENGLERT, S. 1998. Avicultura. Tudo sobre Raças, Manejo e Alimentação. 7ª ed. Livraria Ed. Agropecuária, Guaíba, RS. 
+PEIXOTO, A.M; J.C. MOURA e V.P. De FARIA, 1993. Bovinocultura de Corte  FEALQ , Piracicaba, SP. PEIXOTO, A.M; J.C. MOURA e V.P. de FARIA, 1986. Bovinocultura de Leite. Fundamentos da Exploração Racional  FEALQ, 326 p.
+
+
+2 SEMESTRE
+
+LCB0208 - Bioquimica
+
+Objetivos:
+Capacitar o aluno para que tenha os conhecimentos básicos e necessários para compreensão dos fenômenos biológicos ao nível das transformações moleculares dos constituintes celulares. Para tal, o aluno tem contacto com os constituintes celulares (carboidratos, lipídios, proteínas, aminoácidos, ácidos nucleicos, enzimas, vitaminas, etc), e as principais vias metabólicas envolvendo esses constituintes celulares, o objetivo último da disciplina é fazer o aluno compreender, em nível molecular, os processos biológicos como respiração, crescimento, transmissão da hereditariedade e fotossíntese.
+Docente(s) Responsável(eis):
+52242 - Helaine Carrer
+Programa Resumido:
+Teórico: Carboidratos; Lipídeos; Aminoácidos; Proteínas; Enzimologia; Metabolismo degradativo dos carboidratos (glicólise e fermentação) e via pentose fosfato; Metabolismo dos triglicerídios; Oxidações biológicas (ciclo de Krebs e cadeia respiratória); Metabolismo dos aminoácidos e proteínas; Fotossíntese; Ciclo do nitrogênio; Integração e regulação metabólica. Prático: Metodologia de colorimetria e espectrofotometria; Determinação colorimétrica de lactose no leite; Cromatografia de aminoácidos em papel de filtro; Determinação da proteína caseina no leite; Determinação de Km e Vm para a invertase de levedura e reação de Hill: fotólise da água.
+Programa:
+: Carboidratos - Conceito, classificação, estrutura e propriedades. Lipídeos - Conceito, classificação, estruturas e propriedades. Aminoácidos e Proteínas - Conceito, classificação, estruturas e propriedades. Energética Bioquímica - Energia livre, energia de ativação, entropia, compostos ricos em energia e reações acopladas. Enzimas - Conceitos, especificidade, fatores que afetam a velocidade de reação enzimática. Metabolismo Anaeróbico dos Carboidratos - Fermentação alcoólica e láctica; Rendimento do processo. Via Pentose Fosfato - Via alternativa de degradação de carboidrato e significado fisiológico. Ciclo dos Ácidos Tricarboxílicos - Cadeia de transporte de elétrons e fosforilação oxidativa; Transporte de elétrons na cadeia respiratória. Metabolismo dos Triglicerídios - Beta oxidação dos ácidos graxos e biossíntese de lipídeos. Metabolismo dos Aminoácidos e Proteínas - Biossíntese de aminoácidos e proteínas, aminoácidos essenciais, qualidade das proteínas, metabolismo degradativo dos aminoácidos e proteínas, excreção do nitrogênio. Ciclo do Nitrogênio - Amonificação, nitrificação, fixação simbiótica do nitrogênio, formação dos aminoácidos. Fotossíntese - Reações luminosas, ciclo de Calvin, via C-4 dos ácidos dicarboxílicos, metabolismo ácido das crassuláceas e fotorrespiração. Integração do Metabolismo dos Carboidratos, Lipídeos e Proteínas. - Controle metabólico.
+Avaliação:
+Método:
+Durante o semestre haverá provas nas datas definidas pelo professor no início do semestre sobre as aulas teóricas e práticas com notas de 0 (zero) a 10,0 (dez). A cada aula prática de laboratório será exigido um relatório das atividades cujo conteúdo fará parte das provas. Haverá uma prova repositiva que constará da matéria ensinada durante o semestre letivo,somente para os alunos que perderam uma das provas do semestre.
+Critério:
+: A Nota Final (NF) é obtida pela soma das notas de três provas teórico-pratica (P1 + P2 + P3), dividido por 3.
+Norma de Recuperação:
+: Será realizada uma prova de recuperação que contemplará toda a matéria lecionada no semestre com notas de 0 (zero) a 10,0 (dez) para os alunos que ficaram com média final abaixo de 5,0 e maior ou igual a 3,0 e que obtiveram freqüência maior ou igual a 70%. A nota final será calculada a partir da média da nota final obtida pelo aluno no semestre mais a nota da prova de recuperação dividido por dois.
+Bibliografia:
+BÁSICA: Bioquímica. Donald Voet Judith G Voet; Ana Beatriz Gorini da Veiga; Carlos Termignoni. Porto Alegre Artmed 2015 Princípios de Bioquímica de Lehninger. David Lehninger Nelson; Michael Cox; Trad.: Carla Dalmaz; Carlos Termignomi; Maria Luiza Pereira. Porto Alegre Artmed 2019 Bioquímica. Jeremy M. Berg John L Tymoczko; Lubert Stryer; Gregory J Gatto Jr.; Deborah Schechtman; Antonio José Magalhães da Silva Moreira. Rio de Janeiro Guanabara Koogan 2014 Bioquímica. Mary K Campbell Shawn O Farrell; All Tasks; Maria Martha Guedes Chaves. São Paulo Cengage Learning 2011 Bioquímica básica. Anita Marzzoco Bayardo Baptista Torres. Rio de Janeiro Guanabara Koogan 2015
+
+
+LCB1204 - Botanica Sistematica
+
+Objetivos:
+Fornecer subsídios para a caracterização morfo-taxonômica de angiospermas; Permitir o reconhecimento através de descrições e o uso de chaves analíticas das famílias botânicas envolvidas com os sistemas agrícolas e florestais, utilizando a morfologia externa de suas principais espécies; Capacitar os alunos para um melhor aproveitamento nas demais disciplinas do curso de Engenharia Agronômica; Capacitar o futuro agrônomo a reconhecer espécies vegetais cultivadas, invasoras e tóxicas, bem como oferecer-lhes conhecimento morfológico vegetal para que ele possa entender e explicar, botanicamente, padrões de produtividade vegetal.
+Docente(s) Responsável(eis):
+2692712 - Lindolpho Capellari Junior
+Programa Resumido:
+Botânica Sistemática; Sistemas Filogenéticos Principais (Engler, Cronquist, Gifford & Foster, A.P.G. III); Nomenclatura Botânica; Unidades de um Sistema de Classificação; Caracterização de Famílias e Espécies Vegetais de Interesse Econômico.
+Programa:
+4.1. Parte Teórica: a parte teórica consta de conceitos e definições relativos à Botânica e caracterização morfológica das principais famílias vegetais de maior interesse agronômico; Introdução à Botânica Sistemática; Sistemas de Classificação: Engler (1964), Cronquist (1981), Gifford & Foster (1998); APG. III (2008); Nomenclatura Botânica; Chaves Analíticas Dicotômicas para Identificação de Famílias; Sistemática e terminologia específica de Plantas Olerícolas, Frutíferas, Ornamentais, Fibrosas, Latescentes, Estimulantes, Leguminosas e Gramíneas. 4.2. Parte Prática: as aulas práticas constam de determinação das famílias das principais espécies de plantas relacionadas com as práticas agrícolas, através do uso de Chaves Analíticas, utilizando-se material botânico recém-colhido e/ou previamente fixado, além do exame de flores em lupas e suas respectivas esquematizações (corte longitudinal, diagrama floral e fórmula floral). 4.2.1. Morfologia e Sistemática: análise morfológica, esquematização floral e utilização de chaves analíticas dicotômicas para identificação das seguintes famílias: Amaryllidaceae, Brassicaceae (= Cruciferae), Anacardiaceae, Lauraceae, Rutaceae, Myrtaceae, Cucurbitaceae, Vitaceae, Rubiaceae, Solanaceae, Malvaceae, Euphorbiaceae, Arecaceae (= Palmae), Musaceae, Fabaceae (= Leguminosae), Poaceae (= Gramineae), Cyperaceae (apenas noções desta família), Fabaceae (= Leguminosae) e Asteraceae (= Compositae). 4.2.2. Trabalho: coleta de material vegetal e confecção de exsicatas (unidades de herbário).
+Avaliação:
+Método:
+Duas provas teóricas, duas provas práticas bimestrais e uma coleção de exsicatas (herbário).
+Critério:
+Notas de 0 (zero) a 10 para provas e (trabalho, que abrangerão os assuntos discutidos em sala de aula). Serão feitas médias parciais aritméticas teóricas e práticas; a média final será ponderada sobre as médias parciais e a nota do trabalho prático (herbário).
+Norma de Recuperação:
+A recuperação será feita pelos alunos que não atingiram a média suficiente para a aprovação, porém ficaram com média igual ou maior que a nota mínima exigida (média final entre 3,0 e 4,9) e frequência às aulas do mínimo 70% do total de aulas ministradas. Após o término do período letivo, os alunos que forem reprovados com média entre 3,0 - 4,9 farão uma prova com questões sobre todo o programa lecionado, através de uma prova teórica.
+Bibliografia:
+BARROSO, G.M.; GUIMARÃES, E.F.; ICHASO, C.L.F.; COSTA, C.G.; PEIXOTO, A.L. 1978. Sistemática de Angiospermas do Brasil. vol. 1, 2 e 3. Rio de Janeiro. Livros Técnicos e Científicos. Editora S/A. CAPELLARI JR., L.; RODRIGUES, R.R. & ROCHELLE, L.A. 2007. Botânica Sistemática. Apostila. Departamento de Ciências Biológicas/ESALQ-USP, Piracicaba/SP. 76pp. CRONQUIST, A. 1981. An integrated system of classification of flowering plants. New York, Columbia Univ. Press. 1262 pp. JOLY, A.B. 1977. Botânica: Introdução à Taxonomia Vegetal. Ed. São Paulo. Cia Ed. Nacional. 777pp. THE ANGIOSPERM PHYLOGENY GROUP. 2003. An update Agiosperm Phylogeny Group classification for the orders and families of flowering plants: APGII. The Linnean Society of London, Botanical Journal of the Linnean Society, n. 141, p. 399-436. LORENZI, H. 1992. Árvores Brasileiras: Manual de Identificação e Cultivo de Plantas Arbóreas Nativas do Brasil. Ed. Plantarum de Estudos da Flora Ltda., Nova Odessa, SP, 368p. LORENZI, H. 1998. Árvores Brasileiras II: Manual de Identificação e Cultivo de Plantas Arbóreas Nativas do Brasil. 3a ed. Ed. Plantarum de Estudos da Flora Ltda., Nova Odessa, SP, 1120p. LORENZI, H. 2003. Árvores Exóticas no Brasil. Ed. Plantarum de Estudos da Flora Ltda., Nova Odessa, SP, 425p. LORENZI, H. 2008. Plantas Daninhas do Brasil. Ed. Plantarum de Estudos da Flora Ltda., Nova Odessa, SP, 671p. LORENZI, H.; BACHER, L.; LACERDA, M.; SARTORI, S. 2006. Frutas Brasileiras e Exóticas Cultivadas. Ed. Plantarum de Estudos da Flora Ltda., Nova Odessa, SP. LORENZI, H.; KINUPP, V.F. 2014. Plantas Alimentícias Não Convencionais (Panc) no Brasil. Ed. Plantarum de Estudos da Flora Ltda., Nova Odessa, SP. 2768 p. LORENZI, H.; MATOS, F.J.A. 2008. Plantas Medicinais no Brasil: nativas e exóticas. 2ª ed., Ed. Plantarum de Estudos da Flora Ltda., Nova Odessa, SP, 512p. LORENZI, H.; MOREIRA, H. 2001. Plantas Ornamentais no Brasil: Arbustivas, Herbáceas e Trepadeiras. Ed. Plantarum de Estudos da Flora Ltda., Nova Odessa, SP, 736p. MATOS, F.J.A.; LORENZI, H.; SANTOS, L.F.L.; MATOS, M.E.O.; SILVA, M.G.V.; SOUSA, M.P. 2011. Plantas Tóxicas – Estudo de Fitoxicologia Química de Plantas Brasileiras. Ed. Plantarum de Estudos da Flora Ltda., Nova Odessa, SP, 425p. SOUZA, V.C.; LORENZI, H. 2012. Botânica Sistemática – Guia Ilustrado para Identificação das Famílias de Angiospermas da Flora Brasileira, Baseado em APG III. 3ª ed. Editora Plantarum de Estudos da Flora Ltda., Nova Odessa, SP, 768p. SOUZA, V.C.; LORENZI, H.; LUPO, R. 2014. Chave de Identificação: Para as Principais Famílias de Angiospermas e Gimnospermas Nativas e Cultivadas do Brasil. 3ª ed. Ed. Plantarum de Estudos da Flora Ltda., Nova Odessa, SP. 32p. il.
+
+LCE0220 - Calculo II
+
+Objetivos:
+Contribuir para a formação matemática do Engenheiro Agrônomo e Florestal. Capacitar os alunos no desenvolvimento de métodos matemáticos relacionados a Derivação, Diferenciação e Integração no contexto de funções a uma ou mais variáveis independentes. Aplicar os conceitos de Cálculo Diferencial e Integral na fundamentação e resolução de áreas e volumes, teoria da otimização e na solução de Equações Diferenciais, com condições iniciais e de contorno.
+Docente(s) Responsável(eis):
+2146622 - Idemauro Antonio Rodrigues de Lara
+2715050 - Roseli Aparecida Leandro
+58832 - Silvio Sandoval Zocchi
+Programa Resumido:
+3.1. Integração indefinida. 3.2 Técnicas de integração. 3.3 Integração definida e aplicações da integral definida. 3.4. Integrais impróprias, funções gama e beta. 3.5. Funções de várias variáveis: derivadas parciais, integração múltipla. 3.6 Introdução às Equações Diferenciais.
+Programa:
+1. Integração indefinida: Definição, propriedades, integração básica. 1.1 Técnicas de integração: Integral por substituição, Integral por partes, Integral de funções racionais e irracionais. 2. Integração definida: Definição, propriedades, Teorema fundamental do cálculo. Aplicações da integral definida: área, comprimento de arco, volume de sólido de revolução. 3. Integrais impróprias, funções gama e beta. 4. Funções de várias variáveis: 4.1. Definição de funções de várias variáveis. Diferenciação parcial: definição de derivadas parciais, regra da cadeia, derivadas direcionais, planos tangentes e retas normais, extremos de funções de várias variáveis, multiplicadores de Lagrange. 5. Integrais Múltiplas: Integrais duplas num domínio retangular, Integrais duplas num domínio qualquer. Área e volume. 6. Equações Diferenciais: definição. Equações Diferenciais Separáveis e homogêneas. Aplicações de Equações Diferenciais.
+Avaliação:
+Método:
+A avaliação do aprendizado será feita por meio de três avaliações.
+Critério:
+A média final será obtida da seguinte forma: (2A2+3A2+3A3)/8 em que: A1 = 1ª avaliação A2 = 2ª avaliação A3 = 3ª avaliação Observação: o aluno que não comparecer a uma das três provas poderá realizar uma prova repositiva que terá o mesmo peso da prova não realizada. Assunto: toda matéria lecionada.
+Norma de Recuperação:
+Será feita sob a forma de uma prova com duas horas de duração, aplicada após o término das aulas, em época determinada pela USP. A média final será a média aritmética entre a nota desta prova e a média obtida no semestre.
+Bibliografia:
+BÁSICA: FLEMMING, D.M.; GONÇALVES, M.B. Cálculo A: funções, limites, derivação, integração. 6ª ed. São Paulo: Pearson Prentice Hall, 2007. 464p. FLEMMING, D.M.; GONÇALVES, M.B. Cálculo B: funções de várias variáveis, integrais múltiplas, integrais curvilíneas e de superfície. 2ª ed. São Paulo: Pearson Prentice Hall, 2007. 448p. MORETTIN, P.A.; HAZZAN, S.; BUSSAB, W. O. Cálculo: funções de uma e várias variáveis. 2ª ed. São Paulo: Saraiva, 2012, 416p. LEITHOLD, L. O cálculo com Geometria Analítica. 3ª ed. São Paulo: Harbra, 1994. V.1. COMPLEMENTAR: BOYCE, W. E. DIPRIMA, R.C. Equações Diferenciais Elementares e Problemas de Valores de Contorno. 10ª ed. São Paulo: LTC, 2015, 680p. LARSON,R. Cálculo Aplicado: Curso Rápido. Cengage Learning, 2011. 648p. SIMMONS, G.F. Cálculo com geometria analítica. São Paulo: Pearson Makron Books, 2010. Vol .2. 828 p. SWOKOWSKI, E. W. Cálculo com geometria analítica. 2ª ed. São Paulo: Makron Books, 1995. Vol. 2.
+
+
+LES0187 - Financas aplicadas ao Agronegocio
+
+Objetivos:
+Capacitar quanto aos princípios e às técnicas de matemática financeira e sua utilização em finanças, análise de investimentos e engenharia econômica, conceitos e aplicações de crédito rural.
+Docente(s) Responsável(eis):
+1968008 - Roberto Arruda de Souza Lima
+Programa Resumido:
+• introdução à matemática financeira e suas aplicações • juros simples e compostos • inflação, juros nominais e juros reais • séries elementares e aplicações em matemática financeira • valor presente e aplicações • introdução ao uso de planilhas eletrônicas e calculadoras financeiras • indicadores de avaliação de investimentos: vpl, payback, tir e tir modificada • sistemas de amortização de dívidas e construção de planos de pagamentos • introdução à análise de investimentos em situações determinísticas e envolvendo riscos - crédito rural - barter - novos instrumentos de financiamento
+Programa:
+O curso trata de princípios de matemática financeira e sua aplicação na análise de investimentos com enfoque no agronegócio, além de tópicos de crédito rural.
+Avaliação:
+Método:
+Aulas expositivas com apresentação da teoria combinada com a resolução de problemas para fixação dos conhecimentos adquiridos.
+Critério:
+Aplicação de provas e elaboração de trabalhos. O resultado final será a média dos trabalhos e provas. Nota final = 0,8 x P + 0,2 x T Onde P é a nota das provas e T é a nota dos trabalhos.
+Norma de Recuperação:
+O aluno será submetido a uma prova de recuperação.
+Bibliografia:
+Literatura Básica: 1. ASSAF NETO, A. Matemática Financeira e suas Aplicações. Atlas, 2009. 2. CARVALHO, L. C. S. Matemática Financeira Aplicada. Editora FGV, 2009. 3. HUMMEL, P. R. Matemática Financeira e Engenharia Econômica. 1ª. Edição, Thomson Pioneira. Literatura Complementar: LIMA, R.A.S.; NISHIYAMA, A.M. Contratos bancários aspectos jurídicos e técnicos da matemática financeira para advogados. São Paulo: Atlas, 2007 ROSS, Stephen A.; WESTERFIELD, Randolph W.; JAFFE, Jeffrey F. Administração financeira. São Paulo: Atlas, 2002 LIMA, RAS. Economia Aplicada à Agropecuária. Apostila 2013. TORRES, Oswaldo F.F. Fundamentos de Enegenharia Econômica. São Paulo: Thomson Learning, 2006.
+
+
+LES0213 - Fundamentos de Economia, Politica e Desenvolvimento
+
+Objetivos:
+Esta disciplina objetiva fornecer ao estudante os conhecimentos básicos de teoria econômica aplicada a problemas enfrentados pela agricultura e pela agroindústria. Composta por três módulos de conteúdos distintos busca iniciar o estudante nos assuntos econômicos e motivá-lo à buscar aprofundamento nas disciplinas optativas da área. Além de introduzir conceitos econômicos, o foco está na economia aplicada. No módulo de Macroeconomia, procura mostrar que o conhecimento e análise da conjuntura econômica são essenciais para condução das atividades profissionais. O módulo de Microeconomia apresenta conteúdos que auxiliarão o aluno na gestão enquanto o último módulo é apresentado noções básicas de modelos de Desenvolvimento Econômico e são discutidas Politicas Econômicas.
+Docente(s) Responsável(eis):
+3043376 - Alexandre Nunes de Almeida
+Programa Resumido:
+Importância da agricultura para o desenvolvimento econômico.- Tópicos de microeconomia.- Tópicos de macroeconomia.- Tópicos de comercialização.- Tópicos de Políticas Econômicas.
+Programa:
+1. Importância da Agricultura para o Desenvolvimento Econômico.- Desenvolvimento Econômico e o Papel da Agricultura.2. Tópicos de Microeconomia- Princípios de microeconomia.- A Demanda do Consumidor.- A Curva de Oferta.- Equilíbrio de Mercado.- Teoria da Produção.3. Tópicos de Macroeconomia- Noções de Medidas de Atividade Econômica e os Instrumentos de Política Econômica.- Inflação: Causas e Consequências.- Comércio Internacional - Padrões de Trocas, Taxa de Câmbio e Balanço de Pagamentos.4. Custo de Produção na Agricultura. Definição e Funcionamento dos Mercados Agropecuários. 5. Economia dos Recursos Naturais. 6. Desenvolvimento Econômico e a Importância da Agropecuária.
+Avaliação:
+Método:
+A avaliação do aluno será feita através de 3 provas realizada ao longo do curso com o seguinte critério de aprovação:
+Critério:
+(P1 + P2 + P3)/3 (maior ou igual a 5,0) onde: P1 = 1a. prova P2 = 2a. prova P3 = 3a. prova
+Norma de Recuperação:
+Uma única prova constando toda a matéria lecionada
+Bibliografia:
+BACHA, C.J.C. Economia e Política Agrícola. São Paulo, Atlas, 2004. ESALQ. Deptº de Economia, Administração e Sociologia l "Economia e Administração Agroindustrial". Piracicaba, 1995. 273p. (Série Didática, 96) 1. VIAN, C.E.F.; PELLEGRINO, A.C.G.T.; PAIVA, C.C. Fundamentos e prática aplicada à realidade brasileira. Campinas Alínea, 2005. CARVALHO, MA; SILVA,C.R.L. Economia Internacional. São Paulo Saraiva, 2002. STIGLITZ, J.E; WALSH, C.E. Introdução à Microeconomia. Rio de Janeiro: Campus, 2003. MANKIW, NG. Introdução à Economia. Rio de Janeiro. Campus, 2005. CARVALHO, M.A.; SILVA, C.R.L. Economia Internacional. São Paulo: Saraiva, 2002. LIMA, RAS. Economia Aplicada à Agropecuária. Apostila 2013.
+
+LGN - Genetica 
+
+Objetivos:
+A disciplina de Genética tem como objetivo proporcionar aos alunos de Engenharia Agronômica e Engenharia Florestal conhecimentos da ciência da genética em dois níveis principais. Inicialmente, através do desenvolvimento de conhecimentos básicos sobre fenômenos, leis, técnicas experimentais e conceitos gerais desta ciência, visa tornar o aluno capaz de analisar e interpretar resultados referentes à herança de caracteres Mendelianos e complexos, em situações de cruzamentos controlados ou não, comumente praticados no contexto de produção agrícola. Em seguida, com o intuito de prover conhecimentos específicos da área das Agrárias, ou de particular relevância para tal, a disciplina visa a introduzir potenciais aplicações dos conhecimentos em genética ao melhoramento de plantas e animais, no tocante à seleção de indivíduos superiores e ao manejo de variabilidade genética no ambiente agrícola. A disciplina visa também dar o embasamento necessário a disciplinas voltadas à conservação de plantas e animais, ou seja, à conservação do meio ambiente. No momento do curso em que está inserida, a disciplina fornece embasamento crítico para a contextualização de conhecimentos a serem adquiridos em disciplinas aplicadas posteriores, fundamentais à capacitação especializada para a atuação de engenheiros agrônomos e florestais no mercado de trabalho.
+Docente(s) Responsável(eis):
+3705356 - Gabriel Rodrigues Alves Margarido
+Programa Resumido:
+Importância e Objetivos da Genética. Genética da Transmissão: herança monogênica e princípios da distribuição independente; interações alélicas e não alélicas; alelos de autoincompatibilidade. Ligação Gênica: recombinação; mapeamento cromossômico. Mutação: mutações de ponto e cromossômicas. Mutação espontânea e induzida. Uso de mutantes na agricultura. Aplicações da Poliploidia. Herança Poligênica e Genética Quantitativa: base genética de caracteres controlados por poligenes; princípios de Genética Quantitativa. Genética de Populações: frequências alélicas e genotípicas; equilíbrio de Hardy-Weinberg; índice de fixação; fatores que alteram frequências alélicas. Coeficiente de endogamia. Desequilíbrio de Ligação. Aplicações de marcadores moleculares. Evolução: seleção natural; teoria sintética da evolução.
+Programa:
+Introdução: Importância e objetivos da Genética de plantas e animais. Genética da Transmissão: Histórico das descobertas de Mendel; 1ª Lei de Mendel; conceitos de fenótipo, genótipo, conceito clássico de gene, metodologia de análise genética clássica (cruzamentos e análise de progênies). Alelismo múltiplo e alelos de autoincompatibilidade em plantas; cruzamento teste; retrocruzamento; interação alélica (dominância, codominância, sobredominância). Aplicação do teste do X2 em Genética. Segregação independente: cruzamentos digênicos, trigênicos, etc...; experimentos de Mendel referentes à 2ª Lei. Recombinação genética: número de genótipos, fenótipos e tipos de gametas possíveis com a alelos e n locos; Interações não alélicas (epistasia); relação entre genes e as vias bioquímicas. Ligação Gênica: Permuta, cromossomos e gametas parentais e recombinantes com genes ligados; provas clássicas de que a recombinação genética corresponde à recombinação cromossômica; símbolos usados para genes ligados; mapeamento genético, cruzamentos envolvendo dois ou mais genes. Mutação: Conceitos e importância; mecanismos de origem, espontâneos e induzidos; mutações de ponto e estruturais; elementos transponíveis; mutações numéricas: poliploidia e aneuploidia; aplicações da poliploidia, incluindo efeito gigas e produção de plantas sem sementes; somática e germinativa; agentes mutagênicos; obtenção de mutantes; uso de mutantes espontâneos e induzidos na agricultura. Herança Poligênica e Genética Quantitativa: Base genética de caracteres controlados por poligenes; contraste entre genes principais (de efeitos maiores) e poligenes e entre caracteres com distribuição contínua e distribuição discreta; médias; variâncias; distribuição normal. Decomposição da variância fenotípica em seus componentes (genético e ambiental). Herdabilidade no sentido amplo; seleção artificial e ganho genético; vigor do híbrido. Genética de Populações: Conceito geral de populações; panmixia; estrutura genética de populações; frequências alélicas, genotípicas e gaméticas em populações panmíticas. Obtenção de frequências alélicas e gaméticas a partir de frequências genotípicas. Equilíbrio de Hardy-Weinberg; uso do teste do X2 para verificar a existência do equilíbrio de H.W; fatores que alteram o equilíbrio: seleção, deriva, mutação e migração. Seleção contra o homozigoto recessivo. Seleção contra um alelo dominante. Conceito de endogamia e autozigose; cálculo do coeficiente de endogamia (F). Conceito de desequilíbrio de ligação. Aplicações dos marcadores moleculares: mistura de sementes. Lei de Proteção de Cultivares. Evolução: Charles Darwin e a Origem das espécies; definição darwiniana de seleção natural. Darwinismo e Mendelismo. A Teoria Sintética. Mutação e recombinação; seleção natural; deriva genética aleatória; migração e fluxo gênico. Isolamento reprodutivo e especiação.
+Avaliação:
+Método:
+Serão aplicadas 2 (duas) provas escritas ao longo do semestre letivo: uma ao final do primeiro bimestre e outra ao final do segundo bimestre. Será aplicada também uma prova repositiva, para o aluno que não fez uma das provas. Poderão ser aplicadas atividades semanais desenvolvidas fora da sala de aula, envolvendo atividades de avaliação de materiais em campo, leituras programadas e confecção de relatórios.
+Critério:
+A média final será calculada pela média aritmética das notas das duas provas e de eventuais atividades adicionais.
+Norma de Recuperação:
+Não haverá recuperação.
+Bibliografia:
+CUMMINGS, M.R.; KLUG, W.; PALLADINO, M.A.; SPENCER, C.A. (2010) Conceitos de genética. Artmed, 9a edição. GRIFFITHS, A.J.F.; WESSLER, S.R.; CARROLL, S.B.; DOEBLEY, J. (2013) Introdução à Genética. Guanabara Koogan, 10a edição. 736 p. RAMALHO, M.A.P.; SANTOS, J.B.; PINTO, A.B.P.; SOUZA, E.A.P.; GONÇALVES, E.M.A.; SOUZA, J.C. (2012). Genética na Agropecuária. UFLA, 5ª edição. 565p. SNUSTAD, D.P.; SIMMONS, M.J. (2008) Fundamentos de Genética. Guanabara Koogan, 4a edição. 922p. LIVRO TEXTO RECOMENDADO GRIFFITHS, A.J.F.; WESSLER, S.R.; CARROLL, S.B.; DOEBLEY, J. (2013) Introdução à Genética. Guanabara Koogan, 10a edição. 736 p. (Comentário sobre esta obra: Introdução à Genética enfatiza a força e a abrangência da abordagem genética na pesquisa biológica e suas aplicações. Em suas muitas edições, o texto foi revisado e atualizado à medida que a força da análise genética tradicional estendeu-se com a introdução da tecnologia do DNA recombinante e em seguida da genômica. Na 10ª edição, incorporou-se a prática da genética moderna nos novos capítulos sobre genética de populações e a herança de traços complexos.
+
+LSO0210 - Geologia Aplicada a Solos
+
+Objetivos:
+- Apresentar a Geologia ao aluno iniciante em Engenharia Agronômica e Engenharia Florestal. Fazer entender as relações entre a Geologia e o contexto agronômico e florestal. - Localizar a Agronomia e as Ciências Florestais no Sistema TERRA - Conhecer os principais materiais de origem de solo, seus constituintes minerais, processos de alteração das rochas e formação do solo. - Rochas como matéria prima para corretivos e fertilizantes agrícolas. - Interpretar mapas geológicos visando conhecer a Geologia do Brasil, do Estado de São Paulo e entender as relações com a distribuição dos principais tipos de solos.
+Docente(s) Responsável(eis):
+82131 - Celso Augusto Clemente
+Programa Resumido:
+Princípios da Geologia; Sistema Terra. Estrutura e Composição da Terra; Litosfera, Mineralogia e Petrologia; Aspectos Geomorfológicos e Geológicos do Brasil e SP; Relações Geologia, Geomorfologia, Intemperismo e Solos. Minerais secundários da fração argila de solos. Conceito e composição do Solo.
+Programa:
+1 INTRODUÇÃO Importância e objetivos da disciplina no contexto agronômico e florestal. Princípios da Geologia Tempo Geológico. Idades relativas e absolutas. Composição e Estrutura da Terra. Interação das diferentes esferas (atmosfera, hidrosfera, pedosfera e litosfera). Litosfera ou Crosta Composição. 2. MINERALOGIA Estado cristalino. Estrutura cristalina e amorfa. Espécie mineral. Minerais constituintes de rochas e de solos. Principais minerais de cada grupo. Silicatos: estrutura e classificação. Importância no estudo de solos. Propriedades físicas e identificação macroscópica dos minerais mais comuns. 3. PETROLOGIA Rochas como material de origem de solos. Gênese e classificação dos principais grupos de rochas ígneas, sedimentares e metamórficas. Propriedades macroscópicas e identificação das principais rochas de interesse agronômico. 4. GEOLOGIA DE SÃO PAULO E DO BRASIL Aspectos Geomorfológicos e Geológicos do Brasil. Bacia do Paraná. Geologia e Geomorfologia do Estado de São Paulo. Estratigrafia. Complexo Cristalino no Estado. Litologia, distribuição espacial e solos relacionados. Principais Grupos e Formações Geológicas da Bacia do Paraná no Estado de São Paulo, sua distribuição espacial, características e solos relacionados. Corte Geológico Esquemático do Estado de São Paulo. Aspectos Geomorfológicos e Geológicos da Quadrícula de Piracicaba. Litologia, distribuição espacial e solos relacionados. Corte Geológico esquemático de região. 5. INTEMPERISMO Conceitos e divisão. Processos de intemperismo químico, biológico e físico biológico. Fatores que condicionam o intemperismo. Seqüências de intemperismo. Produtos de intemperismo. Minerais primários e secundários. Processos de gênese de argilominerais, óxidos e hidróxidos de ferro, manganês e de alumínio. Formação de solos. Evolução da paisagem (topografia e relevo, relevos esculpidos pela erosão e sedimentação, fatores que controlam a paisagem) 6. MINERAIS SECUNDÁRIOS NO SOLO Importância agronômica e ecológica. Filossilicatos de Alumínio: estrutura, formação e reatividade. Relação com os materiais de origem. Óxidos de Fe e Al: estrutura, formação e reatividade. Relação com os materiais de origem. 7. INTRODUÇÃO À PEDOLOGIA Conceito de solo, pedon, perfil e horizontes. Principais tipos de horizontes. Relações rocha/solo/paisagem. Identificação de horizontes de solo no campo. AULAS PRÁTICAS (Laboratório e Campo) Identificação dos principais minerais de interesse agronomico no laboratório; Identificação de rochas ígneas, sedimentares e metamórficas no laboratório; Identificação de rochas ígneas, sedimentares e metamórficas no campo; Relações Geologia, Geomorfologia e Solos. Reconhecimento de perfil e horizontes de solo no campo e suas principais propriedades
+Avaliação:
+Método:
+2 Provas Teórico-Práticas + Relatórios.
+Critério:
+1ª prova x 4 + 2ª Prova x 6 = Média Final.
+Norma de Recuperação:
+Uma prova teórica.
+Bibliografia:
+Literatura Básica: CLEMENTE,C.A. & AZEVEDO, A.C. 2011  Anotações da Disciplina LSO-210 Geologia Aplicada a Solos. Departamento de Ciência do Solos.ESALQ/USP. 87pg. LEINZ, V. & AMARAL, S.E. (1978) Geologia Geral. Cia Editora Nacional, 397p. SUMNER M.E. (Editor) Handbook of Soil Science. CeC Press.2000. Washington 2.148p. Section F. Soil Mineralogy p.F-1 a F-182. TEIXEIRA W., TOLEDO, M.C.M., FAIRCHILD, T.R., & TAIOLI, F. (2000). Decifrando a Terra. Ed. Oficina de Textos. São Paulo. 557 p. Literatura Complementar : PRADO, H. do. Pedologia Fácil. (2008) (2 ed.). Piracicaba. 145p. OLIVEIRA, J. B. de. Pedologia Aplicada (2008) (3 ed.). FEALQ, Pircacicaba. 592 p. BRADY, C.N. & WEIL, R.R. (2008) The Nature and Properties of Soils (14th ed.). Prentice Hall, 975p. PRESS, F. & SIEVER, R. (1998) Understanding Earth (2nd ed.). W. H. Freeman Comp., 682p. LEPSCH, I.F.19 Lições de Pedologia. São Paulo. Oficina de Textos, 2011  456p. DANA,J.D.Manual de Mineralogia 9ª.Edição.Livros técnicos e científicos editora SP.1984. PETRI, S. & FULFARO, V.J. 1983. Geologia do Brasil. EDUSP. 631P. PRÓ-MINÉRIO-PROMOCET/IPT.1981. Mapa Geológico do Estado de São Paulo. Mapa 1:500.000 e Notícia Explicativa. 125P.
+
+LZT0313 - Anatomia e fisiologia animal
+
+Objetivos:
+Através do estudo dos conceitos básicos da organização e funcionamento dos tecidos e órgãos nos mamíferos domésticos de interesse zootécnico, busca-se: 1) alcançar o entendimento dos mecanismos e sistemas que permitem a operação harmoniosa do organismo animal; 2) Incentivar o interesse na compreensão e integração daqueles mecanismos e sistemas que estão diretamente envolvidos na prática zootécnica; 3) Introduzir conceitos centrais para disciplinas a serem cursadas posteriormente, tais como: nutrição animal, reprodução animal, disciplinas relacionadas à produção animal princípios de crescimento animal.
+Docente(s) Responsável(eis):
+3389521 - Eduardo Francisquine Delgado
+5735072 - Roberto Sartori Filho
+Programa Resumido:
+Noções básicas de anatomia e fisiologia dos tecidos epitelial, nervoso, conjuntivo propriamente dito, ósseo, cartilaginoso, adiposo, muscular e do sangue, e suas implicações nos sistemas esquelético, nervoso, endócrino, circulatório, respiratório, digestório, urinário e reprodutor.
+Programa:
+Definições em Anatomia e Fisiologia: Conceitos básicos de organização, Meio Interno, Homeostase, Funcionamento de sistemas do corpo. Embriologia: Origem dos tecidos.Tecido epitelial: Importância na exploração zootécnica; origem; características celulares específicas; epitélios de revestimento e glandulares; histofisiologia de glândulas de interesse zootécnico; epitélios especiais. Tecido conjuntivo: Importância na exploração zootécnica; origem; características gerais; células do tecido conjuntivo; matriz do tecido conjuntivo  estrutura do colágeno; classificação do tecido conjuntivo; tecidos conjuntivos de propriedades especiais  tecido adiposo, tecido ósseo, tecido cartilaginoso; aplicações na produção animal. Tecido muscular: tipos de tecido muscular; funções do tecido muscular; características morfológicas; mecanismos de contração; tipos de fibras musculares e suas características fisiológicas; crescimento e produção de carne. Tecido nervoso: organização; neurônios e neuróglia; funções. SANGUE: plasma e elementos figurados. Linfa e outros líquidos orgânicos. SISTEMA ESQUELÉTICO: classificação dos ossos; esqueleto axial: crânio, coluna vertebral, esterno e costelas; esqueleto apendicular: membros anteriores, membros posteriores e bacia pélvica. SISTEMA NERVOSO: O neurônio; sistema nervoso central: encéfalo e medula espinhal; sistema nervoso periférico: nervos craniais e espinais; sistema nervoso autônomo. SISTEMAS CIRCULATÓRIO-RESPIRATÓRIO: noções anatômicas: coração; artérias, capilares e veias; linfáticos. Fisiologia da circulação. Circulação no coração, nos vasos sanguíneos e linfáticos. Ciclo cardíaco. Respiração: movimentos respiratórios, mecanismos das trocas gasosas. SISTEMA DIGESTIVO. Noções anatômicas: boca, língua, dente, glândulas salivares, faringe, esôfago, cavidade abdominal, estômago, intestino delgado, intestino grosso, fígado e pâncreas. Fisiologia: preensão, mastigação, ensalivação, deglutição, digestão no estômago simples, digestão no estômago plurilocular, digestão no intestino delgado, digestão no intestino grosso, defecação. Absorção. SISTEMA URINÁRIO. Noções anatômicas: rins, ureteres, bexiga, uretra. Mecanismos da secreção urinária e micção. SISTEMA ENDÓCRINO. Noções anatômicas e hormônios da hipófise, tireóide, paratireóides, pâncreas, adrenais e gônadas. SISTEMA REPRODUTOR MASCULINO. Noções anatômicas: testículos, dutos, pênis e órgãos acessórios. Espermatogênese e ejaculação. SISTEMA REPRODUTOR FEMININO. Noções anatômicas: ovários, útero, vagina e vulva. Ciclo estral. Oogênese, fecundação, gestação, anexos embrionários e parto.
+Avaliação:
+Método:
+04 provas (teste de múltipla escolha, associação, completar frases, dissertações curtas, etc.) sobre material das aulas teórico-prática, denominadas provas de histofisiologia (PHF); 05 testes em aula (associação, dissertações curtas, relacionamento de estruturas em fotos etc.) sobre material das aulas teórico-prática, denominados testes de histofisiologia (THF); Participação nas aulas práticas que envolvam relatórios e apresentação das respostas dos grupos (PAR).
+Critério:
+A nota final (NF) é calculada através da seguinte fórmula: NF = [(PHF1 x 2,0) + (PHF2 x 2,0) + (PHF3 x 1,5) + (PHF4 x 2,0) + (((THF1+ THF2 + THF3 + THF4 + THF5)/5) x 2,0) + (PAR x 0,5)]/10
+Norma de Recuperação:
+Prova dissertativa incluindo toda a matéria lecionada no semestre
+Bibliografia:
+Literatura Básica: d’ARCE, R.D. & C.H.W. FLECHTMANN, 1985. Introdução à Anatomia e Fisiologia Animal. 1 Ed. Nobel, SP, 186 p. JUNQUEIRA, L.C. & J. CARNEIRO, 2008. Histologia Básica. 11. Ed. Guanabara Koogan S.A., RJ, 542 p. FRANDSON, R. D.; WILKE, W. L. e FAILS, A. D. 2005. Anatomia e Fisiologia dos Animais de Fazenda. 6 Ed. Guanabara Koogan S.A., RJ, 454 p. Literatura Complementar: SISSON, S. & J.D. GROSSMAN, 1973. Anatomia de los Animales Domésticos. Salvat, Editores S.A. Barcelona, 952 p. TORTORA, G. J. & DERRICKSON, B., 2006. Principles of Anatomy and Physiology, edit 11 – John Wiley & Sons Inc. SWENSON, M.J & REECE, W.O., eds. 1996. DUKES Fisiologia dos Animais Domésticos. Ed. Guanabara Koogan, RJ, 856 p. Aprendizado eletrônico/USP. Versão 2012. LZT 0313 - Anatomia e Fisiologia Animal. http://tidiaae.usp.br/portal.
+
+
+3 SEMESTRE
+3º Semestre Ideal	Créd. Aula	Créd. Trab.	CH	CE	CP	ATPA
+LCB0311	Fisiologia Vegetal	4	0	60			
+LCB0208 - Bioquímica	Requisito
+LCB1204 - Botânica Sistemática	Requisito
+LCE0211	Estatística Geral	4	0	60			
+LCE0220 - Cálculo II	Requisito
+LEB0200	Física do Ambiente Agrícola	4	0	60			
+LCE0220 - Cálculo II	Requisito
+LEB0340	Topografia	6	0	90			
+LFN0321	Microbiologia	4	0	60			
+LGN0114 - Biologia Celular	Requisito
+LSO0300	Química e Fertilidade do Solo	4	0	60			
+LSO0210 - Geologia Aplicada a Solos	Requisito
+LSO0310	Física do Solo	2	0	30			
+LSO0210 - Geologia Aplicada a Solos	Requisito
+LZT0419	Produção Animal I	2	0	30			
+LZT0100 - Zootecnia Geral	Requisito
+LZT0313 - Anatomia e Fisiologia Animal	Requisito
+LZT0420	Produção Animal II	2	0	30			
+LZT0100 - Zootecnia Geral	Requisito
+LZT0313 - Anatomia e Fisiologia Animal	Requisito
+4º Semestre Ideal	Créd. Aula	Créd. Trab.	CH	CE	CP	ATPA
+LAN1458	Açúcar e Álcool	2	1	60			
+LCB0208 - Bioquímica	Requisito
+LCB1402	Ecologia Vegetal	4	0	60			
+LCB0311 - Fisiologia Vegetal	Requisito
+LCE0602	Estatística Experimental	4	0	60			
+LCE0211 - Estatística Geral	Requisito
+LEA0322	Entomologia Geral	4	1	90			
+LFN0212 - Zoologia Aplicada às Engenharias Agronômica e Florestal	Requisito
+LEB0450	Geotecnologias Aplicadas às Ciências Agrárias	5	0	75			
+LEB0340 - Topografia	Requisito
+LES0216	Conhecimento e Pesquisa	2	0	30			
+LFN0424	Fitopatologia	4	0	60			
+LFN0321 - Microbiologia	Requisito
+LSO0400	Biologia do Solo	2	0	30			
+LFN0321 - Microbiologia	Requisito
+LSO0300 - Química e Fertilidade do Solo	Requisito
+LSO0410	Gênese, Morfologia e Classificação de Solos	4	0	60			
+LSO0300 - Química e Fertilidade do Solo	Requisito
+LSO0310 - Física do Solo	Requisito
+LZT0520	Plantas Forrageiras e Pastagens	4	0	60			
+LZT0420 - Produção Animal II	Requisito
+5º Semestre Ideal	Créd. Aula	Créd. Trab.	CH	CE	CP	ATPA
+LAN0440	Qualidade e Processamento de Alimentos	2	1	60			
+LCB0208 - Bioquímica	Requisito
+LFN0321 - Microbiologia	Requisito
+LEA0430	Pragas das Plantas Cultivadas	4	0	60			
+LEA0322 - Entomologia Geral	Requisito
+LEB0306	Meteorologia Agrícola	4	0	60			
+LEB0200 - Física do Ambiente Agrícola	Requisito
+LEB0332	Mecânica e Máquinas Motoras	2	0	30			
+LEB0340 - Topografia	Requisito
+LES0667	Gestão dos Negócios Agroindustriais	2	1	60			
+LES0213 - Fundamentos de Economia, Política e Desenvolvimento	Requisito
+LPV0448	Fruticultura	4	0	60			
+LCB0311 - Fisiologia Vegetal	Requisito
+LPV0480	Olericultura, Floricultura e Paisagismo	4	0	60			
+LCB0311 - Fisiologia Vegetal	Requisito
+LSO0420	Nutrição Mineral de Plantas	4	0	60			
+LCB0311 - Fisiologia Vegetal	Requisito
+LSO0400 - Biologia do Solo	Requisito
+LSO0526	Adubos e Adubação	2	1	60			
+LSO0400 - Biologia do Solo	Requisito
+6º Semestre Ideal	Créd. Aula	Créd. Trab.	CH	CE	CP	ATPA
+LEB0432	Máquinas e Implementos Agrícolas	4	0	60			
+LEB0332 - Mecânica e Máquinas Motoras	Requisito
+LEB0472	Hidráulica	4	0	60			
+LEB0200 - Física do Ambiente Agrícola	Requisito
+LEB0340 - Topografia	Requisito
+LES0129	Sociologia e Extensão	4	0	60			
+LES0213 - Fundamentos de Economia, Política e Desenvolvimento	Requisito
+LES0362	Preparação do Projeto de Pesquisa em Engenharia Agronômica	2	0	30			
+LES0216 - Conhecimento e Pesquisa	Requisito
+LGN0232	Genética Molecular	2	0	30			
+LGN0114 - Biologia Celular	Requisito
+LPV0557	Produção de Arroz, Feijão, Milho e Trigo	4	0	60			
+LSO0420 - Nutrição Mineral de Plantas	Requisito
+LPV0564	Produção de Algodão, Café e Agroecologia	4	0	60			
+LSO0420 - Nutrição Mineral de Plantas	Requisito
+LPV0584	Produção de Cana e Soja	4	0	60			
+LSO0420 - Nutrição Mineral de Plantas	Requisito
+7º Semestre Ideal	Créd. Aula	Créd. Trab.	CH	CE	CP	ATPA
+LCF1581	Recursos Florestais em Propriedades Agrícolas	4	1	90			
+LCB1402 - Ecologia Vegetal	Requisito
+LEB0418	Construções Rurais e Desenho Técnico	4	0	60			
+LEB0340 - Topografia	Requisito
+LEB1440	Hidrologia e Drenagem	4	0	60			
+LEB0472 - Hidráulica	Requisito
+LSO0410 - Gênese, Morfologia e Classificação de Solos	Requisito
+LEB1571	Irrigação	4	0	60			
+LCB0311 - Fisiologia Vegetal	Requisito
+LEB0306 - Meteorologia Agrícola	Requisito
+LEB0472 - Hidráulica	Requisito
+LGN0313	Melhoramento Genético	3	1	75			
+LCE0602 - Estatística Experimental	Requisito
+LGN0215 - Genética	Requisito
+LPV0638	Produção de Sementes	4	0	60			
+LSO0420 - Nutrição Mineral de Plantas	Requisito
+LPV0671	Controle das Plantas Daninhas	4	1	90			
+LCB0311 - Fisiologia Vegetal	Requisito
+8º Semestre Ideal	Créd. Aula	Créd. Trab.	CH	CE	CP	ATPA
+LSO0660	Tecnologia do Solo	4	0	60			
+LSO0410 - Gênese, Morfologia e Classificação de Solos	Requisito
+LSO0526 - Adubos e Adubação	Requisito
+10º Semestre Ideal	Créd. Aula	Créd. Trab.	CH	CE	CP	ATPA
+0111000	Trabalho de Conclusão de Curso em Engenharia Agronômica	2	4	150			
+
+Disciplinas Optativas Livres
+6º Semestre Ideal	Créd. Aula	Créd. Trab.	CH	CE	CP	ATPA
+0110225	Tropical Bio-based Production Systems	4	0	60			
+LCB0223	Topics in Biological Sciences	2	0	30			
+8º Semestre Ideal	Créd. Aula	Créd. Trab.	CH	CE	CP	ATPA
+LEA0638	Sustainable Pest Management in Tropical Agriculture	3	2	105			
+LEA0430 - Pragas das Plantas Cultivadas	Requisito fraco
+
+Disciplinas Optativas Eletivas
+5º Semestre Ideal	Créd. Aula	Créd. Trab.	CH	CE	CP	ATPA
+1100300	Estágio Supervisionado I	0	4	120	120		
+CEN0119	Química Orgânica Ambiental	4	0	60			
+CEN0148	Ecologia de Sistemas	4	1	90			
+CEN0167	Biodiversidade e Conservação: Um Enfoque Molecular	4	1	90			
+CEN0333	Análise Diagnóstica de Organismos Geneticamente Modificados(ogms)	4	2	120			
+LAN0322	Química de Alimentos	4	0	60			
+LAN0653	Tecnologia do Açúcar	4	1	90			
+LAN1458 - Açúcar e Álcool	Requisito
+LAN0685	Tecnologia do Álcool	4	0	60			
+LAN1458 - Açúcar e Álcool	Requisito
+LAN1616	Tecnologia de Bebidas	4	1	90			
+LAN1458 - Açúcar e Álcool	Requisito
+LCB1500	Seminários em Biotecnologia I	2	0	30			
+LCB1555	Seminários em Biotecnologia II	2	0	30			
+LEA0444	Insetos Benéficos	4	0	60			
+LEA0430 - Pragas das Plantas Cultivadas	Requisito
+LES0250	Contabilidade Voltada à Gestão Ambiental	3	1	75			
+LES0456	Teoria Microeconômica I	4	0	60			
+LCE0120 - Cálculo I	Requisito
+LES0213 - Fundamentos de Economia, Política e Desenvolvimento	Requisito
+LES0611	Instituições de Direito	4	0	60			
+LES0665	Contabilidade e Análise de Demonstrações Financeiras	4	0	60			
+LGN0320	Ecologia Evolutiva Humana	4	1	90			
+LGN0215 - Genética	Requisito
+LGN0341	Citogenômica e Epigenética	4	2	120			
+LGN0215 - Genética	Requisito
+LZT0493	Fisiologia Animal Aplicada	4	0	60			
+LZT0313 - Anatomia e Fisiologia Animal	Requisito
+LZT0693	Iniciação Científica em Biotecnologia	4	0	60			
+6º Semestre Ideal	Créd. Aula	Créd. Trab.	CH	CE	CP	ATPA
+0110500	Gestão de Agronegócios e Bioenergia	2	4	150			
+LAN1458 - Açúcar e Álcool	Requisito
+LES0667 - Gestão dos Negócios Agroindustriais	Requisito
+0110612	Sistema de Produção Agrícola em Plantio Direto	4	0	60			
+LSO0410 - Gênese, Morfologia e Classificação de Solos	Requisito
+1100400	Estágio Supervisionado II	0	4	120	120		
+1100300 - Estágio Supervisionado I	Requisito
+CEN0001	Cultura de Tecidos Vegetais	4	0	60			
+LCB0311 - Fisiologia Vegetal	Requisito
+CEN0146	Biosfera e Mudanças Globais	2	0	30			
+CEN0336	Introdução a Programação de Computadores Aplicada a Ciências Biológicas	4	1	90			
+LCE0602 - Estatística Experimental	Requisito
+CEN0364	Radioisótopos em Entomologia	4	0	60			
+CEN0370	Nanotecnologia na Agricultura, Meio Ambiente e Ciência dos Alimentos	4	0	60			
+LCE0111 - Química Analítica Inorgânica - Teórica	Requisito
+LEB0200 - Física do Ambiente Agrícola	Requisito
+CEN0672	Ecologia de Populações	5	1	105			
+LAN1626	Qualidade Química de Bebidas	4	1	90			
+LAN1616 - Tecnologia de Bebidas	Requisito
+LCB0246	Biologia Molecular e Biotecnologia	4	1	90			
+LCB0208 - Bioquímica	Requisito
+LGN0215 - Genética	Requisito
+LCB2330	Sistemática de Plantas Medicinais e Aromáticas	4	1	90			
+LCB1204 - Botânica Sistemática	Requisito
+LCE1270	Inteligência Artificial, Big-Small Data e Gestão para Indústria, Serviços e Fazenda 4.0	4	0	60			
+LCF0427	Propagação de Essências Florestais	4	0	60			
+LCB0311 - Fisiologia Vegetal	Requisito
+LCF0577	Gestão da Biodiversidade	4	0	60			
+LCB1402 - Ecologia Vegetal	Requisito
+LFN0212 - Zoologia Aplicada às Engenharias Agronômica e Florestal	Requisito
+LEA0498	Acarologia	4	0	60			
+LEA0592	Manejo Integrado de Pragas	4	1	90			
+LEA0430 - Pragas das Plantas Cultivadas	Requisito
+LEB0400	Zootecnia de Precisão, Ambiência e Bem Estar Animal	4	0	60			
+LEB0410	Mudanças Climáticas e Agricultura	2	1	60			
+LEB0306 - Meteorologia Agrícola	Requisito
+LES0135	Ecologias do Artificial e do Simbólico	4	1	90			
+LES0200	Contabilidade Social	4	0	60			
+LES0213 - Fundamentos de Economia, Política e Desenvolvimento	Requisito
+LES0208	Marketing I	4	0	60			
+LES0667 - Gestão dos Negócios Agroindustriais	Requisito
+LES0218	Fundamentos de Marketing	4	0	60			
+LES0667 - Gestão dos Negócios Agroindustriais	Requisito
+LES0310	Economia e Política Agrícola	4	0	60			
+LES0456 - Teoria Microeconômica I	Requisito
+LES0370	Formação Empreendedorial: Capacitação pró-ativa	4	1	90			
+LES0407	Estatística Aplicada II	4	1	90			
+LCE0211 - Estatística Geral	Requisito
+LES0458	Teoria Microeconômica II	4	0	60			
+LES0456 - Teoria Microeconômica I	Requisito
+LES0560	Comercialização de Produtos Agrícolas	3	1	75			
+LES0213 - Fundamentos de Economia, Política e Desenvolvimento	Requisito
+LES0629	Capital Social: associativismo e cooperativismo	4	0	60			
+LES0684	Análise de Decisões e Administração de Riscos	4	1	90			
+LCE0211 - Estatística Geral	Requisito
+LES0687	Economia dos Recursos Naturais e Ambientais	4	0	60			
+LES0456 - Teoria Microeconômica I	Requisito
+LFN0512	Nematologia	4	1	90			
+LFN0212 - Zoologia Aplicada às Engenharias Agronômica e Florestal	Requisito
+LGN0478	Genética e Questões Socioambientais	4	1	90			
+LFN0321 - Microbiologia	Requisito
+LGN0215 - Genética	Requisito
+LGN0622	Genética Molecular Aplicada à Biologia de Sistemas	4	0	60			
+LGN0215 - Genética	Requisito
+LPV0642	Fruticultura Temperada	4	0	60			
+LPV0448 - Fruticultura	Requisito
+LPV0651	Paisagismo, Parques e Jardins	4	0	60			
+LPV0480 - Olericultura, Floricultura e Paisagismo	Requisito
+LPV0660	Pós Colheita de Produtos Hortícolas	4	0	60			
+LPV0448 - Fruticultura	Requisito
+LPV0661	Fruticultura Tropical e Subtropical	4	0	60			
+LPV0448 - Fruticultura	Requisito
+LZT0443	Nutrição dos Não Ruminantes	4	0	60			
+LZT0419 - Produção Animal I	Requisito
+LZT0643	Avicultura	4	0	60			
+LZT0430 - Nutrição Animal	Requisito
+LZT0419 - Produção Animal I	Requisito
+LZT0644	Suinocultura	4	0	60			
+LZT0419 - Produção Animal I	Requisito
+LZT1495	Gestão de Negócios Agropecuários	4	0	60			
+LZT1696	Piscicultura	4	0	60			
+LZT0419 - Produção Animal I	Requisito
+7º Semestre Ideal	Créd. Aula	Créd. Trab.	CH	CE	CP	ATPA
+0110152	Pesquisa e Desenvolvimento de Produtos	4	3	150			
+LAN0440 - Qualidade e Processamento de Alimentos	Requisito
+0110450	Inovação e Qualidade na Cadeia Produtiva do Pescado	4	1	90			
+LAN0440 - Qualidade e Processamento de Alimentos	Requisito
+1100222	Modelagem do Crescimento de Culturas Agrícolas	4	0	60			
+LCE0120 - Cálculo I	Requisito
+CEN0430	Insetos Comestíveis	4	0	60			
+CEN0485	Introdução a Bioinformática	4	1	90			
+LGN0232 - Genética Molecular	Requisito
+LAN0155	Produtos de Origem Vegetal II	4	1	90			
+LAN0440 - Qualidade e Processamento de Alimentos	Requisito
+LAN0330	Microbiologia dos Alimentos e Epidemiologia das Doenças Veiculadas por Alimentos	8	1	150			
+LAN0440 - Qualidade e Processamento de Alimentos	Requisito
+LAN2740	Controle Estatístico da Qualidade na Agroindústria de Alimentos	2	1	60			
+LAN0440 - Qualidade e Processamento de Alimentos	Requisito
+LCE0211 - Estatística Geral	Requisito
+LEB0428	Fundamentos da Aplicação de Produtos Fitossanitários	2	2	90			
+LEB0432 - Máquinas e Implementos Agrícolas	Requisito
+LEB0447	Agricultura de Precisão	2	2	90			
+LEB0432 - Máquinas e Implementos Agrícolas	Requisito
+LEB0466	Avaliação do Desempenho de Máquinas Agrícolas	2	2	90			
+LEB0432 - Máquinas e Implementos Agrícolas	Requisito
+LEB0589	Gerenciamento de Sistemas Mecanizados	2	2	90			
+LEB0432 - Máquinas e Implementos Agrícolas	Requisito
+LES0237	Sociedade, Cultura e Natureza	4	1	90			
+LES0452	Economia e Gestão do Agronegócio	4	0	60			
+LES0213 - Fundamentos de Economia, Política e Desenvolvimento	Requisito
+LES0453	Mercados de Derivativos Agropecuários e Financeiros	4	0	60			
+LES0667 - Gestão dos Negócios Agroindustriais	Requisito
+LES0556	Teoria Macroeconômica I	4	0	60			
+LES0200 - Contabilidade Social	Requisito
+LES0456 - Teoria Microeconômica I	Requisito
+LES0668	Administração Financeira	4	0	60			
+LES0187 - Finanças Aplicadas ao Agronegócio	Requisito
+LES0665 - Contabilidade e Análise de Demonstrações Financeiras	Requisito
+LFN1624	Doenças das Grandes Culturas	4	1	90			
+LFN0424 - Fitopatologia	Requisito
+LPV0506	Plantas Oleaginosas	4	0	60			
+LPV0584 - Produção de Cana e Soja	Requisito
+LPV0621	Olericultura I ( Hortaliças de Flores, Frutos e Folhas)	4	0	60			
+LPV0480 - Olericultura, Floricultura e Paisagismo	Requisito
+LPV0645	Floricultura e Plantas Ornamentais	4	0	60			
+LPV0480 - Olericultura, Floricultura e Paisagismo	Requisito
+LPV0662	Agricultura Irrigada	4	0	60			
+LEB0306 - Meteorologia Agrícola	Requisito
+LPV0683	Produção de Cana-de-Açúcar	4	0	60			
+LPV0584 - Produção de Cana e Soja	Requisito
+LZT0446	Nutrição dos Ruminantes	4	0	60			
+LZT0420 - Produção Animal II	Requisito
+LZT0546	Relações Planta-animal-meio em Ecossistemas de Pastagens	4	0	60			
+LZT0520 - Plantas Forrageiras e Pastagens	Requisito
+LZT0547	Planejamento de Sistemas de Produção de Ruminantes	4	0	60			
+LZT0520 - Plantas Forrageiras e Pastagens	Requisito
+LZT0550	Ovinocultura e Caprinocultura	4	0	60			
+LZT0420 - Produção Animal II	Requisito
+LZT0614	Melhoramento Genético Animal	4	0	60			
+LZT0430 - Nutrição Animal	Requisito
+LZT0419 - Produção Animal I	Requisito
+LZT0420 - Produção Animal II	Requisito
+LZT0648	Manejo da Reprodução e da Inseminação Artificial	4	0	60			
+LZT0430 - Nutrição Animal	Requisito
+LZT0420 - Produção Animal II	Requisito
+LZT0650	Bovinocultura de Corte	4	0	60			
+LZT0520 - Plantas Forrageiras e Pastagens	Requisito
+LZT0652	Manejo de Bovinos Leiteiros	4	0	60			
+LZT0520 - Plantas Forrageiras e Pastagens	Requisito
+LZT0653	Princípios de Crescimento Animal	4	0	60			
+LZT0313 - Anatomia e Fisiologia Animal	Requisito
+8º Semestre Ideal	Créd. Aula	Créd. Trab.	CH	CE	CP	ATPA
+0110688	Produtos Fitossanitários	4	1	90			
+LEA0430 - Pragas das Plantas Cultivadas	Requisito
+LFN0424 - Fitopatologia	Requisito
+LAN0442	Produtos de Origem Vegetal I	4	1	90			
+LAN0440 - Qualidade e Processamento de Alimentos	Requisito
+LCF0522	Física da Madeira	3	1	75			
+LCF1581 - Recursos Florestais em Propriedades Agrícolas	Requisito
+LCF0600	Empreendedorismo e Inovação Circular em Bioeconomia	3	1	75			
+LCF0622	Tópicos de Educação Voltados à Questão Ambiental	4	1	90			
+LES0129 - Sociologia e Extensão	Requisito
+LCF0693	Sistemas Agroflorestais	4	0	60			
+LCF1581 - Recursos Florestais em Propriedades Agrícolas	Requisito
+LPV0584 - Produção de Cana e Soja	Requisito
+LCF1581 - Recursos Florestais em Propriedades Agrícolas	Requisito
+LPV0564 - Produção de Algodão, Café e Agroecologia	Requisito
+LCF1581 - Recursos Florestais em Propriedades Agrícolas	Requisito
+LPV0557 - Produção de Arroz, Feijão, Milho e Trigo	Requisito
+LEB0490	Sustentabilidade Energética de Sistemas Agrícolas	2	1	60			
+LEB0332 - Mecânica e Máquinas Motoras	Requisito
+LEB0566	Pensamento Sistêmico na Agricultura	2	2	90			
+LEB0432 - Máquinas e Implementos Agrícolas	Requisito
+LEB0606	Manejo da Irrigação e da Água em Sistemas Agrícolas	4	1	90			
+LEB1571 - Irrigação	Requisito
+LEB0630	Agrometeorologia Aplicada	4	1	90			
+LEB0306 - Meteorologia Agrícola	Requisito
+LPV0584 - Produção de Cana e Soja	Requisito
+LEB0306 - Meteorologia Agrícola	Requisito
+LPV0564 - Produção de Algodão, Café e Agroecologia	Requisito
+LEB0306 - Meteorologia Agrícola	Requisito
+LPV0557 - Produção de Arroz, Feijão, Milho e Trigo	Requisito
+LEB0306 - Meteorologia Agrícola	Requisito
+LPV0448 - Fruticultura	Requisito
+LEB2150	Agricultura Digital: Princípios e aplicações	2	1	60			
+LEB0418 - Construções Rurais e Desenho Técnico	Requisito
+LEB0432 - Máquinas e Implementos Agrícolas	Requisito
+LEB1571 - Irrigação	Requisito
+LES0352	Pesquisa Operacional I	4	0	60			
+LCE0220 - Cálculo II	Requisito
+LES0557	Teoria Macroeconômica II	4	0	60			
+LES0556 - Teoria Macroeconômica I	Requisito
+LES0575	Elaboração e Análise de Projetos	4	0	60			
+LES0213 - Fundamentos de Economia, Política e Desenvolvimento	Requisito
+LES0596	Economia e Comércio Internacional	4	0	60			
+LES0456 - Teoria Microeconômica I	Requisito
+LES0556 - Teoria Macroeconômica I	Requisito
+LES0700	Tecnologia e Sistemas de Informação	4	1	90			
+LES0667 - Gestão dos Negócios Agroindustriais	Requisito
+LES0718	Administração Financeira II	4	0	60			
+LES0668 - Administração Financeira	Requisito
+LES0775	Análise e Elaboração de Projetos de Investimentos	2	0	30			
+LES0668 - Administração Financeira	Requisito
+LES1450	Democracia e Questão Agrária	4	1	90			
+LES0237 - Sociedade, Cultura e Natureza	Requisito
+LES0129 - Sociologia e Extensão	Requisito
+LFN1625	Doenças das Plantas Frutíferas e Hortícolas	4	1	90			
+LFN0424 - Fitopatologia	Requisito
+LPV0513	Agroecologia e Agricultura Orgânica	4	1	90			
+LPV0480 - Olericultura, Floricultura e Paisagismo	Requisito
+LPV0564 - Produção de Algodão, Café e Agroecologia	Requisito
+LPV0622	Olericultura II ( Hortaliças de Raízes, Tubérculos, Rizomas e Bulbos )	4	0	60			
+LPV0480 - Olericultura, Floricultura e Paisagismo	Requisito
+LPV0663	Cultivo Protegido de Hortaliças	4	0	60			
+LPV0480 - Olericultura, Floricultura e Paisagismo	Requisito
+LPV0672	Biologia e Manejo de Plantas Daninhas	4	0	60			
+LPV0671 - Controle das Plantas Daninhas	Requisito
+LZT0551	Forragicultura	4	0	60			
+LZT0520 - Plantas Forrageiras e Pastagens	Requisito
+LZT0570	Qualidade e Conservação de Volumosos para Ruminantes	4	1	90			
+LZT0520 - Plantas Forrageiras e Pastagens	Requisito
+LZT0580	Análise e Composição de Alimentos	4	0	60			
+LZT0420 - Produção Animal II	Requisito
+LZT0645	Eqüinocultura	4	0	60			
+LZT0419 - Produção Animal I	Requisito
+9º Semestre Ideal	Créd. Aula	Créd. Trab.	CH	CE	CP	ATPA
+0110501	Estágio Profissionalizante em Engenharia Agronômica	2	21	660	660		
+0110660	Estágio Vivencial em Engenharia Agronômica	2	8	270	270		
+CEN0409	Análise de Solo e Planta	4	0	60			
+LAN0318	Produtos de Origem Animal I	6	1	120			
+LAN0440 - Qualidade e Processamento de Alimentos	Requisito
+LCF0590	Conservação e Manejo de Fauna Silvestre	4	1	90			
+LCF1581 - Recursos Florestais em Propriedades Agrícolas	Requisito
+LCF0641	Secagem e Tratamento da Madeira	4	1	90			
+LCF0522 - Física da Madeira	Requisito
+LCF0662	Projetos de Educação Ambiental	4	1	90			
+LCF0622 - Tópicos de Educação Voltados à Questão Ambiental	Requisito
+LCF1697	Gestão de Impactos Ambientais	4	1	90			
+LES0380	Agricultura Familiar, Desenvolvimento Rural e Questão Agrária	4	1	90			
+LES0129 - Sociologia e Extensão	Requisito
+LES0465	Pesquisa Operacional II	4	0	60			
+LES0352 - Pesquisa Operacional I	Requisito
+LES0681	Comunicação Rural	4	0	60			
+LES0129 - Sociologia e Extensão	Requisito
+LES0685	Politica e Planejamento Econômico	2	1	60			
+LES0129 - Sociologia e Extensão	Requisito
+LES0556 - Teoria Macroeconômica I	Requisito
+LES0706	Administração e Controle da Produção	4	0	60			
+LES0667 - Gestão dos Negócios Agroindustriais	Requisito
+LES0760	Administração de Logística e da Cadeia de Suprimentos	4	0	60			
+LPV0664	Sistemas de Produção	4	0	60			
+LPV0580 - Produção de Feijão, Milho e Sorgo	Requisito
+LPV0557 - Produção de Arroz, Feijão, Milho e Trigo	Requisito
+LZT0651	Alimentação de Bovinos Leiteiros	4	0	60			
+LZT0446 - Nutrição dos Ruminantes	Requisito
+LZT0697	Formulação e Preparo de Rações	4	0	60			
+LZT0430 - Nutrição Animal	Requisito
+LZT0420 - Produção Animal II	Requisito
+10º Semestre Ideal	Créd. Aula	Créd. Trab.	CH	CE	CP	ATPA
+LES0470	Mercado de Capitais	2	1	60			
+LES0718 - Administração Financeira II	Requisito
+
+
+
+CURSO - AGRONOMIA - IFC
+
+1 SEM
+AQUICULTURA GERAL
+BIOLOGIA
+DESENHO TECNICO
+FISICA
+INTRODUCAO A AGRONOMIA
+MATEMATICA
+METODOLOGIA CIENTIFICA
+PORTUGUES INSTRUMENTAL
+QUIMICA GERAL E ORGANICA
+
+2 SEM
+ANATOMIA E FISIOLOGIA ANIMAL
+BOTANICA SISTEMATICA
+CALCULO
+GENESE E CLASSIFICACAO DOS SOLOS
+MORFOLOGIA VEGTAL
+QUIMICA ANALITICA
+ZOOLOGIA AGRICOLA
+
+3 SEM
+AGROCLIMATOLOGIA
+AGROECOLOGIA
+AL E GA
+BIOQUIMICA
+ESTATISTICA
+MOCROBIOLOGIA AGRICOLA
+URBANISMO
+
+4 SEM
+ENTOMOLOGIA GERAL
+EXPERIMENTACAO AGRICOLA
+FISIOLOGIA VEGETAL
+GENETICA
+MECANIZACAO AGRICOLA
+QUIMICA E FERTILIDADE DO SOLO
+TOPOGRAFIA I
+
+5 SEM
+ENTOMOLOGIA AGRICOLA
+FITOPATOLOGIA GERAL
+HIDROLOGIA AGRICOLA
+MELHORAMENTO GENETICO ANIMAL
+MELHORAMENTO GENETICO VEGETAL
+NUTRICAO ANIMAL
+TOPOGRAFIA II
+
+6 SEM
+FITOPATOLOGIA AGRICOLA
+GEOPROCESSAMENTO
+HIDRAULICA AGRICOLA
+MANEJO DE PLANTAS DANINHAS
+MANEJO E UTILIZACAO DE PASTAGENS
+PLANTAS DE LAVOURA I
+
+7 SEM
+AVICULTURA
+BIOTECNOLOGIA
+ECONOMIA E MERCADO AGRICOLA
+FRUTICULTURA TROPICAL E SUBTROPICAL
+IRRIGACAO E DRENAGEM
+OLERICULTURA
+PLANTAS DE LAVOURA II
+USO, MANEJO E CONSERVACAO DO SOLO
+
+8 SEM
+ADMINISTRACAO RURAL
+BOVINOCULTURA DE LEITE
+CONSTRUCOES RURAIS
+FRUTICULTURA DE CLIMA TEMPERADO
+HORTICULTURA URBANA
+TECNOLOGIA DE PRODUTOS DE ORIGEM VEGETAL
+TECNOLOGIA DE PRODUCAO DE SEMENTES
+VISTORIA, AVALIACAO E PERICIAS
+
+9 SEM
+BOVINOCULTURA DE CORTE
+EXTENSAO RURAL
+FISIOLOGIA E MANEJO POS-COLHEITA
+FLORICULTURA, PLANTAS ORNAMENTAIS E PAISAGISMO
+SILVICULTURA
+METODOLOGIA
+SOCIOLOGIA RURAL
+TECNOLOGIA DE PRODUTOS DE ORIGEM ANIMAL
+
+10 SEM
+ESTAGIO
+TCC
+
+
+
+
