@@ -1,0 +1,42 @@
+Android - Kotlin
+
+informações e buscas de material
+
+1) Site developer.android.com
+
+Linguagem atual: Kotlin
+Fundação Kotlin
+
+Noções Básicas do Android em Kotlin
+(CURSO)
+
+Unit 1: Kotlin basics for Android
+
++ Android Basics: Introduction to Kotlin
+
+1)Video - Welcome to Android Basics in Kotlin
+2)Video - Build your first Android app in Kotlin
+
+pathway 1 - kotlin basics
+pathway 2 - android studio
+pathway 3 - birthday card app
+pathway 4 - dice roller app
+
+3)Codelab - Write your first program in Kotlin
+
+fun main() {
+    println("Happy Birthday!")
+    println("Jhansi")
+    println("You are 25!")
+}
+
+Editor interativo:
+https://developer.android.com/training/kotlinplayground 
+
+VOCABULARIO:
+
+https://developer.android.com/courses/android-basics-kotlin/android-basics-kotlin-vocab?hl=pt-br
+
+4)Codelab - Create a birthday message in Kotlin
+
+
