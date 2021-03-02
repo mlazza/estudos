@@ -1,0 +1,280 @@
+ANOTACOES - Caderno
+
+=========================
+Pensamento Computacional
+=========================
+
+CRONOGRAMA:
+
+Webconference: 01 / 03 / 2021 - 19h
+Webconference: 08 / 03 / 2021 - 19h
+Webconference: 15 / 03 / 2021 - 19h
+Webconference: 22 / 03 / 2021 - 19h
+Webconference: 29 / 03 / 2021 - 19h
+Webconference: 05 / 04 / 2021 - 19h
+Webconference: 12 / 04 / 2021 - 19h
+Webconference: 26 / 04 / 2021 - 19h
+
+TUTORIA: toda Segunda-Feira - 09h às 10h.
+
+AVALIACAO PRESENCIAL: 24 / 04 / 2021 – o horário será disponibilizado no ambiente virtual.
+
+FORUM TEMATICO: início em 15/03/2021 e término em 24/04/2021.
+
+_______________
+PLANO DE ENSINO
+
+CONTEÚDO:
+
+1. Fundamentos de pensamento computacional
+2. Pensamento computacional: modelagem de soluções
+3. Pensamento lógico e algoritmico
+4. Conceitos basicos e tipos de dados
+5. Comandos basicos (entrada, saida, atribuicao e declaracao)
+6. A linguagem C: conceitos basicos
+7. Expressoes e atribuicoes (operadores aritm, log, e relacionais, precedencia de operadores)
+8. Tipos de dados e variaveis de entrada e saida de dados
+9. Comandos condicionais simples (pseudocodigo)
+10. Comanado condicionais compostos
+11. Estruturas de selecao
+12. Estruturas de repetica
+13. Correcao de erros, depuracao e documentacao
+14. Estrutura de dados homogeneos do tipo vetor
+15. Estrutura de dados homogeneos do tipo matriz
+
+
+LIVROS:
+
+1) TORRES, F.E. Pensamento Computacional, 2019.
+2) PINHEIRO, F.A. Elementos de Programacao em C, 2012.
+3) SANTOS, M.G. Algoritmos e Programacao, 2018.
+
+COMPLEMENTARES:
+
+4) EDELWEISS, N.; LIVI, M.A.C. Algoritmos e programacao com exemplos em Pascal e C
+5) SEBESTA, R.W. Conceitos de Linguagens de Programacao, 2018.
+6) ALMEIDA JR, R.C. Logica de Programacao: aprendendo a programar, 2016.
+7) ASCENCIO. CAMPOS. Fundamentos de Programacao de Computadores.
+8) BACKES, A. Linguagem C: completa e descomplicada. 2013.
+9) BARRY, P.; GRIFFITHS, D. Use a cabeça! Programaçao. 2016.
+10) DAGHLIAN, J. Logica e Algebra de Boole. 1990
+11) JOYANES AGUILAR, L. Programacao em C++: algoritmos... 2008
+12) HUTH, M.; RYAN, M. Logica em ciencia da computacao: modelagem e argumentacao sobre sistemas. 2008.
+13) MANZANO, J.A.; OLIVEIRA. Algoritmos: logica para desenvolvimento de programacao de computadores. 2013.
+14) MIZRAHI, V.V. Treinamento em linguagem C. 2008.
+15) SALVETTI, D.D. BARBOSA, L.M. Algoritmos. 2014. 
+
+
+
+===========================
+HARDWARE/SOFTWARE INTERFACE
+===========================
+
+CRONOGRAMA
+
+WEB-CONFERENCIAS:
+
+02/03/2021 - 19h
+09/03/2021 - 19h
+16/03/2021 - 19h
+23/03/2021 - 19h
+30/03/2021 - 19h
+06/04/2021 - 19h 
+13/04/2021 - 19h
+24/04/2021 - 10h -12h Prova
+27/04/2021 - 19h
+
+TUTORIA: toda segunda-feira - 18h às 19h
+
+AVALIACAO PRESENCIAL: 24 / 04 / 2021
+
+_______________
+PLANO DE ENSINO
+
+CONTEUDO:
+
+1. Sistema de numeração
+2. Tabela verdade e lógica
+3. Portas Lógicas e Circuitos Digitais
+4. Circuitos Lógicos Sequenciais
+5. Evolução da Arquitetura de Computadores
+6. Os principais componentes de um computador
+7. Memória RAM e CACHE
+8. Arquiteturas Alternativas
+9. Componentes de Hardware e Software do PC
+10. Conceitos de Sistema Operacional
+11. Funcionamento e as aplicações de alguns S.O
+12. Gerência de processos, identificando seus aspectos em sistemas operacionais
+13. Gerência de memória
+14. Memória em massa em sistemas operacionais
+15. Sistemas de arquivos em sistemas operacionais
+16. Gerenciamento de entrada e saída
+
+LIVROS:
+
+REFERÊNCIAS BÁSICAS
+
+1) TOCCI, Ronald J.; WIDMER, Neal S. Sistemas digitais: princípios e aplicações. 8. ed. São Paulo, SP: Pearson Prentice Hall, 2005.
+
+2) TANENBAUM, Andrew S. Sistemas operacionais modernos. 3. ed. São Paulo, SP: Pearson Prentice Hall, 2010.
+
+3) VAHID, Frank. Sistemas digitais: projeto, otimização e HDLs. Porto Alegre, RS: Bookman, 2008.
+
+4) PATTERSON, David A; HENNESSY, John L. Organização e projeto de computadores: a interface hardware/software.Rio de Janeiro, RJ: Elsevier, 2014.
+
+5) WAGNER, Flávio Rech; REIS, André Inácio; RIBAS, Renato Perez. Fundamentos de circuitos digitais. Porto Alegre, RS: Sagra, 2008.
+
+REFERÊNCIAS COMPLEMENTARES
+
+6) IDOETA, Ivan V.; CAPUANO, Francisco G. Elementos de eletrônica digital. 41. ed. rev. e atual. São Paulo, SP: Livros Érica, 2012.
+
+7) ALENCAR FILHO, Edgard de. Iniciação à lógica matemática. São Paulo, SP: Nobel, 1995.
+
+8) MURDOCCA, Miles J; HEURING, Vincent P. Introdução à arquitetura de computadores. Rio de Janeiro, RJ: Campus, 2001.
+
+9) PARHAMI, Behrooz. Arquitetura de computadores: de microprocessadores a supercomputadores. São Paulo, SP: McGraw-Hill Interamericana do Brasil, 2008.
+
+10) STALLINGS, William. Arquitetura e organização de computadores: projeto para o desempenho. 5. ed. São Paulo, SP: Pearson Prentice Hall, 2005.
+
+11) WEBER, Raul Fernando. Fundamentos de arquitetura de computadores. 3. ed. Porto Alegre, RS: Sagra, 2004.
+
+
+===============
+HANDS ON WORK I
+===============
+
+CRONOGRAMA:
+
+WEB-CONFERENCIAS:
+
+01 / 03 / 2021 - 20h00
+15 / 03 / 2021 - 20h00
+29 / 03 / 2021 - 20h00
+12 / 04 / 2021 - 20h00
+26 / 04 / 2021 - 20h00
+
+
+TUTORIA: Segunda-Feira - 10h às 11h
+
+IMPORTANTE: 
+
+A entrega do Relatório Parcial deverá ser pelo ambiente EAD em: 
+28/03/2021.
+
+A entrega do Relatório Final deverá ser pelo ambiente EAD em: 
+25/04/2021.
+
+O Seminário de Socialização será em 26/04/2021 às 21h00 via Webconference no AVA.
+
+
+CONTEUDO:
+
+Desenvolvimento de um programa para a conversão de bases. 
+Implementação de uma calculadora em C/C++
+
+LIVROS:
+
+REFERÊNCIAS BÁSICAS
+
+[1] DEITEL, Harvey M.; DEITEL, Paul J. C++ como programar. 5. ed. atual. São Paulo, SP: Pearson Prentice Hall, c2006. xlii, 1163 + [1] p. ISBN 8576050560.
+
+[2] ALBANO, Ricardo Sonaglio; ALBANO, Silvie Guedes. Programação em linguagem C. Rio de Janeiro, RJ: Ciência Moderna, 2010 xvi, 410 p. ISBN 9788573939491.
+
+[3] UNIVERSIDADE DO VALE DO ITAJAÍ. Elaboração de trabalhos acadêmico-científicos. Itajaí, SC, 2011. (On-line)
+
+REFERÊNCIAS COMPLEMENTARES (BIBLIOTECA UNIVALI)
+
+[4] TANENBAUM, Andrew S. Sistemas operacionais modernos. 3. ed. São Paulo, SP: Pearson Prentice Hall, c2010. xvi, 653, [1] p. ISBN 9788576052371.
+
+[5] JOYANES AGUILAR, Luis. Programação em C++: algoritmos, estruturas de dados e objetos. São Paulo, SP: McGraw-Hill, c2008. xxxi, 768 p. ISBN 9788586804816.
+
+[6] TOCCI, Ronald J.; WIDMER, Neal S. Sistemas digitais: princípios e aplicações. 8. ed. São Paulo, SP: Pearson Prentice Hall, 2005. xviii, 755 p. ISBN 852161179X.
+
+[7] HOLZNER, Steven; The Peter Norton Computing Group. Programando em C: um guia prático para a programação profissional. Rio de Janeiro, RJ: Campus, 1993. 489 p ISBN 8570017618: (broch.).
+
+[8] UNIVERSIDADE DO VALE DO ITAJAÍ. Produção acadêmico-científica: a pesquisa e o ensaio. Itajaí, SC: Ed. da Univali, 2011. 133 p. (Cadernos de ensino; Formação continuada 7, 9).
+
+***********
+01/03/2021
+***********
+
+AULA - Pensamento Computacional
+
+Ambientação e como vai funcionar a disciplina
+Fórum Temático - a partir do dia 15
+
+AULA - Hands on Work (Projeto Integrador)
+
+A disciplina é prática, é apenas de projeto
+Ela não tem conteúdo a ser estudado
+
+Projeto - Calculadora e Conversor de bases
+
+Data de entrega do ESBOCO INICIAL: 28/03/2021
+
+Data de entrega FINAL: 25/04/2021
+(ENVIAR UM VIDEO E A SOLUCAO)
+PODE SER INDIVIDUAL
+*************************
+
+++++++++++++++++++++++++
+PENSAMENTO COMPUTACIONAL
+AULA 1 - TRILHA
+
+Fundamentos de pensamento computacional
+
+O pensamento computacional pode ser definido como uma habilidade fundamental que todos nós possuímos para qualquer tarefa que precise ser realizada, a atividade mental para abstrair problemas e formular soluções que podem ser automatizadas.
+
+3 fases:
+1 - ABSTRACAO - formulacao de um problema
+2 - AUTOMACAO - expressao da solucao que sera aplicada
+3 - ANALISE - execucao da solucao e a avaliacao
+
+DECOMPOSICAO - dividir o problema em partes menores com a intencao de facilitar a maneira como sera resolvido e gerenciado.
+
+RECONHECIMENTO DE PADROES - características que tornam os problemas semelhantes entre si, são caracteristicas identicas que eles compartilham.
+
+REPRESENTACAO DE DADOS/ABSTRACAO - filtragem da classificacao dos dados, criando mecanismos que permitam separar apenas os elementos essenciais em determinado problema, ignorando detalhes irrelevantes.
+Possibilita criar uma representacao, uma ideia do que se esta tentando resolver.
+
+PROCESSAMENTO COMPUTACIONAL
+
+ETAPAS DA EDUCAÇÃO:
+Pensamento Computacional: reconh. padroes, decomposicao, algoritmos, abstracao;
+Cultura Digital: letramento digital, cidadania digital, tecnologia e sociedade;
+Tecnologia Digital: repres. de dados, hardware e software, comunicacao e redes.
+
+PENSAMENTO COMPUTACIONAL > COMPUTACAO > PROGRAMACAO > CODIFICACAO
+
+Na educação, o principal conceito que envolve o pensamento computacional é o conhecimento transferível, que considera que as habilidades aprendidas podem ser aplicadas em diversos domínios do cotidiano sem depender, especificamente, de uma máquina para aplicá-las. 
+
+O conceito de pensamento computacional ainda recebe muitas críticas. Algumas pessoas afirmam que ele ainda é muito vago e raramente é distinguido de outras formas de pensamento corretamente
+
+ARTIGO 1
+Relato de experiência: o pensamento computacional por meio de aplicação de atividades desplugadas em uma turma de 5.o ano - Natal/RN
+
+ARTIGO 2
+Entendendo o Pensamento Computacional - Leila Ribeiro e Luciana Foss
+
+ARTIGO 3 - Dissertação
+O uso do pensamento computacional como estratégia para resolução de problemas matemáticos - Palloma Alencar Alves Mestre
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
