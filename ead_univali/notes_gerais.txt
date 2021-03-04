@@ -261,19 +261,165 @@ O uso do pensamento computacional como estratégia para resolução de problemas
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
+***********
+02/03/2021
+***********
+
+AULA - Hardware/Software Interface
+
+Prof. Alex
+
+Prova dia 24/04/21
+
+Professor vai passar exercicios - Forum Tematico (20%)
+Trilha, a nota é por percorre-la inteira (20%)
+Prova (60%)
+
+Sistemas de Numeração
+
+Sistema de números binários
+
+Tudo é convertido para binário no computador
+
+1bit 
+1 byte = 8 bits
+ex. 00011100
+
+bit number>>   7   6   5   4   3  2  1  0
+bit value >> [128][64][32][16][8][4][2][1]
+
+01010101 = 64+16+4+1 = 85
+
+01001001 = 64+8+1 = 73
+
+DESAFIO 1 = 15-30-60-85-170-255
+
+DESAFIO 2
+23 = 00010111
+31 = 00011111
+49 = 00110001
+71 = 01000111
+127 = 01111111
+254 = 11111110
+
+Calculadora no modo Programador
+
+Exercícios com a tabela ASCII
+
+**JOGO como exercício da semana
+(postar no Forum??)
+
+********************************
+
+++++++++++++++++++++++++
+HARDWARE/SOFTWARE INTERFACE
+AULA 1 - TRILHA
+
+Sistemas de Numeração
+
+Conversão dos tipos de sistemas:
+
+1) De decimal para outras bases = método de divisões sucessivas
+
+2) De bases diferentes para decimal = método polinomial
+
+3) octal e hex para bin e vice/versa = método da separação dos bits
+
+4) hex e octal = converte em dec primeiro e dec para a base
+
+Metodo de separacao de bits:
+17548o >> 1=001 ; 7=111; 5=101; 4=100
+Resultado = 001111101100
+
+ARTIGOS
+
+1) Sistemas de Numeração - Haline Scotti; Rodrigo Ferreira UFSC
+
+2) Sistemas de numeracao utilizados na informatica - Julio Monqueiro - site
 
 
+HARDWARE/SOFTWARE INTERFACE
+AULA 2 - TRILHA
 
+TABELA VERDADE E LÓGICA
 
+DESAFIO OK
 
+INFOGRÁFICO:
 
+SENTENÇAS: declarativa, exclamativa, interrogativa, imperativa
+PRINCÍPIO DA PROPOSIÇÃO: identidade, não contradição, terceiro excluído
+CONECTIVOS: e, ou, não, tabela verdade
+PROPOSIÇÃO: simples e composta
 
+CONTEUDO DO LIVRO - Matematica Discreta - Lipschutz e Lipson (Schaum)
 
+Cap. 4 - Logica e Calculo Proposicional
 
+conjunção = e
+disjunção = ou
+negação = não
 
+tautologia = ultima coluna apenas V
+contradição = ultima coluna apenas F
 
+Álgebra de Proposições:
+idempotencia
+associatividade
+comutatividade
+distributividade
+identidade
+involucao
+complementaridade
+leis de morgan
 
+Sentenças condicionais e bicondicionais
+Argumentos
+Lei do Silogismo
+Funções Proposicionais, quantificadores
+quantificador universal
+quantificador existencial
++++++++++++++++++++++++++++++++++++++++++
 
+INFORMACOES DO VIDEO DE AULA INAUGURAL:
+
+secretaria.academica.itajai@univali.br
+ead.desenvolvimento.sistemas@univali.br (Eduardo Alves da Silva)
+codigo matr. 1092021100196
+
+++++++++++++++++++++++++
+PENSAMENTO COMPUTACIONAL
+AULA 2 - MODELAGEM DE SOLUÇÕES
+
+INFOGRAFICO
++design thinking: permite organizar esse pensamento lógico sobre os passos a serem executados para a construcao de um projeto.
++ferramenta de planejamento estratégico Business Model Canvas
+-Parceiros-chave;
+-Atividades-chave;
+-Recursos-chave;
+-Proposição de valores;
+-Relacionamento com clientes;
+-Canais;
+-Segmento de clientes;
+-Custos;
+-Receitas.
++Com esta ferramenta é possível esboçar modelos de negócio novos ou existentes.
+
+CONTEUDO DO LIVRO - Pensamento Computacional: modelagem de soluções
+
+abstração
+modelo = uma representacao ou replica de algum sistema ou objeto.
+
+Modelagens na computação: geralmente utilizam imagens abstratas que retratam caracteristicas dos algoritmos
+
+UML = diagramas de estado, diagramas de atividade, diagramas de classe e de caso (como a programação será desenvolvida para atender os requisitos de um cliente)
+
+modelo paralelo = esforços de analise em diagramas de interacao (dinamicos) e diagramas de classes (estaticos)
+
+1) VIDEO - DIAGRAMA MAQUINA DE ESTADO
+2) ARTIGO - Padronização de operação remota centralizada atraves do uso de maquina de estados de tanques de armazenamento
+3) ARTIGO - Criacao de um jogo para desenvolver o Pensamento Computacional percorrendo caminhos eulerianos
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
 
