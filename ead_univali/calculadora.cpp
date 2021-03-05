@@ -36,16 +36,16 @@ int main()
             cout << "\nDIGITE O SEU NUMERO:";
             cin >> n;
             result=0; //FUNCAO FALTANTE VAI AQUI
-            cout << "O resultado e: " << result;
+            cout << "O resultado e: " << result << endl;
             condicao = 0;
         } else if (opcao == 2){
             cout << "\nDIGITE O SEU NUMERO:";
             cin >> n;
             result = convertBinToDec(n);
-            cout << "O resultado e: " << result;
+            cout << "O resultado e: " << result << endl;
             condicao = 0;
 
-        } else { condicao = 0 } //se digitou outra opcao
+        } else { condicao = 0; }; //se digitou outra opcao
 
 
 
