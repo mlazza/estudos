@@ -1,52 +1,73 @@
-#include<iostream>
-#include<stdlib.h>
-#include<math.h>
-#include<string.h>
+/* CALCULADORA DO PROJETO HANDS ON WORK I
+DA UNIVALI - 2021
 
+CONVERSOR DE BASES
+
+autores:
+Marlon Lazzarotti
+Felipe Navas
+*/
+
+#include <iostream>
+#include <cmath>
 
 using namespace std;
 
-int bindec(int num)   
-{
-       int i, tam, acumula = 0;
-       tam = strlen(num); //verifica quantos digitos tem no num
-       
-       //le os digitos da direita para esquerda
-       for (i = tam-1; i >= 0; i--){
-            //quando bin=1, calcula a cada vez a potencia do 2
-            if(num[i] == '1'){
-                acumula += pow(2, tam-1-i) 
-            }
-       }
-       
-       return acumula;
- }
-
-int decbin(int num)    
-{
-   //conversao de num
-}
+int convertBinToDec(long long);
 
 int main()
 {
-    char num[8];
+    long long n;
+    bool condicao = 1;
+    int opcao;
     int result;
-        
-    cout << "Calculadora de Conversão de Bases";
-    cout << "Digite a conversão desejada:\n[1] - binário para decimal \n[2] - decimal para binário";
 
-    cin >> num;
-    
-    if(num1 == 1) {
-    
-    	result = bindec(num);	
-    		
-    } else {
-    	result = decbin(num);
-    }
-    
-    cout << "O resultado da conversão foi: " << result;
-    
+    do{
+        cout << "BEM-VINDO A CALCULADORA CONVERSORA DE BASES";
+        cout << "\nESCOLHA A OPÇÃO DESEJADA:";
+        cout << "\n[1] - converte decimal em binario";
+        cout << "\n[2] - converte binario em decimal";
+
+        cin >> opcao;
+
+
+
+        if(opcao == 1){
+            cout << "\nDIGITE O SEU NUMERO:";
+            cin >> n;
+            result = convertBinToDec(n);
+            cout << "O resultado e: " << result;
+            condicao = 0;
+        } else if (opcao == 2){
+            cout << "\nDIGITE O SEU NUMERO:";
+            cin >> n;
+            result = convertBinToDec(n);
+            cout << "O resultado e: " << result;
+            condicao = 0;
+
+        } else { condicao = 0 } //se digitou outra opcao
+
+
+
+
+
+    } while(condicao == 1);
+
+
     return 0;
-  
 }
+
+int convertBinToDec(long long n)
+{
+    int dec = 0, i = 0, resto;
+    while (n!=0)
+    {
+        resto = n%10;
+        n /= 10;
+        dec += resto*pow(2,i);
+        ++i;
+    }
+    return dec;
+
+}
+
