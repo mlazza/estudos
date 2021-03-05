@@ -25,7 +25,7 @@ int main()
 
     do
     {
-        cout << "BEM-VINDO A CALCULADORA CONVERSORA DE BASES";
+        cout << "CALCULADORA CONVERSORA DE BASES";
         cout << "\nESCOLHA A OPÇÃO DESEJADA:";
         cout << "\n[1] - converte decimal em binario";
         cout << "\n[2] - converte binario em decimal";
