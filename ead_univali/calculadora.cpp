@@ -14,6 +14,7 @@ Felipe Navas
 using namespace std;
 
 int convertBinToDec(long long);
+int convertDecToBin(int);
 
 int main()
 {
@@ -35,7 +36,7 @@ int main()
         if(opcao == 1){
             cout << "\nDIGITE O SEU NUMERO:";
             cin >> n;
-            result=0; //FUNCAO FALTANTE VAI AQUI
+            result = convertDecToBin(n); 
             cout << "O resultado e: " << result << endl;
             condicao = 0;
         } else if (opcao == 2){
@@ -47,27 +48,40 @@ int main()
 
         } else { condicao = 0; }; //se digitou outra opcao
 
-
-
-
-
     } while(condicao == 1);
 
 
     return 0;
 }
 
+// FUNCAO DE CONVERSAO BINARIO PARA DECIMAL
 int convertBinToDec(long long n)
 {
     int dec = 0, i = 0, resto;
-    while (n!=0)
+    while (n !=0 )
     {
-        resto = n%10;
+        resto = n % 10;
         n /= 10;
-        dec += resto*pow(2,i);
+        dec += resto * pow(2,i);
         ++i;
     }
     return dec;
 
 }
 
+// FUNCAO DE CONVERSAO DECIMAL PARA BINARIO
+int convertDecToBin(int n)
+{
+    long long binario = 0;
+    int resto, i = 1, passo = 1;
+
+    while (n != 0)
+    {
+        resto = n % 2;
+        //cout << "Passo " << passo++ << ": " << n << "/2, Resto = " << resto << ", quociente = " << n/2 << endl;
+        n /= 2;
+        binario += resto * i;
+        i *= 10;
+    }
+    return binario;
+}
