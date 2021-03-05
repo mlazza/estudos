@@ -35,7 +35,7 @@ int main()
         if(opcao == 1){
             cout << "\nDIGITE O SEU NUMERO:";
             cin >> n;
-            result = convertBinToDec(n);
+            result=0; //FUNCAO FALTANTE VAI AQUI
             cout << "O resultado e: " << result;
             condicao = 0;
         } else if (opcao == 2){
