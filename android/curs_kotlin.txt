@@ -1,0 +1,202 @@
+CURSO DE KOTLIN - TUTORIAL PARA INICIANTES
+-Canal Tiago Aguiar
+19/09/2019
+
+IDE IntelliJ IDEA
+
+#1
+
+fun main() {
+	println("Ola Kotlin!")
+
+}
+
+#Usando modo Scratch (Interativo)
+
+calculos matematicos e computação
+
+// comentário de uma linha
+
+ou
+
+/*
+
+varias linhas
+
+	/* comentarios aninhados
+	*/
+
+*/
+
+println(3.0 / 2.0) >> 1.5
+
+"%.4f".format(29.0 / 10.0) >> 2.9000
+
+8 shl 1 >> 16
+8 shr 1 >> 4   //move o 1 pro binario a direita ou a esquerda cfe acima
+
+sqrt(2.0) >> 1.4142....
+sin(90 * PI) >> -3.19....
+max(2, 3) >> 3
+min(2, 3) >> 2
+
+//CONSTANTES:
+val x = 3 			// Int
+val pi = 3.14159    // Double
+ou val pi: Float = 3.14159f // para usar um espaco mais reduzido
+
+podemos utilizar uma constante fora da função nomeando
+como constante e atribuindo o valor
+
+//VARIAVEIS:
+var y = 10
+y = 1
+println(y)
+y = 1_000_000 //pode-se utilizar underline para separar as casas
+println(y)
+
+y += 1
+println(y)
+
+// TEXTOS
+
+var text = "ola kotlin" 
+
+var rate: Double = 19.5
+val hours: Int = 10
+val total = rate * hours
+prinln(total) >> 195.0
+
+'c'.toInt() >> 99
+'o'.toInt() >> 111
+'d'.toInt() >> 100
+'e'.toInt() >> 101
+
+val c = 99
+c.toChar()
+
+val text: String = "Code"
+
+"ola" + "Kotlin"
+"ola ${c.toChar()} Kotlin"
+
+"Preco é ${10.0 / 3.0}"
+
+val texts = """
+	Olá Kotlin
+	em multiplas linhas
+""".trimIndent()
+
+println(texts)
+
+val coordinates = Pair(2.3, 3)
+println(coordinates)
+coordinates.first
+coordinates.second
+
+val coord = 2 to 3
+coord >> (2, 3)
+
+val (x1, y1) = coord
+ou
+val (x1, _) = coord //descartando o segundo valor
+
+println(x1)
+prinln(y1)
+
+val coord3D = Triple (1, 2, 3)
+
+
+// TAMANHOS DAS VARIAVEIS ALOCADAS
+val byte: Byte = 1  	// 1 byte
+val short: Short = 1 	// 2 bytes
+val int: Int = 1		// 4 bytes
+val long: Long = 1		// 8 bytes
+
+val float: Float = 1.0f	// 1byte | 6 digitos
+val double: Double = 1.0 // 2byte | 15 digitos
+
+// Any, Unit, Nothing
+
+
+// ANY
+val numberAny: Any = 10
+val textAny: Any = "10"
+
+//funcao UNIT, toda funcao que nao retorna(void)
+fun add(){
+	val result = 2 + 2
+	println(result)
+}
+
+fun add(x: Int, y: Int) : Int{
+	val result = x + y
+	return result
+}
+
+add(2, 3)
+add(10, 2)
+
+// NOTHING - instrucao que nunca termina
+
+fun main(){
+	forever()
+}
+
+fun forever()
+	while(true){
+		Thread.sleep(1000)
+		println("oi")
+}
+
+val yes = true
+val no = false
+
+(1 == 2)
+(1 != 2)
+(1 > 2)
+(1 >= 2)
+!(1 < 2)
+
+val and = true && false
+and
+
+val or = true || false
+or
+
+val zz = 0 > 1 && 1 > 0
+zz
+
+val password = "1234"
+val correct = "1234"
+
+password == correct
+
+"barco" < "casa"  //compara por ordem alfabetica da primeira letra
+
+val age = 20
+if(age > 18){
+	println("abrir tela maior de idade")
+} else {
+	println("abrir tela menor de idade")
+
+}
+
+val a = 10
+val b = 20
+val max = if (a > b) a else b
+max
+
+val conta = 2000
+val produto = if(conta > 1900) {
+	"Iphone"
+} else if (conta > 1500) {
+	"Samsung"
+} else {
+	"Sem grana"
+}
+>produto
+
+1:28:00
+
+

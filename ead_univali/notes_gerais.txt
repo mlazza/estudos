@@ -339,7 +339,7 @@ ARTIGOS
 
 
 HARDWARE/SOFTWARE INTERFACE
-AULA 2 - TRILHA
+AULA 1.1 - TRILHA
 
 TABELA VERDADE E LÓGICA
 
@@ -389,7 +389,7 @@ codigo matr. 1092021100196
 
 ++++++++++++++++++++++++
 PENSAMENTO COMPUTACIONAL
-AULA 2 - MODELAGEM DE SOLUÇÕES
+AULA 1.1 - MODELAGEM DE SOLUÇÕES
 
 INFOGRAFICO
 +design thinking: permite organizar esse pensamento lógico sobre os passos a serem executados para a construcao de um projeto.
@@ -420,6 +420,68 @@ modelo paralelo = esforços de analise em diagramas de interacao (dinamicos) e d
 2) ARTIGO - Padronização de operação remota centralizada atraves do uso de maquina de estados de tanques de armazenamento
 3) ARTIGO - Criacao de um jogo para desenvolver o Pensamento Computacional percorrendo caminhos eulerianos
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++
+HARDWARE/SOFTWARE INTERFACE
+AULA 2 - PORTAS LÓGICAS E CIRCUITOS DIGITAIS
+
+Na eletrônica digital sequencial são usados mecanismos de memória elementares capazes de guardar as variáveis de saída internamente a cada transição de estado.
+Os circuitos dependem de um sinal pulsado, executado sob o comando de uma sequência de pulsos denominada clock.
+
+CONTEUDO DO LIVRO - Fundamentos Computacionais
+
++Portas lógicas e circuitos digitais
+- o termo porta é usado para descrever um circuito que realiza uma operacao logica basica
+- logica programavel / logica de funcoes fixas
+
+Porta END (S=A.B)
+Porta OR (S=A+B)
+Porta NOT (S=Ã)
+Porta NAND (S=~(A.B))
+Porta NOR (S=~(A+B))
+Porta XOR // OU exclusivo (S=A++B)  ++ = simbolo + com circulo
+
+Circuitos Integrados
+
+pedaço quadrado de silício de aprox. 5x5mm, contendo um conj. de portas logicas e encapsulado em um invólucro retangular de plastico ou ceramica.
+
+-Circuito SSI (Small Integration Scale): 1 a 10 portas lógicas
+-Circuito MSI (Medium Integration Scale): 10 a 100 portas lógicas
+-Circuito LSI (Large Integration Scale): 100 a 100.000 portas lógicas
+-Circuito VLSI (Very Large Integration Scale): > 100k portas lógicas
+
+Circuitos Combinacionais ou Circuitos Sequenciais
+
+-Combinacional: conjunto de portas logicas, as quais determinam os valores das saidas diretamente a partir dos valores atuais das entradas. Realiza uma operação de processamento de informação, a qual pode ser especificada por meio de um conjunto de equações booleanas.
+-Sequencial: emprega elementos de armazenamento denominados latches e flip flops, além das portas logicas. Os valores das saídas dependem dos valores de entradas e dos estados dos latches ou flip flops utilizados. (valores de entrada + histórico do próprio circuito)
+
+Podemos obter um circuito a partir de sua expressão;
+Podemos obter expressões a partir dos circuitos.
+
+Circuito meio somador = 1 XOR e 1 AND
+
+Voltando aos flip flops, temos em seu circuito suas variáveis de entrada, uma entrada para o clock e duas saídas, normalmente denominadas Q e Q'.
+
+O flip flop mais básico é o RS. Duas saídas Q e Q' e suas variáveis de entrada são um Set e um Reset, o Set seleciona o nivel logico 1 na saída do circuito e o Reset seleciona o nivel logico 0.
+
+
+YOUTUBE - video - Sistemas Logicos - Somadores... PET ELETRICA UFBA
+|  |  | - idem - Sistemas Logicos - Introducao Flip-Flop
+
+
+link: http://www.dpi.inpe.br/~carlos/Academicos/Cursos/ArqComp/aula_5bn1.html
+
+link: https://www.inf.ufsc.br/~j.guntzel/isd/isd3.pdf
+
+ARTIGOS:
+1) https://newsroom.intel.com.br/editorials/novo-chip-de-autoaprendizagem-da-intel-promete-acelerar-inteligencia-artificial/#gs.vl3iku
+
+2) https://tiinside.com.br/17/10/2017/intel-desenvolve-chip-para-computacao-quantica/
+
+3)https://canaltech.com.br/hardware/ibm-revela-o-menor-computador-do-mundo-do-tamanho-de-um-grao-de-sal-110252/
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
 
 
 
