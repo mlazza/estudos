@@ -480,9 +480,17 @@ ARTIGOS:
 
 3)https://canaltech.com.br/hardware/ibm-revela-o-menor-computador-do-mundo-do-tamanho-de-um-grao-de-sal-110252/
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+HARDWARE/SOFTWARE INTERFACE
+AULA 2.2 - CIRCUITOS LÓGICOS E SEQUENCIAIS
 
+As chaves eletrônicas são a base de todos os circuitos digitais.
 
+1930  -       1940        -          1950          -        1960
+Relés - Valv. Termionicas - Transistores Discretos - Circ. Integ. c/ trans 
 
+CONTEUDO DO LIVRO - ARQUITETURA DE COMPUTADORES E SIST. DIGITAIS
+
+Cap. Circuitos Lógicos e Sequenciais
 
 
 
