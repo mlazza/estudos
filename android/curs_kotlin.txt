@@ -197,6 +197,149 @@ val produto = if(conta > 1900) {
 }
 >produto
 
-1:28:00
+if (conta > 1900){
+	val desconto = 1900 * 10/10
+} 
+
+val banco = conta - desconto //nao consegue acessar a variavel local do if
+
+fun main() {
+	var sum = 1
+	while(sum < 1000){
+		sum += 1
+		println(sum)
+	}
+
+}
+
+fun main() {
+	var sum = 1
+	
+	do {
+		sum += 1
+		println(sum)
+		if (sum == 500)
+			break
+		
+	}while (sum<1000)
+}
+
+//SEQUENCIA DE DADOS
+
+val range = 0..5
+println(range)
+
+val decrease = 5 downTo 0
+println(decrease)
+
+val rangeTil = 0 until 5
+println(rangeTil) // elimina o ultimo numero
+
+for(x in range){
+	println(x)
+}
+
+range.forEach {
+	println(it)
+}
+
+var sum = 1
+var lastSum = 0
+repeat(10) {
+	val tempo = sum
+	sum += lastSum
+	lastSum = temp
+	println("sum $sum last $lastSum")
+}
+
+sum = 0
+
+for(i in 0..32 step 2){
+	println(i)
+}
+
+1:38:40
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
