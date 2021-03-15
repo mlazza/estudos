@@ -536,9 +536,11 @@ CONTEUDO DO LIVRO - ARQUITETURA DE COMPUTADORES E SIST. DIGITAIS
 
 Cap. Circuitos Lógicos e Sequenciais
 
+Circuitos Combinancionais são utilizados como parte de circuitos maiores, os Circuitos Sequenciais.
 
-CONTINUA....
+SAIBA MAIS
 
+https://www.youtube.com/embed/gCYaf3hRGf4 - ALGEBRA BOOLENAA PARA CIRCUITOS DIGITAIS
 
 ++++++++++++++++
 
