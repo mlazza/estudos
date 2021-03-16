@@ -258,36 +258,123 @@ for(i in 0..32 step 2){
 	println(i)
 }
 
-1:38:40
+sum = 0
+
+for(y in 0 until 8) {
+	println(y)
+	
+	if(y % 2 == 0)
+		continue
+	
+	for(x in 0 until 8){
+		sum += x * y
+		println("x $x, y $y")
+	
+	}
+}
 
 
+//LABELS DE ESTADOS
 
 
+col@ for(y in 0 until 8) {
+	println(y)
+	
+	row@ for(x in 0 until 8){
+		sum += x * y
+		if(x == y)
+			continue@col //forco para ele ir direto pro laco com este label
+		println("x $x, y $y")
+	
+	}
+}
+
+// WHEN
+
+val user = "Samsung"
+when(user) {
+	"Samsung", "Motorola" -> println("Android")
+	else -> println("iOS")
+}
+
+val number = 3
+val numberToText = when(number) {
+	0 -> "zero"
+	1 -> "um"
+	4 -> "quatro"
+	else -> {
+		println("desconhecido")
+	}
+}
+println(numberToText)
 
 
+val hour = 9
+val time = when(hour) {
+	in 6..11 -> "manhã"
+	in 12..17 -> "tarde"
+	in 18..24 -> "noite"
+	else -> {
+		println("não definido")
+	}
+}
+println(hour)
 
+// FUNCOES
 
+fun printHello(){
+	println("Olá")
+}
+printHello()
 
+fun add(x: Int, y: Int){
+	println(x + y)
+	
+}
+add(2, 3)
+add(3, 5)
+add(x = 2, y = 10)
 
+fun discount(x: Int, percent: Int = 10){
+	println(x * percent / 100))
+}
+discount(100) //se nao especificar o percent ele fica o do parametro da fun
+discount(100, 30)
 
+//FUNCAO COM RETORNO
 
+fun multi(x: Int, y: Int) : Int {
+	return x * y
+}
 
+fun divide(x: Int, y: Int) : Int {
+	return x / y
+}
 
+println(multi(3, 6))
+prinln(divide(6, 5))
 
+fun multiDivide(x: Int, y: Int) : Pair<Int, Int>{
+	return Pair(x*y, x/y)
+}
+println(multiDivide(10, 2))
 
+//NUMA SO LINHA
+fun multiDivide(x: Int, y: Int) = Pair(x*y, x/y)
 
+println(multiDivide(10, 2))
 
+// SOBRECARGA DE METODO - Metodos de mesmo nome mas com funcoes diferentes, mas precisa de outro parametro ou tipo de var diferente
 
+fun getValue(value: Int) : Int{
+	return value
+}
 
+fun getValue(value: Int, def: Int = 2) : Int{
+	return value
+}
 
-
-
-
-
-
-
-
-
+2:00:00
 
 
 
