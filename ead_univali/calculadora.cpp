@@ -29,6 +29,7 @@ int main()
         cout << "\nESCOLHA A OPÇÃO DESEJADA:";
         cout << "\n[1] - converte decimal em binario";
         cout << "\n[2] - converte binario em decimal";
+        cout << "\n[0] - SAIR";
 
         cin >> opcao;
 
