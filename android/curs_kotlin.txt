@@ -374,7 +374,466 @@ fun getValue(value: Int, def: Int = 2) : Int{
 	return value
 }
 
-2:00:00
+// FUNCAO COMO PARAMETRO
+
+var funSum = ::add
+funSum(2, 3)
+
+fun genericCalc(function: (Int, Int) -> Int, x: Int, y: Int){
+	println(function(x, y))
+}
+genericCalc(::divide, 3, 2)
+genericCalc(::multi, 3, 2)
+
+var errocCode = 0
+// NULL - ausencia de valor
+
+var errCode: Int? = null //permite que aponte para null usando o '?'
+
+var text: String? = "Ola"
+
+if (text != null) {
+	msg = text + "outro valor"
+	println(" $text mundo")
+}
+
+//Acessando o text quando nao esta null para nao dar erro
+text = null
+println(text?.length?.plus(10)) //garantido o acesso quando nao esta null com '?'
+
+//OU
+
+text?.let {
+	println(it.length.plus(10))
+}
+
+//OU
+
+println(text?.lenght ?: 0)
+
+// ARRAY, LISTS
+
+val numbers = arrayOf(1, 2, 3)
+println(numbers[1])
+
+val ten = Array(5, {10})
+println(ten[0])
+
+// tipo primitivo de array que consome menos memoria
+val numbersInt = intArrayOf(1, 2, 3)
+
+var texts = listOf("Ola,", "Mundo", "List")
+println(texts[0])
+
+val names = mutableListOf<Strin>()
+
+names.add("Ola")
+names.add("Mutavel")
+names.add("Mundo")
+names.add("Vejo")
+println(names)
+
+names += "Só"
+println(names)
+
+names.isEmpty()
+names.size()
+names.first()
+names.last()
+names.min()
+names.joinToString(":") //add separador dos itens
+names.slice(0..2).contains("Vejo")
+names.remove("Ola")
+names.sort()
+println(names)
+
+for(name in names) {
+	println(name)
+}
+
+for((index, name) in names.withIndex()){
+	println("$index, $name")
+}
+
+//Lista que aceita inteiros e nulos _ elementos nulos ou a lista nula
+var listOfNullables: List<Int?> = listOf(1, 2, null, 4)
+var listOfNull: List<Int>? = null
+
+// Coleção de dados - tipo dicionario do python
+
+//mapa imutavel
+val products = mapOf(
+	"Apple" to "iOS",
+	"Google" to "Android"
+
+)
+println(products)
+products["Apple"]
+products.isEmpty()
+products.size
+
+//mapa mutavel
+val userA = mutableMapOf(
+	"name" to "Tiago",
+	"country" to "BR",
+	"state" to "SP" 
+)
+
+userA.put("country", "USA")
+userA
+
+var pairTeacher = "teacher" to "Sim"
+userA += pairTeacher
+userA
+
+userA.remove("teacher")
+
+for(key in userA.keys) {
+	println(key)
+}
+
+1.hashCode()
+true.hashCode()
+"country".hashCode()
+//cada string tem seu valor unico e com isso se consegue procurar e manipular estes maps
+
+val otherNames = setOf("Tiago", "Joao", "Fillipe", "Tiago")
+otherNames //evita duplicacao
+
+val array = arrayOf(1, 2, 3, 4, 3)
+val fromArray = mutableSetOf(*array))
+
+fromArray.contains(3)
+2 in fromArray
+fromArray.add(7)
+fromArray.remove(2)
+fromArray
+
+// LAMBDA - funcoes anonimas
+
+//var calculatorLambda: (Int, Int) -> Int
+var calculatorLambda = {a: Int, b: Int -> Int
+	a + b ^lambda
+	
+}
+println(calculatorLambda(2,2))
+
+val square: (Int) -> Int = {
+	it * it
+}
+
+println(square(4))
+
+fun lambdaCalc(x: Int, y: Int, function: (Int, Int) -> Int {
+	println(function(x,y))
+}
+
+lambdaCalc(2, 3) {x, y ->
+	x * y
+}
+
+lambdaCalc(2, 3, Int::plus)
+
+var lambda: () -> Unit = {
+	println("oi lambda")
+}
+lambda()
+
+println(texts.sorted())
+
+println(texts.sortedWith(compareBy {
+	it.length
+}))
+
+
+array.forEach {
+	println(it * it)
+}
+
+println(array.filter {
+	it > 2
+})
+
+
+println(array.map{
+	it * 0.8
+})
+
+println(array.reduce{a, b ->
+	a + b
+})
+
+println(array.fold(5){a, b ->
+	a + b
+}) // ja comeca o acumulador com 5
+
+
+// PROGRAMACAO O.O.
+
+class User(var name: String, var lastName: String, var password: String){
+	val fullName
+		get() = "$name $lastname"
+}
+
+val joao = User(name:"João", "Maria", "abc)
+//val maria = User("Ana", "Maria", "1234")
+//println(joao.name)
+//println(maria.password)
+var joao2 = joao
+joao.password = "123"
+println(joao.password)
+println(joao2.password)
+
+// perguntar se as duas variaveis apontam para o mesmo obj na memoria
+println(joao === joao2)
+
+// DATACLASSES
+
+/*class Product(var name: String, var price: Double){
+	
+	
+	
+	/*
+	override fun equals(other: Any?): Boolean {
+		if (this === other)
+			return true
+		if (other == null)
+			return false
+		
+		if (javaClass != other.javaClass)
+			return false
+		
+		val obj = other as Product
+		
+		if (name != obj.name)
+			return false
+		
+		if (price != obj.price)
+			return false
+	
+	
+		return true
+	}
+	
+	// util para usar prints
+	override fun toString(): String {
+		return "Product is (name=$name, price=$price)"
+	
+	} */
+}*/
+
+// Ja vai ter automaticamente todas as propriedades ja prontas do java, getter, setter, toString, hashcode
+
+// USANDO O DATACLASS
+data class Product(var name: String, var price: Double){
+
+}
+
+var iPhone = Product("iPhone", 2000)
+var iPhon2 = Product("iPhone", 2000)
+println(iPhone)
+
+println(iPhone == iPhone2)
+
+// object serve para criacao de classes anonimas
+object Session {
+	var name = "Ola"
+}
+
+/src/Session > Tools/Kotlin/show bytecode
+
+optando pelo DECOMPILE ele transforma de volta o bytecode numa
+linguagem Java
+
+VER REF >>>> padrao singleton??
+
+object Products {
+	val allProducts = mutableListOf<Product>()
+	
+	fun addProduct(p: Product) {
+		allProducts.add(p)
+	
+	}
+}
+
+Products.addProduct(iPhone)
+Products.addProduct(iPhone2)
+
+Products.allProducts.forEach {
+	println(it.name)
+}
+
+// utilizando o object para constantes
+object Keys {
+	const val ID = "id"
+	const val NAME = "name"
+}
+
+
+class Button private constructor(val id: Int, color: Int){
+
+	companion object { // para ficar disponivel no Java é preciso dar um nome para o companion, p.e. companion object Factory
+		var currentId = 0
+		fun newButton(color: Int) : Button {
+			currentId += 1
+			return Button(currentId, color)
+		}
+	}	
+
+
+}
+val blue = Button.newButton(255)
+println(blue.id)
+val yellow = Button.newButton(0)
+println(yellow.id)
+
+
+//INTERFACE
+
+interface OnClickListener {
+	fun onClick()
+	fun onLongClick()
+}
+
+//polimorfismo para usar a interface em dif momento com dif obj
+
+val listener = object : onClickListener {
+	override fun onClick() {
+	}
+	
+	override fun onLongClick() {
+	}
+}
+
+
+//PROPRIEDADES - define tipos de delegacoes e extensoes de propriedades
+
+class Screen {
+	var top = 0
+	var left = 0
+	var right: Int
+	var bottom: Int
+
+	init {
+		right = 10
+		bottom = 20
+	}
+}
+
+class Converter(val real: Double){
+	var dolar: Double
+	get() {
+		return real / 3.6
+	}
+	set(value) {
+		real = value * 3.6
+	}
+}
+
+val converter = Converter(3.6)
+println(converter.dolar)
+converter.dolar = 10
+println(converter.real)
+
+
+// valores estaticos em Java
+
+class Level(val id: Int, var boss: String) {
+	companion object {
+		@JvmStatic var highestLevel = 1
+	}
+}
+val chefao = Level(1, "Bowser")
+println(Level.highestLevel)
+
+
+// Inicializações, delays, observed changes
+
+class Achievements(val id: Int){
+	companion object {
+		var level = 1
+	}
+	
+	var buy: Boolean by Delegates.observable(false){
+		_, old, new -> 
+		if (new && id > level) {
+			level = id
+		}
+		println("$old - $new")
+	}
+
+}
+
+val act1 = Achievements(1)
+val act2 = Achievements(2)
+
+println(Achievements.level)
+act2.buy = true 
+println(Achievements.level)
+//programacao reativa ou proximo disso
+
+
+// outro ex de Delegates/observable
+
+class DB {
+	companion object {
+		const val maxUser = 10
+	}
+	var current by Delegates.vetoable(0){
+	
+		_, _, new ->
+		new <= maxUser
+	
+	}
+}
+
+val db = DB()
+//db.current = 20
+db.current = 3
+println(db.current)
+
+// bom para nao precisar inicializar todo o app em testes de mudancas
+class Window(val scale: Int){
+	val height: Double by Lazy {
+		400.0 * scale
+	}
+	
+	val width: Double
+		get() = height / 16 / 9
+
+}
+val w = Windows(2)
+println(w.width)
+// copiou o codigo anterior para o main
+
+
+
+//inicializa de forma atrasada a variavel
+class Color{
+	lateinit var value: String
+}
+
+val Window.size: Double
+	get() = height * width
+	
+val otherWindow = Window(2)
+println(
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

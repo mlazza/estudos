@@ -16,6 +16,7 @@ using namespace std;
 int convertBinToDec(long long);
 int convertDecToBin(int);
 
+//PROGRAMA PRINCIPAL
 int main()
 {
     long long n;
@@ -25,6 +26,7 @@ int main()
 
     do
     {
+        //MENU DO USUARIO
         cout << "CALCULADORA CONVERSORA DE BASES";
         cout << "\nESCOLHA A OPÇÃO DESEJADA:";
         cout << "\n[1] - converte decimal em binario";
@@ -33,6 +35,7 @@ int main()
 
         cin >> opcao;
 
+        // opcao decimal para binario
         if (opcao == 1)
         {
             cout << "\nDIGITE O SEU NUMERO:";
@@ -41,6 +44,7 @@ int main()
             cout << "O resultado e: " << result << endl;
             condicao = 0;
         }
+        // opcao binario para decimal
         else if (opcao == 2)
         {
             cout << "\nDIGITE O SEU NUMERO:";
@@ -52,7 +56,7 @@ int main()
         else
         {
             condicao = 0;
-        }; //se digitou outra opcao
+        }; //se digitou outra opcao encerra o programa
 
     } while (condicao == 1);
 
