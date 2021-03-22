@@ -817,13 +817,33 @@ val Window.size: Double
 	get() = height * width
 	
 val otherWindow = Window(2)
-println(
-	
-	
+println(otherWindow.size)
+
+fun String.firstChar() {
+	return this.first()
+}
+"".firstChar()
 
 
+fun String.startsUppercase() : Boolean {
+
+	return this.first()isUpperCase()
+}
+
+println("Ola".startsUppercase())
+println("ola".startsUppercase())
 
 
+// Fatorial usando companion object
+class Maths {
+
+	companion object {
+		fun factorial(Int) : Int{
+			return (1..number).fold(1) {a, b -> a*b}
+	}
+}
+
+-----------------------FIM DO CURSO--------------------------
 
 
 
