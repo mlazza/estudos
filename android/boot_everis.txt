@@ -1,0 +1,163 @@
+Bootcamp - 
+Everis Kotlin Developer
+03/2021
+digitalinnovation.one
+
+Características dos aprovados:
+
++ repositorio de projetos alinhados ao curriculo
++ artigos publicados 
++ integrados e colaborando em comunidade de devs
++ sonho grande e ambição
++ principais comunidades e sites de pesquisas dev: stackoverflow
++ concluido ou cursando graduacao em exatas
++ conhecimentos ou proximidade com Cloud, BigData, IA, recon. voz, mobilidade...
++ Conhecimento em metodologias ágeis, devops e UX
++ contas em provedores cloud e ferramentas online para devs
++ aprendizagem continua atraves da internet
+
+- Flowgorithm - ferramenta para criar fluxogramas
+- Portugol-Studio - github
+
+ESTRUTURA DE DADOS E ALGORITMOS
+
+
+1) O QUE É ESTRUTURA DE DADOS
+
+é uma estrutura organizada de dados na memoria de um computadorr ou em qualquer dispositivo de armazenamento, de forma que os dados possam ser utilizados de forma correta.
+
+muitas aplicações no desenvolvimento de sistemas, algumas são altamente especializadas e utilizadas em tarefas especificas. 
+
+usando as estruturas adequadas atraves de algoritmos, podemos trabalhar com uma grande quantidade de dados, como aplicacoes em banco de dados ou servicos de busca.
+
+ALGORITMO
+
+os algoritmos são utilizados para manipular dados nas estruturas de varias formas, como por exemplo: inserir, excluir, procurar e ordenar dados.
+
+em uma estrutura de dados devemos saber como realizar um determinado conjunto de operações básicas, como por exemplo:
+
+- inserir dados
+- incluir dados
+- localizar um elemento
+- percorrer todos os itens constituintes da estrutura para visualizacao
+- classificar, que se resume em colocar os itens de dados em uma determinada ordem (numerica, alfabetica, etc.)
+
+PRINCIPAIS ESTRUTURAS DE DADOS:
+
+- Vetores e Matrizes
+- Registro
+- Lista
+- Pilha
+- Fila
+- Árvore
+- Tabela Hash
+- Grafos
+
+2) VETORES E MATRIZES
+
+Vetores e Matrizes ou Arrays são estruturas de dados simples que podem auxiliar quando há muitas variáveis do mesmo tipo em um algoritmo.
+
+O Vetor ou Array unidimensional é uma variavel que armazena varias variaveis do mesmo tipo. O vetor é uma estrutura de dados indexada, que pode armazenar uma determinada quantidade de valores do mesmo tipo.
+
+alguns exemplos em Portugol
+
+Matriz ou Array multidimensional é um vetor de vetores. Uma matriz é um vetor que possui duas ou mais dimensões.
+
+3) REGISTROS
+
+é uma estrutura que fornece um formato especializado para armazenar informações em memória. Enquanto arrays nos permitem armazenar vários dados de um unico tipo de dados, o recurso de Registro nos permite armazenar mais de um tipo de dado.
+
+um Registro é compsoto por campos que especificam cada uma das informações que o compõem. 
+
+Ex. Registro de um cliente
+
+CPF
+Nome
+Endereco
+Contato
+
+Toda estrutura de registro tem um nome (ex. livro, cliente), e seus campos podemos ser acessados por meio do uso do operador ponto (.). Por exemplo, para acessar o preço de um livro, poderiamos utilizar a seguinte declaração:
+
+livro.preco
+
+ALGORITMO EXEMPLO
+//declaracao do tipo de dado
+tipo
+	estrutura_livro = registro
+		nome : caracter
+		preco : real
+		pagina : inteiro
+	fimregistro
+
+//declaracao das variaveis
+	i : inteiro
+	livro : array[1..3] de estrutura_livro
+	
+	Escreva('Entre com os nomes, precos e numeros de paginas de 3 livros1)
+	para i de 1 ate 3 faca:
+		leia(livro[i].nome, livro[i].preco, livro[i].paginas)
+	fimpara
+	
+	Escreva('Esses foram os dados digitados:')
+	para i de 1 ate 3 faca:
+		Escreva(livro[i].nome, livro[i].preco, livro[i].paginas)
+	fimpara
+FIM ALGORITMO
+
+4) LISTAS, PILHAS E FILAS
+
+LISTAS
+
+armazena dados de um determinado tipo em uma ordem específica.
+
+tamanho ajustável (difere do Array = tam. fixo).
+
+Dois tipos:
+
++ Ligadas
+
+existem os 'nós' onde cada um dos nós conhece o valor que está sendo armazenado em seu interior além de conhecer o elemento posterior a ele: por isso ela é chamada de 'lista ligada', pois os nós são amarrados com essa indicacao de qual é o proximo nó.
+
+'PEDRO' -> prox. nó
+
++ Duplamente Ligadas
+
+constituem uma variação das listas ligadas. A grande diferença é que elas são bidirecionais. Os nós sabem quem é o proximo elemento e também quem é o elementos anterior, o que permite a navegação reversa.
+
+ nó anterior <- 'PEDRO' -> próx. nó
+
+PILHAS ('Stack')
+
+é uma estrutura de dados que serve como uma coleção de elementos, e permite o acesso a somente um item de dados armazenado. O acesso aos itens de uma pilha é restrito. Um item pode ser lido ou removido por vez.
+
+Tipos:
+
++LIFO ou UEPS
+
+a estrutura do tipo LIFO (Last in First Out) ou UEPS (Último que Entra Primeiro que Sai), apresenta o seguinte critério: o primeiro elemento a ser retirado é o último que tiver sido inserido.
+
++FIFO ou PEPS
+
+a estrutura do tipo FIFO (First In First Out) ou PEPS (Primeiro que entra Primeiro que sai), apresenta o seguinte critério: o primeiro a ser retirado é o primeiro que tiver sido inserido.
+
+FILAS
+
+admite remoção de elementos e inserção de novos sujeita a seguinte regra: o elemento removido é o que está na estrutura há mais tempo, ou seja, o primeiro objeto inserido na fila é também o primeiro a ser removido seguindo o conceito FIFO. (entra um novo e sai outro mais antigo)
+
+5) ARVORE, TABELA HASH E GRAFOS
+
+ARVORE
+
+é uma estrutura de dados que organiza seus elementos de forma hierarquica, onde existe um elemento que fica no topo da árvore, chamado de raiz e existem os elementos subordinados a ele, que são chamados de nós ou folhas.
+
+
+
+
+
+
+
+
+
+
+
+

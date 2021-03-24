@@ -1,0 +1,43 @@
+Android Course N
+
+Seção 1 - Introdutório e bonus - OK
+
+Seção 2
+
+Instalação
+
+-Android Studio Overview
+-Criação de um projeto vazio - Empty Activity
+Explorando as pastas/arquivos do projeto
+
+/manifests/AndroidManisfest.mlx
+	contém alguns detalhes básicos do app
+	
+/java
+/1.a pasta - MainActivity
+	arquivo principal onde o código do app é executado		
+
+
+/res
+	imagens, icones, musicas
+	
+	/layout/activity_main.xml
+		mostra uma prévia do layout do app no device
+		e temos uma paleta de ferramentas e elementos
+		de interface / widgets
+		Editar translations / temas do app / alterar versao Android
+		
+		Component Tree - elementos do app
+		Properties - altera/configura os elementos
+
+Criação de app na versão que tenha Google API
+  //integra o Google Play / Maps
+
+style
+background
+margin
+padding
+gravity  
+text_size como '20 sp' que muda cfe zoom escolhido pelo user
+  
+  
