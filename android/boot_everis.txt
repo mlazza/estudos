@@ -150,8 +150,110 @@ ARVORE
 
 é uma estrutura de dados que organiza seus elementos de forma hierarquica, onde existe um elemento que fica no topo da árvore, chamado de raiz e existem os elementos subordinados a ele, que são chamados de nós ou folhas.
 
+TABELA HASH
+
+de dispersão ou espalhamento, é uma estrutura de dados especial, que associa chaves de pesquisa a valores.
+
+é uma generalização da ideia de array, porém utiliza uma funcao denominada hashing para espalhar os elementos, fazendo com que os mesmos fiquem de forma não ordenada dentro do 'array' que define a tabela.
+
+Por que espalhar? 
+
+A tabela hash permite a associação de 'valores' a 'chaves'
+
+Valores: é a posição ou indice onde o elemento se encontra.
+Chave: parte da informação que compõe o elemento a ser manipulado.
+
+Espalhar facilita a busca na estrutura de dados, pois a partir de uma chave podemos acessar de forma rapida uma posicao do 'array'.
+
+GRAFOS
+
+são estruturas que permitem programar a relação entre objetos. Os objetos são vértices ou 'nós' do grafo. Os relacionamentos são arestas.
 
 
+GIT E GITHUB
+
+GUI x CLI
+
+Command line interface
+
+Funcionamento por baixo dos panos
+
+-SHA1
+-Objetos fundamentais
+-Sistema distribuido
+-Seguranca
+
+A sigla SHA significa Secure Hash Algorithm e é um conjunto de funcoes hash criptográficas projetadas pela NSA (Agencia de Seguranca Nacional EUA)
+
+A encriptação gera um conjunto de caracteres identificador de 40 dígitos.
+
+>>echo "ola mundo" | openssl sha1
+
+>> openssl sha1 arquivo
+
+OBJETOS DO GIT
++Blobs
++Trees
++Commits
+
+BLOBS
+bloco basico de composicao
+------
+Blob     Tamanho 42
+
+\0
+Ola Mundo
+------
+
+>> echo 'conteudo' | git hash-object --stdin
+>> echo -e 'conteudo' | openssl sha1
+
+>> echo 'conteudo' | git hash-object --stdin
+>> echo -e 'blob 9\0conteudo' | openssl sha1
+//aqui ja passando os metadados juntos e assim fica o mesmo hashcode
+
+TREES
+armazenam blobs
+-------
+Tree		<tamanho>
+\0
+blob   sa4d8s    texto.txt
+-------
+
+tree 
+  -README
+    -blob
+  -Rakefile
+    -blob
+  -lib
+    -tree
+      -simplegit.rb
+        -blob
+
+COMMIT
+objeto que dá sentido para a operação
+
+---------
+Commit    <tamanho>
+
+tree		s4a5sq1
+parente		a98acq1
+autor		perkles
+mensagem	"inicia..."
+timestamp
+---------
+*O SHA1 desse commit é o hash de toda esta informação
+
+O Git é um sistema distribuido seguro.
+
+PRIMEIROS COMANDOS
+
+-git init
+-git add
+-git commit
+
+git add *
+git commit -m "mensagem"
 
 
 
