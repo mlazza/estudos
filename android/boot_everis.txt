@@ -255,11 +255,34 @@ PRIMEIROS COMANDOS
 git add *
 git commit -m "mensagem"
 
+ESTAGIOS:
+==============================================
 
+			   -----------TRACKED------------
+UNTRACKED  --  UNMODIFIED---MODIFIED---STAGED
 
+Add o arquivo-------------------------------->
 
+		       --edit_file-->
 
+                             stage_file------>
+                             
+<---remove file-
+               <---------------------commit---
+==============================================
 
+Remote Repository
+Local Repository  <<  Staging Area  <<  Working Directory
 
+==============================================
 
+git status
+
+git config --list
+
+git config --global --unset user.name
+//retira a propriedade e deixa em branco
+
+git remote -v
+//listando os reps remotos
 
