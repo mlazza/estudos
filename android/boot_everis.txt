@@ -286,3 +286,321 @@ git config --global --unset user.name
 git remote -v
 //listando os reps remotos
 
+
+// Resolvendo conflitos:
+
+//traz primeiro o arquivo e ele indica qual arquivo esta com este conflito
+
+0. git pull origin master
+
+1. vai aparecer 'HEAD' e marcacoes como '<<<<<<<<<'
+dentro disso é o que de mais novo tentamos colocar
+
+2. git status
+
+3. git add
+
+4. git commit
+
+5. git push
+
+// baixar o repositorio do Git
+
+1. git clone link
+
+++++++++++++++++++++++++++++++++++++++++++++
+
+INTRODUCAO AO KOTLIN
+
+Android
+
+-SO para dispositivos moveis mantido pela Google desde 2005;
+-Mais de 2.5 bilhoes de usuarios ativos
+-Presente em mais de 24 mil modelos de dispositivos diferentes
+-Automoveis, vestiveis, TV, geladeiras e ate espelhos
+
+Curiosidades:
+-Android 3.0 (Honeycomb) - unica versao exlusiva para tablets
+-O visual caracteristico do android surgiu na versao Ice Cream Sandwich
+-Mais de 2 milhoes de apps publicados na google play
+-No Brasil, 85% dos usuarios afirmam que seu primeiro smartphone foi um
+Android.
+
+Desenvolvimento Android
+
+-Hibrido x Nativo
+-Java, Kotlin, Dart, Jacascript e C#
+-Documentacao
+-Primeiros Passos
+-Kotlin First
+
+Documentação para desenvolvedores de apps - site do developer.android
+
+KOTLIN
+
+-Criada pela JetBrains em 2011, atualmente mantida pela Kotlin Foundation
+-Linguagem multiplataforma, orientada a objetos e funcional
+-Gratuito e de codigo aberto
+-Nome em homenagem a ilha russa: Kotlin
+
+Estrutura da Linguagem:
+-não utiliza ponto e virgula
+-nao possui operador ternario tradicional
+-type safe e null safe
+-inferencia de tipo
+-e muito mais
+
+Aplicabilidade:
+-android nativo
+-mobile multiplataforma (KMM)
+-frontend web com Kotlin/JS
+-frameworks: Kvison e Fritz2
+-backend com target node.js do Kotlin/JS
+
+Kotlin: vantagens
+
+-segura, estruturada, menos verbosa, mais otimizada, grande relevancia no mercado
+-interoperabilidade com o Java
+-smart casts e null safety
+-Android é Kotlin First
+
+Kotlin + Android
+
+-2016: primeira versão estavel do Kotlin é liberada
+-2017: Google anuncia suporte a Kotlin para desenvolvimento Android
+-2018: Segunda linguagem preferida dos desenvolvedores
+-2019: Google anuncia que Kotlin é a nova linguagem oficial para desenvolvimento Android.
+
+JAVA
+
+Vai depender de demanda para existir. 
+
+Não tem no Java:
+- Projetos de Varias plataformas
+- Jetpack Compose
+
+
+KOTLIN - SINTAXE BÁSICA
+
+TIPOS DE DADOS:
+
+-Int
+-Long
+-Float
+-Double
+-Array
+-Boolean
+-Char
+-Byte
+-Short
+-Null!
+
+println(Int.MAX_VALUE)
+println(Float.MAX_VALUE)
+println(Long.MAX_VALUE)
+println(Byte.MAX_VALUE)
+println(Short.MAX_VALUE)
+
+CONVERSÕES:
+
+1. toByte()
+2. toShort()
+3. toInt()
+4. toLong()
+5. toFloat
+6. toDouble()
+7. toChar()
+
+DECLARACAO DE VARIAVEL
+
+- Var - valor mutavel, CamelCase: pode ser alterada
+
+- Val - valor imutavel, CamelCase: nao pode ser alterada
+(dentro do main)
+
+- Const Val - valor imutavel, SNAKE_CASE: valor atribuida durante a compilacao
+(fora do main)
+
+Ex. 1
+
+const val MAX_AGE = 68
+
+fun main() {
+    var currentAge: Int
+    currentAge = 90
+    
+    println(currentAge > MAX_AGE)
+}
+
+Ex. 2
+
+
+
+fun main() {
+
+	val maxAge = 68
+	var currentAge: Int
+    currentAge = 90
+    
+    println(currentAge > maxAge)
+}
+
+
+PREVENDO ERROS
+
+1 var currentAge
+2 currentAge = 22 //ERRO! 
+Precisa inicializar ou atribuir um tipo!
+
+sol:
+> var currentAge = 22
+ou
+>var currentAge:Int
+> currentAge = 22
+
+
+3 var currentYear = "Ano"
+4 currentYear = 2021 //ERRO! 
+A variavel estava setada para receber String e nao vai receber inteiro
+
+sol:
+>currentYear = 2021.toString() //convertendo o numero p/ string
+
+VALOR NULO E OPERADORES ARITMETICOS BASICOS
+
+NULLABILITY
+
+- qualquer tipo pode ser nulo, porem isso deve ser explicitado na declaracao de variavel atraves do uso da interrogacao (?)
+- a inferencia de tipo nao atribui nullability
+
+var month:Int? = null
+//atribui valor null corretamente a month
+
+var day:Int = null
+//erro de compilacao
+
+Operadores
+
+a+b
+a-b
+a*b
+a/b
+a%b
+
+fun main(){
+	val count = 10
+	val times = 9
+	val r = times +count
+		println(r)
+		println(count.plus(times))
+}
+
+OPERADORES COMPARATIVOS
+
+a>b
+a>=b
+a==b
+a!=b
+
+a.compareTo(b) //se a>b=1; se a<b=-1; se a=b=0
+//retornam os valores -1, 0 ou 1
+
+a.equals(b)
+!(a.equals(b))
+//retorna um booleano true or false
+
+OPERADORES LOGICOS E OPERADORES 'IN' e 'RANGE'
+
+E = &&		(expressao1) and (expressao2)
+OU = || 	(expressao1) or (expressao2)
+
+contém (in)
+não contém (!in)
+
+Se o valor esta presente em uma lista ou uma faixa de valores
+Range cria um intervalo de valores que inicia no primeiro parametro e acaba no segundo
+
+val numbers = listOf(3,9,0,1,2)
+print(12 in numbers)
+//false
+
+print(12 in 0..20)
+//true
+
+
+MANIPULANDO STRINGS
+
+-Strings possuem diversos metodos associados
+-Indexação, concatenacao, comparacao, formatacao
+-Pode ser concatenada com plus/+
+-Também é tratada como um array de Char
+-String como array
+-First(), last(), String.length, String[index]
+
+val s = "Ola, mundo!"
+
+println(s[0])
+println(s.first())
+//imprime 0
+
+println(s[s.length-1])
+println(s.last())
+//imprime !
+
+CONCATENACAO
+
+-Para concatenar duas strings o plus/+ pode ser utilizado
+-Para concatenar uma variavels a uma String, os simbolos ${} devem ser inseridos
+
+val name = "Ana"
+val s = "Ola"
+
+println(s+name)
+//imprime OlaAna
+
+println("${s}, ${name}!")
+//imprime Olá, Ana!
+
+println("Bem vinda, $name!")
+//imprime Bem vinda, Ana!
+
+FORMATACAO
+
+//Capitalizacao
+capitalize(), toUpperCase(), toLowerCase(), decapitalize()
+
+//Remocao de espacos
+trimEnd(), trimStart(), trim()
+
+//Substituicao de caracteres
+replace(x,y)
+
+//Formatacao
+"padrao ${valor}".format(valor)
+
+DIFERENCA ENTRE 'EMPTY' E 'BLANK'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
