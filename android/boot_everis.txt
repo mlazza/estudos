@@ -831,6 +831,14 @@ fun somar(n1:Float?, n2:Float?): Unit{
 }
 
 
+FUNDAMENTOS DE OO COM KOTLIN
+
+APLICACAO MODELO - DigiOneBank
+
+Bank [name, number]
+Account [branch, number, amount]
+Person [name, taxIdentifier]
+
 
 
 
