@@ -839,11 +839,96 @@ Bank [name, number]
 Account [branch, number, amount]
 Person [name, taxIdentifier]
 
+CLASSE PUBLICA E CLASSE PRIVADA
 
+MEMBROS DE UMA CLASSE
 
+>digitalino
+ >.idea
+ >src
+  >main
+   kotlin
+  >test
+  .gitignore
+  pom.xml
+  README.md
+>external libraries
+-------------------------
 
+new package > 'one.digitalino.digionebank'
+(neste pacote criaremos os arquivos)
 
+new kotlin class/file > "Pessoa"
 
+class Pessoa {
+
+	var nome: String = "Jether"
+	car cpf: String = "123.123.123-11"
+	
+	private set
+	//a funcao de setar fica privada
+	
+	//inner class Endereco{ val rua: String = "Rua 30"}
+	
+	constructor()
+	
+	fun pessoaInfo() = "$nome e $cpf"
+	
+	fun main(){
+	
+		val jether = Pessoa()
+		println(jether.nome)
+		println(jether.cpf)
+		//println(jether.Endereco().rua)
+		//jether.cpf = "4567"
+		println(jether.pessoaInfo())
+		
+	}
+}		
+
+new class > "Conta"
+
+class Conta( //construtor primario, apenas a propria classe pode alterar
+	val agencia: String,
+	val numero: String,
+	val saldo: BigDecimal
+	) 
+	{
+		fun deposito(valor: BigDecimal){
+		}
+		
+		fun saque(valor: BigDecimal){
+		}
+	}
+ 
+DATACLASS
+
+new dataclass "Banco"
+
+data class Banco(
+	val nome: String,
+	val numero: Int
+	) //dados dos objetos depois de instanciados ficam imutaveis
+	
+	{
+		fun info() = "$nome - $numero"
+	}
+
+criamos pacote "testes" e criamos uma classe de teste la "BancoTeste"
+
+fun main()
+{
+	val digiOneBank = Banco(nome = "DigiOne", numero = 12)
+	println(digiOneBank.nome)
+	println(digiOneBank.numero)
+	
+	//nao conseguimos setar diretamente outro valor para o digiOneBank
+	
+	val banco2 = digiOneBank.copy(nome="outro banco")
+	//apenas copiando para outro objeto para isso
+	
+	println(banco2.info())
+}
 
 
 
