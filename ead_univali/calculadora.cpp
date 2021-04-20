@@ -1,8 +1,6 @@
 /* CALCULADORA DO PROJETO HANDS ON WORK I
 DA UNIVALI - 2021
-
 CONVERSOR DE BASES
-
 autores:
 Marlon Lazzarotti
 Felipe Navas
@@ -10,16 +8,20 @@ Felipe Navas
 
 #include <iostream>
 #include <cmath>
+#include "math.h"
+#include "string.h"
 
 using namespace std;
 
 int convertBinToDec(long long);
 int convertDecToBin(int);
+int convertHexToDec(char[]);
 
 //PROGRAMA PRINCIPAL
 int main()
 {
     long long n;
+    char hexa_number[] = "";
     bool condicao = 1;
     int opcao;
     int result;
@@ -31,7 +33,8 @@ int main()
         cout << "\nESCOLHA A OPÇÃO DESEJADA:";
         cout << "\n[1] - converte decimal em binario";
         cout << "\n[2] - converte binario em decimal";
-        cout << "\n[0] - SAIR";
+        cout << "\n[3] - converte hexadecimal em decimal";
+        cout << "\n[0] - SAIR\n";
 
         cin >> opcao;
 
@@ -50,6 +53,15 @@ int main()
             cout << "\nDIGITE O SEU NUMERO:";
             cin >> n;
             result = convertBinToDec(n);
+            cout << "O resultado e: " << result << endl;
+            condicao = 0;
+        }
+        // opcao hexadecimal para decimal
+        else if (opcao == 3)
+        {
+            cout << "\nDIGITE O SEU NUMERO:";
+            cin >> hexa_number;
+            result = convertHexToDec(hexa_number);
             cout << "O resultado e: " << result << endl;
             condicao = 0;
         }
@@ -86,10 +98,29 @@ int convertDecToBin(int n)
     while (n != 0)
     {
         resto = n % 2;
-        //cout << "Passo " << passo++ << ": " << n << "/2, Resto = " << resto << ", quociente = " << n/2 << endl;
         n /= 2;
         binario += resto * i;
         i *= 10;
     }
     return binario;
+}
+
+// FUNCAO DE CONVERSAO HEXADECIMAL PARA DECIMAL
+
+int convertHexToDec(char num[]) 
+{
+   int len = strlen(num);
+   int base = 1;
+   int temp = 0;
+   for (int i=len-1; i>=0; i--) {
+      if (num[i]>='0' && num[i]<='9') {
+         temp += (num[i] - 48)*base;
+         base = base * 16;
+      }
+      else if (num[i]>='A' && num[i]<='F') {
+         temp += (num[i] - 55)*base;
+         base = base*16;
+      }
+   }
+   return temp;
 }
