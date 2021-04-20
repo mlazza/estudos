@@ -1,9 +1,8 @@
 /* CALCULADORA DO PROJETO HANDS ON WORK I
 DA UNIVALI - 2021
 CONVERSOR DE BASES
-autores:
+autor:
 Marlon Lazzarotti
-Felipe Navas
 */
 
 #include <iostream>
