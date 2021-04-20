@@ -2,7 +2,7 @@
 DA UNIVALI - 2021
 CONVERSOR DE BASES
 autor:
-Marlon Lazzarotti
+Marlon Augusto Lazzarotti
 */
 
 #include <iostream>
