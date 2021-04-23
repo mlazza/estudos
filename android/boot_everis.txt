@@ -930,17 +930,302 @@ fun main()
 	println(banco2.info())
 }
 
+############################################################
+CRIANDO UM APP COM AUTENTICACAO POR REDES SOCIAIS (Mentoria)
+
+- Daniel Richter
+
+Pré-requisitos
+
+- Firebase Account
+- Android Studio IDE
+- Participação no Bootcamp
+
+#Curso 13 - Competência: Native Resources
+
+Objetivos:
+1 - Configurar Firebase para aplicações Kotlin
+2 - Set-up da chave SHA-1 para debug
+3 - Download do arquivo google-service.json
+4 - Configuração do Gradle
+5 - Implementar FirebaseAuth and GoogleSignln Provider
+
+LOGIN GOOGLE
+
+//Codigo
+
+1
+new_file > new project > empty activity
+"loginGoogle"
+
+2
+modo Android visualizacao pastas
+
+/activity_main.xml
+Tools > Firebase
+> Authenticate using Google Sign-in
+> Connect to Firebase
+
+la no site do Firebase, precisa adicionar um novo projeto
+
+.Configuracoes do projeto
+.Contas de Servico
+.Criacao/Authentication/Primeiros Passos
+-Google-Ativar
+
+/MainActivity.kt > gradle > Tasks > android > signinReport
+assim se gera a chave SHA1
+
+.Configuracao do Projeto
+> Adicionar impressao digital ou baixar o json
+no Android Studio - add the firebase authentication
+> depois de novo ativa o signinReport
+gerando outra SHA1 e dai add la na impressao digital no site firebase
+
+E assim linkamos o firebase ao app
+
+/res/layout/activity_main.xml
+
+LinearLayout (codigo ta no video)
++
+adicionou o botao do google
+<com.google.android.gms.common.SigninButton
+	android:id="@+id/sign_in_button
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginStart="16dp"
+	android:layout_marginEnd="16dp"   />
+
+<TextView
+
+<Button do Signout
+
+/GradleScripts/build.gradle (module)
+
+plugins {
+    .
+    id 'kotlin-android-extensions',
+    .
+}
+
+dependencies {
+	//implementation 'com.google.firebase:firebase-auth:20.0.3'
+	deixa o platform
+	deixa o auth-ktx
+	deixa o google play services auth-19.0.0
+}
+
+Sync Now!
+
+/java/com.example (primeira pasta)
+/MainActivity
+
+class MainActivity : AppCompatActivity() {
+
+	private lateinit var googleSignInClient: GoogleSigninClient
+	private lateinit var auth: FirebaseAuth
+	
+	private val TAG = Activity::class.java.simpleName
+	
+	
+	override fun onCreate(savedInstanceState: Bundle?) {
+		super.onCreate(savedInstance)
+		setContentView(R.layout.activity_main)
+		
+		//Configure Google Sign In
+		val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+			.requestIdToken(getString(R.string.default_web_client_id))
+			.requestEmail()
+			.build()
+			
+		auth = Firebase.auth
+		googleSignInClient = GoogleSignIn.getClient(this, gso)
+		
+		sign_in_button.setOnClickListener {
+			signIn()
+		}
+				
+		sign_out_button.setOnClickListener {
+			signOut()	
+		}
+	
+	}
+	
+	private fun signIn() {
+		val signInIntent = googleSignInClient.signInIntent
+		startActivityForResult(signInIntent, RC_SIGN_IN)
+	}
+	
+	override fun onActivityResult(..... no video...
+	
+}
+
+####################################################################
+Parte 5 - ENUM
+
+A propria ENUM representa o objeto em si
+
+criando enum class "ClienteTipo"
+
+/ClienteTipo
+
+enum class ClienteTipo(val descricao: String) {
+
+	PF("Pessoa Física"),
+	PJ("Pessoa Jurídica");
+
+	
+}
+
+criando um file "testeEnum"
+
+fun main(){
+	ClienteTipo.values().forEach{ elemento ->
+		println("${elemento.name} - ${elemento.descricao}")
+		
+	}
+	
+	ClienteTipo.values().forEach{ 
+		println("${it.name} - ${it.descricao}")
+		
+	}
+	
+	val pf = ClienteTipo.PF
+	println("${pf.name} - ${pf.descricao}")
+	
+	val pj = ClienteTipo.PJ
+	println("${pj.name} - ${pj.descricao}")
+}
+
+ABSTRACOES
+
+#Entendendo sobre abstrações
+
+criando classe "Funcionario"
+
+/Funcionario
+
+package ...
+
+class Funcionario(
+	override val nome: String,
+	override val cpf: String,
+	val salario: BigDecimal,
+	) : Pessoa (nome, cpf) {
+
+}
+
+* tirou a 'funcao main' da classe 'Pessoa' e jogou para um novo arquivo em /testes 'TestePessoa'
+
+deixa assim:
+
+open class Pessoa {
+	open val nome: String,
+	open val cpf: String,
+
+}
+
+fazendo testes de atribuicao e impressao das classes e seus atributos:
+Pessoa e Funcionario
 
 
+#Entendendo sobre abstrações 2
 
+// uma classe abstrata nao se instancia
 
+>Pessoa
+abstract class Pessoa {
+	val nome: String,
+	val cpf: String,
 
+}
 
+>Funcionario
+abstract class Funcionario(
+	override val nome: String,
+	override val cpf: String,
+	val salario: Double,
 
+) : Pessoa (nome, cpf) {
+	
+	abstract fun calculoAuxilio();
 
+}
 
+#Entendendo sobre abstrações 3
 
+>Funcionario
+abstract class Funcionario(
+	override val nome: String,
+	override val cpf: String,
+	val salario: Double,
 
+) : Pessoa (nome, cpf) {
+	
+	protected abstract fun calculoAuxilio(): Double
+	
+	override fun toString(): String = """
+		Nome: $nome
+		CPF: $cpf
+		Salario: $salario
+		Auxilio: ${calculoAuxilio}
+	""".trimIndent()
+
+}
+
+>criando classe 'Analista'
+
+class Analista(
+	nome: String, 
+	cpf: String, 
+	salario: Double
+) : Funcionario(nome, cpf, salario) {
+
+	//override fun calculoAuxilio() = salario * 0.1
+}
+
+>cria outro teste 'TesteAnalista'
+
+fun main() {
+
+	val joao = Analista("Joao Pedro", "123456789", 3000)
+	
+	ImprimeRelatorioFuncionario(joao)
+	
+}
+
+fun imprimeRelatorio(funcionario: Funcionario) = println(funcionario.toString())
+
+>criando classe 'Gerente'
+
+class Gerente(
+	nome: String, 
+	cpf: String, 
+	salario: Double
+) : Funcionario(nome = nome, cpf = cpf, salario = salario) {
+	override fun calculoAuxilio(): Double = salario * 0.4
+}
+
+>cria um teste para Gerente
+
+fun main() {
+
+	val maria = Gerente("Maria do Carmo", "121212121", 5000)
+	ImprimeRelatorioFuncionario(maria)
+
+}
+
+>criou uma classe ImprimeRelatorio
+
+class ImprimeRelatorio {
+	companion object {
+		fun imprime(funcionario: Funcionario) {
+			println(
+				funcionario.toString()
+			)
+		}
+	}
+}
 
 
 
